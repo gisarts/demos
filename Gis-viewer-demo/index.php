@@ -8,15 +8,15 @@ include_once("header.php");
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" >
             <div class="col">
                 <div class="card shadow-sm">
-                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./img/bestemmingsplannen.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/bestemmingsplannen.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <rect width="100%" height="100%" fill="#55595c" />
                     </img>
 
                     <div class="card-body">
-                        <p class="card-text">Bestemmingsplannen.</p>
+                        <p class="text-gold">Bestemmingsplannen</p>
                         <div class="d-flex justify-content-between align-items-center">
-                            <button onclick="window.open('https://demo.gisarts.nl/cook/bestemmingsplannen')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
+                            <!-- <button onclick="window.open('https://demo.gisarts.nl/cook/bestemmingsplannen')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button> -->
+                            <a href="https://www.gisarts.nl/" target="_blank" class="text-gold fs-5">Bekijken ></a>
                         </div>
                     </div>
                 </div>
@@ -24,7 +24,7 @@ include_once("header.php");
 
             <div class="col">
                 <div class="card shadow-sm">
-                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./img/AHN3.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/AHN3.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <title>Placeholder</title>
                     <rect width="100%" height="100%" fill="#55595c" />
                     </img>
@@ -41,7 +41,7 @@ include_once("header.php");
 
             <div class="col">
                 <div class="card shadow-sm">
-                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./img/spoorwegen.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/spoorwegen.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <title>Placeholder</title>
                     <rect width="100%" height="100%" fill="#55595c" />
                     </img>
@@ -60,7 +60,7 @@ include_once("header.php");
 
             <div class="col">
                 <div class="card shadow-sm">
-                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./img/world.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/world.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <title>Placeholder</title>
                     <rect width="100%" height="100%" fill="#55595c" />
                     </img>
@@ -79,7 +79,7 @@ include_once("header.php");
 
             <div class="col">
                 <div class="card shadow-sm">
-                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./img/antarctica.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/antarctica.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <title>Placeholder</title>
                     <rect width="100%" height="100%" fill="#55595c" />
                     </img>
@@ -98,7 +98,7 @@ include_once("header.php");
 
             <div class="col" id="contact" >
                 <div class="card shadow-sm">
-                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./img/wandelroutes.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/wandelroutes.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <title>Placeholder</title>
                     <rect width="100%" height="100%" fill="#55595c" />
                     </img>
@@ -116,7 +116,7 @@ include_once("header.php");
             </div>
             <div class="col">
                 <div class="card shadow-sm">
-                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./img/terrain.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/terrain.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <title>Placeholder</title>
                     <rect width="100%" height="100%" fill="#55595c" />
                     </img>
@@ -135,7 +135,7 @@ include_once("header.php");
 
             <div class="col">
                 <div class="card shadow-sm">
-                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./img/bonnebladen.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/bonnebladen.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <title>Placeholder</title>
                     <rect width="100%" height="100%" fill="#55595c" />
                     </img>
@@ -154,7 +154,7 @@ include_once("header.php");
 
             <div class="col">
                 <div class="card shadow-sm">
-                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./img/windturbines.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/windturbines.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <title>Placeholder</title>
                     <rect width="100%" height="100%" fill="#55595c" />
                     </img>
@@ -173,7 +173,7 @@ include_once("header.php");
 
             <div class="col">
                 <div class="card shadow-sm">
-                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./img/hta_edamvolendam.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/hta_edamvolendam.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <title>Placeholder</title>
                     <rect width="100%" height="100%" fill="#55595c" />
                     </img>
@@ -192,7 +192,7 @@ include_once("header.php");
 
             <div class="col">
                 <div class="card shadow-sm">
-                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./img/gwsw_denhaag.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/gwsw_denhaag.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <title>Placeholder</title>
                     <rect width="100%" height="100%" fill="#55595c" />
                     </img>
@@ -211,7 +211,7 @@ include_once("header.php");
 
             <div class="col">
                 <div class="card shadow-sm">
-                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./img/lvc_strooiroutes.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/lvc_strooiroutes.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <title>Placeholder</title>
                     <rect width="100%" height="100%" fill="#55595c" />
                     </img>
@@ -233,6 +233,6 @@ include_once("header.php");
 
 <?php
 
-include_once("footer.php");
+include_once("../footer.php");
 
 ?>

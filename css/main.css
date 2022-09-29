@@ -20,7 +20,7 @@ h1 {
 h2 {
     font-style: normal;
     font-size: 40px;
-    line-height: 63px;
+    line-height: 50px;
     color: rgb(161, 117, 18);
 }
 
@@ -33,7 +33,7 @@ h3 {
 
 h4 {
     font-size: 25px;
-    line-height: 63px;
+    line-height: 30px;
     color: white;
     font-weight: 300;
 }
@@ -247,6 +247,9 @@ a:hover {
     .bd-placeholder-img-lg {
         font-size: 3.5rem;
     }
+    .m-pad {
+        padding: 5.7rem !important;
+    }
 }
 
 @media (max-width: 500px) {
@@ -283,6 +286,9 @@ a:hover {
     }
     .r-logo {
         width: 50% !important;
+    }
+    .r-text {
+        width: 100% !important;
     }
 }
 

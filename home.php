@@ -25,12 +25,12 @@
                 <img src="./img/devices-cook.png" alt="Devices cook" class="img-fluid" width="700px">
             </div>
             <div class="mobile-spacer"></div>
-            <div class="col-xl-3 text-start">
+            <div class="col-xl-4 text-start">
                 <h2>Wat is <b>CO</b>OK?</h2>
-                <p class="my-4 text-gold">
+                <p class="my-4 text-light-gold fs-3">
                     De GIS Viewer van <b>CO</b>OK is snelste van Nederland. Naast snel, zijn onze viewers veilig, compleet en gepersonaliseerd 
                 </p>
-                <p class="mt-4 text-gold">
+                <p class="mt-4 text-light-gold fs-3">
                     <b>CO</b>OK werkt op basis van open source voor Geo-registratie en publicatie. Dat geeft een sterke fundering voor het raadplegen van informatiesystemen uit verschillende stromen
                 </p>
             </div>
@@ -48,7 +48,7 @@
                 <p class="my-4 text-gold">
                     Plan werkzaamheden op de kaart. Meldt bijzonderheden in het veld
                 </p>
-                <a href="https://www.gisarts.nl/" target="_blank" class="btn btn-lg btn-secondary rounded-pill my-2 r-btn w-100">BEKIJKEN</a>
+                <a href="?page=functies" class="btn btn-lg btn-secondary rounded-pill my-2 r-btn w-100">BEKIJKEN</a>
             </div>
         </div>
     </div>
@@ -60,7 +60,7 @@
                 <p class="my-4 text-gold">
                     Beheer de applicatie eenvoudig zelf Stel een eigen look & feel in
                 </p>
-                <a href="https://www.gisarts.nl/" target="_blank" class="btn btn-lg btn-secondary rounded-pill my-2 r-btn w-100">BEKIJKEN</a>
+                <a href="?page=applicatiebeheer" class="btn btn-lg btn-secondary rounded-pill my-2 r-btn w-100">BEKIJKEN</a>
             </div>
         </div>
     </div>
@@ -72,7 +72,7 @@
                 <p class="my-4 text-gold">
                     Voeg zelfstandig gebruikers toe en wijzig rechten. Monitor wat gebruikers doen
                 </p>
-                <a href="https://www.gisarts.nl/" target="_blank" class="btn btn-lg btn-secondary rounded-pill my-2 r-btn w-100">BEKIJKEN</a>
+                <a href="?page=functies" class="btn btn-lg btn-secondary rounded-pill my-2 r-btn w-100">BEKIJKEN</a>
             </div>
         </div>
     </div>
@@ -80,33 +80,50 @@
 
 <div class="logo-big-background">
     <div class="container-sm">
-        <div class="row py-4">
+        <div class="row py-4 text-center">
             <h2 class="text-start mb-5">DE MOGELIJKHEDEN <b>ZIJN EINDELOOS</b></h2>
-            <div class="col-lg-4 mb-5">
-                <div class="card gold-bg">
-                    <img src="./img/bestemmingsplannen.webp" class="card-img-top" alt="COOK syst">
+            <div class="col-lg-4 mb-5 p-4">
+                <div class="card gold-bg r-card rounded-4">
+                    <img src="./img/bestemmingsplannen.webp" class="card-img-top rounded-4" alt="COOK syst">
                     <div class="card-body">
-                        <h4><b>ON</b>LINE <b>& OFF</b>LINE</h4>
-                        <p class="text-white fs-5">De applicatie is zowel online als offline in het veld te gebruiken. Beschikbaar voor ieder device.</p>
+                        <div class="row">
+                            <div class="col-lg-10 offset-lg-1">
+                                <h4><b>ON</b>LINE <b>& OFF</b>LINE</h4>
+                                <p class="text-white fs-5 p-3">De applicatie is zowel online als offline in het veld te gebruiken. Beschikbaar voor ieder device.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 mb-5">
-                <div class="card gold-bg">
-                    <img src="./img/lvc_strooiroutes.webp" class="card-img-top" alt="COOK syst">
+            <div class="col-lg-4 mb-5 p-4">
+                <div class="card gold-bg r-card rounded-4">
+                    <img src="./img/lvc_strooiroutes.webp" class="card-img-top rounded-4" alt="COOK syst">
                     <div class="card-body ">
-                        <h4>ZELF <b>TEKENEN</b></h4>
-                        <p class="text-white fs-5">Teken zelf en maak meldingen voor medewerkers. Analyseer dankzij de actuele kaart gebaseerd op GIS</p>
+                        <div class="row">
+                            <div class="col-lg-10 offset-lg-1">
+                                <h4>ZELF <b>TEKENEN</b></h4>
+                                <p class="text-white fs-5 p-3">Teken zelf en maak meldingen voor medewerkers. Analyseer dankzij de actuele kaart gebaseerd op GIS</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
-                <div class="card gold-bg">
-                    <img src="./img/hta_edamvolendam.webp" class="card-img-top" alt="COOK syst">
+            <div class="col-lg-4 p-4">
+                <div class="card gold-bg r-card rounded-4">
+                    <img src="./img/hta_edamvolendam.webp" class="card-img-top rounded-4" alt="COOK syst">
                     <div class="card-body rounded-3">
-                        <h4><b>RASTER</b>BEELDEN</h4>
-                        <p class="text-white fs-5">Van 360° foto's, actuele luchtfoto's tot 3D er zijn talloze verschillende rasterbeelden aan COOK toe te voegen. Alles op één plek </p>
+                        <div class="row">
+                            <div class="col-lg-10 offset-lg-1">
+                                <h4><b>RASTER</b>BEELDEN</h4>
+                                <p class="text-white fs-5 p-3">Van 360° foto's, actuele luchtfoto's tot 3D er zijn talloze verschillende rasterbeelden aan COOK toe te voegen. Alles op één plek </p>
+                            </div>
+                        </div>
                     </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-4 offset-lg-4">
+                    <a href="?page=functionaliteiten" class="btn btn-info re-btn rounded-pill p-4" style="font-weight: 500;">ALLE FUNCTIONALITEITEN</a>
                 </div>
             </div>
         </div>
@@ -117,7 +134,7 @@
     <div class="row py-5 align-items-center">
         <div class="col-xl-5 offset-xl-1">
             <h2 class="align-center mb-3">ONTDEK MEER <b>TOOLS</b></h2>
-            <p class="text-gold w-75 fs-3">
+            <p class="text-light-gold w-75 fs-3">
                 <b>CO</b>OK is makkelijk in gebruik dankzij de moderne look & fel. 
                 Beheer de omgeving naar eigen naar eigen ideeën.
             </p>
@@ -135,7 +152,7 @@
                         </div>
                         <div class="col" style="display: table;">
                             <p class="text-gold align-bottom fs-6 text-end" style="display: table-cell;">
-                                <b>></b> Lees meer
+                                <a href="?page=functies" class="text-gold" style="text-decoration: none;"><b>></b> Lees meer</a>
                             </p>
                         </div>
                     </div>
@@ -153,7 +170,7 @@
                         </div>
                         <div class="col" style="display: table;">
                             <p class="text-gold align-bottom fs-6 text-end" style="display: table-cell;">
-                                <b>></b> Lees meer
+                                <a href="?page=functies" class="text-gold" style="text-decoration: none;"><b>></b> Lees meer</a>
                             </p>
                         </div>
                     </div>
@@ -201,13 +218,13 @@
                     <p class="text-white">excl. 21% btw</p>
                 </div>
             </div>
-            <div class="col-xl-9 py-3 text-start" style="background-color: #D4BE87;">
+            <div class="col-xl-9 py-3 text-start d-grid align-items-center" style="background-color: #D4BE87;">
                 <div class="row p-3 justify-content-center">
                     <div class="col ">
-                        <p>Abonnement: Jaarlijks per user</p>
+                        <p><b>Abonnement: Jaarlijks per user</b></p>
                     </div>
-                    <div class="col ">
-                        <a href="https://www.gisarts.nl/" target="_blank" class="btn btn-lg btn-info re-btn rounded-2 p-4 w-50">BESTELLEN</a>
+                    <div class="col d-grid justify-content-center">
+                        <a href="https://www.gisarts.nl/" target="_blank" class="btn btn-lg btn-info re-btn rounded-2 p-4">BESTELLEN</a>
                     </div>
                 </div>
             </div>

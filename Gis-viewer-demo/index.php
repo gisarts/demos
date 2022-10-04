@@ -13,10 +13,10 @@ include_once("header.php");
                     </img>
 
                     <div class="card-body">
-                        <p class="text-gold">Bestemmingsplannen</p>
+                        <p class="card-text">Bestemmingsplannen</p>
                         <div class="d-flex justify-content-between align-items-center">
-                            <!-- <button onclick="window.open('https://demo.gisarts.nl/cook/bestemmingsplannen')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button> -->
-                            <a href="https://www.gisarts.nl/" target="_blank" class="text-gold fs-5">Bekijken ></a>
+                            <button onclick="window.open('https://demo.gisarts.nl/cook/bestemmingsplannen')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
+                            <small class="text-muted">Bestemmingsplannen</small>
                         </div>
                     </div>
                 </div>
@@ -30,7 +30,7 @@ include_once("header.php");
                     </img>
 
                     <div class="card-body">
-                        <p class="card-text">ANH3 Hoogtekaart.</p>
+                        <p class="card-text">ANH3 Hoogtekaart</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <button onclick="window.open('https://demo.gisarts.nl/cook/ahn')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
                             <small class="text-muted">Point Cloud</small>
@@ -47,7 +47,7 @@ include_once("header.php");
                     </img>
 
                     <div class="card-body">
-                        <p class="card-text">Spoorwegen.</p>
+                        <p class="card-text">Spoorwegen</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
                                 <button onclick="window.open('https://demo.gisarts.nl/cook/spoorwegen')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
@@ -66,7 +66,7 @@ include_once("header.php");
                     </img>
 
                     <div class="card-body">
-                        <p class="card-text">World.</p>
+                        <p class="card-text">World</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
                                 <button onclick="window.open('https://demo.gisarts.nl/cook/world')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
@@ -85,7 +85,7 @@ include_once("header.php");
                     </img>
 
                     <div class="card-body">
-                        <p class="card-text">Antarctica.</p>
+                        <p class="card-text">Antarctica</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
                                 <button onclick="window.open('https://demo.gisarts.nl/cook/antartica')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
@@ -104,7 +104,7 @@ include_once("header.php");
                     </img>
 
                     <div class="card-body">
-                        <p class="card-text">Wandelroutes.</p>
+                        <p class="card-text">Wandelroutes</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
                                 <button onclick="window.open('https://demo.gisarts.nl/cook/wandelroutes')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
@@ -122,7 +122,7 @@ include_once("header.php");
                     </img>
 
                     <div class="card-body">
-                        <p class="card-text">Terrain.</p>
+                        <p class="card-text">Terrain</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
                                 <button onclick="window.open('https://demo.gisarts.nl/cook/terrain')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
@@ -141,7 +141,7 @@ include_once("header.php");
                     </img>
 
                     <div class="card-body">
-                        <p class="card-text">Bonnebladen.</p>
+                        <p class="card-text">Bonnebladen</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
                                 <button onclick="window.open('https://demo.gisarts.nl/cook/bonnebladen')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
@@ -160,7 +160,7 @@ include_once("header.php");
                     </img>
 
                     <div class="card-body">
-                        <p class="card-text">Wind turbines.</p>
+                        <p class="card-text">Wind turbines</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
                                 <button onclick="window.open('https://demo.gisarts.nl/cook/windturbines')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
@@ -198,7 +198,7 @@ include_once("header.php");
                     </img>
 
                     <div class="card-body">
-                        <p class="card-text">Rioleringen.</p>
+                        <p class="card-text">Rioleringen</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
                                 <button onclick="window.open('https://www.Bekijkener-duopp.nl/cook/gwsw_denhaag')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
@@ -217,7 +217,7 @@ include_once("header.php");
                     </img>
 
                     <div class="card-body">
-                        <p class="card-text">Strooiroutes.</p>
+                        <p class="card-text">Strooiroutes</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
                                 <button onclick="window.open('https://www.gislandvancuijk.nl/cook/gladheidsbestrijding')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>

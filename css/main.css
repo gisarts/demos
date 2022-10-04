@@ -84,7 +84,6 @@ a:hover {
 .logo-big-background {
     background: url('../img/cook-logo-bg.png') bottom / cover no-repeat;
     padding-top: 2em;
-    padding-bottom: 5em;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 12px !important;
 }
 
@@ -102,6 +101,10 @@ a:hover {
 
 .text-gold {
     color: rgb(161, 117, 18);
+}
+
+.text-light-gold {
+    color: #bc9c47;
 }
 
 .gold-bg {
@@ -244,6 +247,9 @@ a:hover {
 /* Responsive */
 
 @media (min-width: 768px) {
+    .r-card {
+        height: 430px;
+    }
     .bd-placeholder-img-lg {
         font-size: 3.5rem;
     }

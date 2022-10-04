@@ -1,11 +1,10 @@
         <footer class="text-center footer w-100 h-50">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="row justify-content-center">
+                    <div class="row">
                         <div class="col-md-4">
-                            <h3 class="text-white pb-0 mb-0">Gemaakt door</h3>
                             <a class="gisarts_link" href="https://www.gisarts.nl" target="_Blank">
-                                <img src="/img/logo_gisarts.webp" alt="logo_gisarts" class="w-100" style="filter: brightness(0) invert(1); margin-top: -30px">
+                                <img src="/img/logo_gisarts.webp" alt="logo_gisarts" class="w-100" style="filter: brightness(0) invert(1);">
                             </a>
                         </div>
                         <div class="col-md-4">
@@ -23,7 +22,7 @@
                                     </svg>
                                 </div>
                                 <div class="col-sm-8">
-                                    <p><a href="mailto:info@gisarts.nl">info@gisarts.nl</a></p>
+                                    <p><a href="mailto:info@gisarts.nl" target="_Blank">info@gisarts.nl</a></p>
                                 </div>
                             </div>
                             <div class="row">
@@ -33,7 +32,7 @@
                                     </svg>
                                 </div>
                                 <div class="col-sm-8">
-                                    <p><a href="tel:+0485 763601">0485 - 763601</a></p>
+                                    <p><a href="tel:+0485 763601" target="_Blank">0485 - 763601</a></p>
                                 </div>
                             </div>
                             <div class="row">
@@ -44,7 +43,7 @@
                                     </svg>
                                 </div>
                                 <div class="col-sm-8">
-                                    <p>Zandkant 11, Sint Anthonis<br>Nederland 5845 EV</p>
+                                    <p><a href="https://goo.gl/maps/N6KkoTtjPo3DZ9eN8" target="_Blank">Zandkant 11, Sint Anthonis<br>Nederland 5845 EV</a></p>
                                 </div>
                             </div>
                         </div>

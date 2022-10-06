@@ -221,7 +221,7 @@
                         <p class="card-text">Rioleringen</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <button onclick="window.open('https://www.Bekijkener-duopp.nl/cook/gwsw_denhaag')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
+                                <button onclick="window.open('https://www.viewer-duopp.nl/cook/gwsw_denhaag')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
                             </div>
                             <small class="text-muted">Rioleringen</small>
                         </div>

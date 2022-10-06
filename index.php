@@ -8,6 +8,9 @@ try {
         case 'home':
             include_once("home.php");
             break;
+        case 'demo':
+            include_once("demo.php");
+            break;
         case 'functies':
             include_once("functies.php");
             break;

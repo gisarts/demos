@@ -6,7 +6,7 @@
     </div>
     <div class="row justify-content-center">
         <div class="col-xxl-2 r-padding">
-            <a href="/Gis-viewer-demo/" class="btn btn-lg btn-primary rounded-pill my-2 r-btn w-100">FREE DEMO</a>
+            <a href="?page=demo" class="btn btn-lg btn-primary rounded-pill my-2 r-btn w-100">FREE DEMO</a>
         </div>
     </div>
     <div class="row justify-content-center">

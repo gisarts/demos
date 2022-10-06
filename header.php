@@ -39,6 +39,9 @@ $page = $_GET['page'];
                                 <a class="nav-link <?php if($page == "") { echo "active";} ?>" href="/">Home</a>
                             </li>
                             <li class="nav-item">
+                                <a class="nav-link <?php if($page == "demo") { echo "active";} ?>" href="?page=demo">Demo</a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link <?php if($page == "functies") { echo "active";} ?>" href="?page=functies">Functies</a>
                             </li>
                             <li class="nav-item">

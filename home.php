@@ -205,7 +205,7 @@
         </div>
     </div>
 </div>
-
+<!-- 
 <div class="logo-small-background">
     <div class="container-sm">
         <div class="row py-5">
@@ -230,4 +230,4 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->

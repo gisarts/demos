@@ -27,12 +27,12 @@ $page = $_GET['page'];
         <header class="text-center">
             <nav class="navbar navbar-expand-lg">
                 <div class="container">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
                     <div class="nav-item text-start nav-logo">
                         <a class="nav-link" aria-current="page" href="/"><img width="250px" src="./img/logo_cook.webp" class="r-logo-main" alt="logo_cook"></a>
                     </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">

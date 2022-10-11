@@ -180,7 +180,7 @@
     </div>
 </div>
 
-<div class="gold-bg">
+<div class="gold-bg mb-5">
     <div class="container-sm text-start">
         <div class="row py-5">
             <div class="col-xl-8 py-3">

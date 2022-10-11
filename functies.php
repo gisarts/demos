@@ -81,15 +81,15 @@
 </div>
 
 <div class="row align-items-center" style="background-color: #A98112;">
-    <div class="col-lg-7" style="background-color: #D4BE87;">
+    <div class="col-lg-5 order-lg-2 py-5">
+        <div class="container-sm text-center">
+            <img src="./img/tijdreizen.png" class="img-fluid" alt="tijdreizen">
+        </div>
+    </div>
+    <div class="col-lg-7 order-lg-1" style="background-color: #D4BE87;">
         <div class="container-sm p-5 m-pad">
             <h2 class="text-gold"><b>TIJDREIZEN</b> MET COOK</h2>
             <p class="w-75 r-text">Wij zijn bij GISArts verzot op kaarten, zo is het mogelijk om bij ons te tijdreizen. De ontwikkeling van de historische Topografische Militaire kaart van 1850 of de bonnenbladen van 1900 en dat gecombineerd met de moderne techniek van nu. Prachtig om historie te combineren met eigen data. Dit is allemaal mogelijk in de Geo Viewer van COOK. U kunt de historie en het verloop volgen van ieder interessant gebied. Enorm handig voor Bosbeheer, enorm interessant voor iedereen. Probeer het zelf eens uit in de demo!</p>
-        </div>
-    </div>
-    <div class="col-lg-5 py-5">
-        <div class="container-sm text-center">
-            <img src="./img/tijdreizen.png" class="img-fluid" alt="tijdreizen">
         </div>
     </div>
 </div>
@@ -109,15 +109,15 @@
 </div>
 
 <div class="row align-items-center" style="background-color: #A98112;">
-    <div class="col-lg-7" style="background-color: #D4BE87;">
+    <div class="col-lg-5 order-lg-2 py-5">
+        <div class="container-sm text-center">
+            <img src="./img/360.png" class="img-fluid" alt="360">
+        </div>
+    </div>
+    <div class="col-lg-7 order-lg-1" style="background-color: #D4BE87;">
         <div class="container-sm p-5 m-pad">
             <h2 class="text-gold"><b>360°</b> FOTO'S</h2>
             <p class="w-75 r-text">De foto's (streetview) worden bijna overal gemaakt door de auto's van Cyclomedia. Toch kunnen deze auto's niet op alle plekken komen. Daarom zit er in de GIS Viewer van COOK een 360° view. Plekken waar weinig mensen komen, geen wegen lopen of niet bereikbaar zijn. Voor onze klanten is het mogelijk om de beelden zelf aan COOK toe te voegen of te laten maken door GISArts. Bekijk de video om te zien hoe het werkt.</p>
-        </div>
-    </div>
-    <div class="col-lg-5 py-5">
-        <div class="container-sm text-center">
-            <img src="./img/360.png" class="img-fluid" alt="360">
         </div>
     </div>
 </div>

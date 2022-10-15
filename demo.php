@@ -25,7 +25,8 @@
 
 <div class="album my-5">
     <div class="container">
-            <div class="col mx-auto">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" >
+            <div class="col">
                 <div class="card shadow-sm">
                     <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/ongevallen.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <title>Placeholder</title>
@@ -42,7 +43,8 @@
                         </div>
                     </div>
                 </div>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" >
+            </div>
+
             <div class="col">
                 <div class="card shadow-sm">
                     <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/bestemmingsplannen.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">

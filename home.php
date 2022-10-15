@@ -1,3 +1,48 @@
+<?php
+
+//Import PHPMailer classes into the global namespace
+//These must be at the top of your script, not inside a function
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+
+//Load Composer's autoloader
+require 'vendor/autoload.php';
+
+//Create an instance; passing `true` enables exceptions
+$mail = new PHPMailer(true);
+
+if(isset($_POST['submit'])){
+    try {
+        //Server settings
+        $mail->isSMTP();                                           //Send using SMTP
+        $mail->Host       = 'relay.geenspam.mx';                   //Set the SMTP server to send through
+        $mail->SMTPAuth   = true;                                  //Enable SMTP authentication
+        $mail->Username   = 'smtp@gisarts.nl';                     //SMTP username
+        $mail->Password   = '';                            //SMTP password
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;        //Enable implicit TLS encryption
+        $mail->Port       = 587;                                   //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS
+
+        //Recipients
+        $mail->setFrom('no-reply@gisarts.nl', 'Cook Demo');
+        $mail->addAddress('j.haerkens@gisarts.nl');               //Name is optional
+
+        //Content
+        $mail->Subject = 'Bericht vanuit demo formulier van '. $_POST['name'];
+        $mail->Body    = "Bericht van: ". $_POST["name"] . " <".$_POST["email"].">" . "\r\n" . $_POST["message"];
+
+        if( ! empty( $_POST['firstname'] ) ){
+            return;
+        }else{
+            $mail->send();
+            echo "<div class='alert alert-success alert-dismissible fade show' role='alert'>Je bericht is verstuurd<button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button></div>";
+        }
+    } catch (Exception $e) {
+        echo "<div class='alert alert-danger alert-dismissible fade show' role='alert'>Je bericht kon niet verstuurd worden. Probeer het later opnieuw of neem direct contact met ons op.<button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button></div>";
+    }
+}
+?>
+
 <div class="row justify-content-center text-center header-background">
     <div class="col-xxl-4 r-padding text-center">
         <h1><b>Complete Veilige Gepersonaliseerde GIS-Viewer</b></h1>
@@ -180,31 +225,36 @@
     </div>
 </div>
 
-<div class="gold-bg mb-5">
+<!-- <div class="gold-bg mb-5">
     <div class="container-sm text-start">
         <div class="row py-5">
             <div class="col-xl-8 py-3">
                 <h2 class="text-white"><b>MEER</b> WETEN?</h2>
                 <p class="text-white">Voor vragen kunt u ons altijd een bericht sturen via het formulier hieronder.</p>
-                <form>
+                <form name="form" method="POST" action="" enctype="multipart/form-data">
+                    <input name="firstname" type="text" id="firstname" class="hide-robot">
                     <div class="mb-3">
-                        <input type="text" class="form-control" placeholder="Naam*">
+                        <input type="text" class="form-control" placeholder="Naam*" name="name" required>
                     </div>
                     <div class="mb-3">
-                        <input type="email" class="form-control" placeholder="Email*" >
+                        <input type="email" class="form-control" placeholder="Email*" name="email" required>
                     </div>
                     <div class="mb-3">
-                        <input type="text" class="form-control" placeholder="Telefoonnummer*">
+                        <input type="text" class="form-control" placeholder="Telefoonnummer" name="number">
                     </div>
                     <div class="mb-3">
-                        <textarea class="form-control" placeholder="Bericht*" rows="3"></textarea>
+                        <textarea class="form-control" placeholder="Bericht*" rows="3" name="message" required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-info re-btn btn-lg w-25">Versturen</button>
+                    <div class="mb-3">
+                        <p class="success"> <?php echo $success;  ?></p>
+                        <p class="failed"> <?php echo $failed;  ?></p>
+                    </div>
+                    <button type="submit" name="submit" class="btn btn-info re-btn btn-lg w-25">Versturen</button>
                 </form>
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!-- 
 <div class="logo-small-background">
     <div class="container-sm">

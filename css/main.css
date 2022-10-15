@@ -95,6 +95,18 @@ a:hover {
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 12px !important;
 }
 
+.hide-robot{
+    display: none !important;
+}
+
+.alert{
+    /* position: static !important; */
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
 .logo-background {
     background: url('../img/cook-logo-bg.png') bottom / cover no-repeat;
 }

@@ -25,6 +25,23 @@
 
 <div class="album my-5">
     <div class="container">
+            <div class="col mx-auto">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/ongevallen.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#55595c" />
+                    </img>
+
+                    <div class="card-body">
+                        <p class="card-text">Ongevallen</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button onclick="window.open('https://demo.gisarts.nl/cook/ongevallen')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
+                            </div>
+                            <small class="text-muted">Ongevallen</small>
+                        </div>
+                    </div>
+                </div>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" >
             <div class="col">
                 <div class="card shadow-sm">
@@ -243,25 +260,6 @@
                                 <button onclick="window.open('https://www.gislandvancuijk.nl/cook/gladheidsbestrijding')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
                             </div>
                             <small class="text-muted">Land van Cuijk</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col mx-auto">
-                <div class="card shadow-sm">
-                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/ongevallen.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c" />
-                    </img>
-
-                    <div class="card-body">
-                        <p class="card-text">Ongevallen</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <button onclick="window.open('https://demo.gisarts.nl/cook/ongevallen')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
-                            </div>
-                            <small class="text-muted">Ongevallen</small>
                         </div>
                     </div>
                 </div>

@@ -14,7 +14,7 @@ $page = $_GET['page'];
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="subject" content="Serve The World">
         <meta name="description" content="Probeer hier de GIS Viewer van Cook. Op deze pagina kunt u de demo GIS viewer van Cook bekijken.">
-        <meta name="copyright"content="Gisarts">
+        <meta name="copyright" content="Gisarts">
         <meta name="keywords" content="cook, gis, viewer, geo, gisarts"/>
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">

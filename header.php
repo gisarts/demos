@@ -15,7 +15,7 @@ $page = $_GET['page'];
         <meta name="robots" content="index,follow">
         <meta name="description" content="Probeer hier de GIS Viewer van Cook. Op deze pagina kunt u de demo GIS viewer van Cook bekijken.">
 
-        <meta property="og:title" content="Cook Demo | Gis Viewer" />
+        <meta property="og:title" content="Cook Demo | De complete veilige gepersonaliseerde GIS Viewer van GISArts" />
         <meta property="og:description" content="Probeer hier de GIS Viewer van Cook. Op deze pagina kunt u de demo GIS viewer van Cook bekijken." />
         <meta property="og:image" content="https://demo.gisarts.nl/img/logo_cook.webp" />
         <meta property="og:site_name" content="Cook Demo" />

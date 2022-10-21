@@ -35,11 +35,11 @@ $page = $_GET['page'];
         <base href="https://demo.gisarts.nl/">
     </head>
     <body>
-        <header class="text-center">
+        <header class="text-center header nav-down">
             <nav class="navbar navbar-expand-lg">
                 <div class="container">
                     <div class="nav-item text-start nav-logo">
-                        <a class="nav-link" aria-current="page" href="/"><img width="250px" src="./img/logo_cook.webp" class="r-logo-main" alt="logo_cook"></a>
+                        <a aria-current="page" href="/"><img width="250px" src="./img/logo_cook.webp" class="r-logo-main" alt="logo_cook"></a>
                     </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -59,10 +59,11 @@ $page = $_GET['page'];
                                 <a class="nav-link <?php if($page == "applicatiebeheer") { echo "active";} ?>" href="?page=applicatiebeheer">Applicatiebeheer</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" onclick="window.scrollTo(0, document.body.scrollHeight);">Contact</a>
+                                <a class="nav-link" style="cursor: pointer;" onclick="window.scrollTo(0, document.body.scrollHeight);">Contact</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </header>
+        <main>

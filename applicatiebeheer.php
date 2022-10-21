@@ -1,6 +1,6 @@
 <div class="album py-5 mb-5" style="background-color: #EBE1C9;"> 
     <div class="container-sm">
-        <h1 class="text-gold text-center">Applicatiebeheer bij <b>CO</b>OK</h1>
+        <h1 class="text-gold text-center">Applicatiebeheer <b>CO</b>OK</h1>
         <p class="text-gold text-center py-3">Richt de applicatie zelf in met het bepalen van functies</p>
         <div class="row">
             <div class="col-lg-7 order-lg-2 py-5">
@@ -24,3 +24,5 @@
         </div>
     </div>
 </div>
+
+<div class="spacer" style="margin-bottom: 150px"></div>

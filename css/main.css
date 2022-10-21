@@ -111,6 +111,10 @@ a:hover {
     background: url('../img/cook-logo-bg.png') bottom / cover no-repeat;
 }
 
+.function1 {
+    background: url('../img/tijdreizen.png') top / cover no-repeat;
+}
+
 .text-gold {
     color: rgb(161, 117, 18);
 }
@@ -203,7 +207,7 @@ a:hover {
 
 .f-card:hover {
     box-shadow: 0px 20px 30px rgba(173, 129, 24, 0.5) !important;
-    transform: translateY(-7px);
+    transform: translateY(-10px);
 }
 
 .icon-animation {
@@ -258,6 +262,25 @@ a:hover {
 
 /* Responsive */
 
+@media (min-width: 995px){
+    header {
+        background-color: white;
+        height: 120px;
+        position: fixed;
+        top: 0;
+        transition: top 0.2s ease-in-out;
+        width: 100%;
+        z-index: 999;
+        box-shadow: 0px 4px 7px -2px rgba(0,0,0,0.2);
+    }
+    main {
+        padding-top: 120px;
+    }
+    .nav-up {
+        top: -120px;
+    }
+}
+
 @media (min-width: 768px) {
     .r-card {
         height: 430px;
@@ -267,6 +290,12 @@ a:hover {
     }
     .m-pad {
         padding: 5.7rem !important;
+    }
+    .nav-link{
+        padding-left: 32px !important;
+    }
+    .inv{
+        display: none;
     }
 }
 
@@ -311,6 +340,21 @@ a:hover {
 }
 
 @media (max-width: 995px) {
+    header {
+        background-color: white;
+        position: fixed;
+        top: 0;
+        transition: top 0.2s ease-in-out;
+        width: 100%;
+        z-index: 999;
+        box-shadow: 0px 4px 7px -2px rgba(0,0,0,0.2);
+    }
+    main {
+        padding-top: 100px;
+    }
+    .nav-up {
+        top: -100px;
+    }
     .r-logo-main {
         width: 200px;
     }

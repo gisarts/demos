@@ -18,22 +18,22 @@ if(isset($_POST['submit'])){
     try {
         //Server settings
         $mail->isSMTP();                                           //Send using SMTP
-        $mail->Host       = $_ENV['MAIL_HOST'];                    //Set the SMTP server to send through
         $mail->SMTPAuth   = true;                                  //Enable SMTP authentication
+        $mail->Host       = $_ENV['MAIL_HOST'];                    //Set the SMTP server to send through
+        $mail->Port       = $_ENV['MAIL_PORT'];                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS
         $mail->Username   = $_ENV['MAIL_USERNAME'];                //SMTP username
         $mail->Password   = $_ENV['MAIL_PASSWORD'];                //SMTP password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;        //Enable implicit TLS encryption
-        $mail->Port       = $_ENV['MAIL_PORT'];                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS
 
         //Recipients
         $mail->setFrom('no-reply@gisarts.nl', 'Cook Demo');
-        $mail->addAddress('j.haerkens@gisarts.nl');                //Name is optional
+        $mail->addAddress('info@gisarts.nl');                //Name is optional
 
         //Content
         $mail->Subject = 'Bericht vanuit demo formulier van '. $_POST['name'];
-        $mail->Body    = "Bericht van: ". $_POST["name"] . " <".$_POST["email"].">" . "\r\n" . $_POST["message"];
+        $mail->Body    = "Bericht van: ".$_POST["name"]."<".$_POST["email"].">(".$_POST['number'].")"."\r\n" . $_POST["message"];
 
-        if( ! empty( $_POST['firstname'] ) ){
+        if(!empty($_POST['firstname'])){
             return;
         }else{
             $mail->send();
@@ -119,7 +119,7 @@ if(isset($_POST['submit'])){
                 <p class="my-4 text-gold">
                     Voeg zelfstandig gebruikers toe en wijzig rechten. Monitor wat gebruikers doen
                 </p>
-                <a href="?page=functies" class="btn btn-lg btn-secondary rounded-pill my-2 r-btn w-100">BEKIJKEN</a>
+                <a href="?page=applicatiebeheer" class="btn btn-lg btn-secondary rounded-pill my-2 r-btn w-100">BEKIJKEN</a>
             </div>
         </div>
     </div>
@@ -257,8 +257,10 @@ if(isset($_POST['submit'])){
         </div>
     </div>
 </div>
-<!-- 
-<div class="logo-small-background">
+
+<div class="spacer" style="margin-bottom: 150px"></div>
+
+<!-- <div class="logo-small-background">
     <div class="container-sm">
         <div class="row py-5">
             <div class="col-xl-3 p-0">

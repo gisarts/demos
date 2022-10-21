@@ -7,7 +7,7 @@
         </div>
         <div class="row justify-content-center">
             <div class="col-xxl-2 r-padding">
-                <a href="https://www.gisarts.nl/" target="_blank" class="btn btn-lg btn-primary rounded-pill my-2 r-btn w-100">BEZOEK ONZE SITE</a>
+                <a href="https://www.gisarts.nl/" target="_blank" class="btn btn-lg btn-primary rounded-pill my-2 r-btn w-100">BEZOEK SITE</a>
             </div>
             <div class="col-xxl-2 r-padding">
                 <a onclick="window.scrollTo(0, document.body.scrollHeight);" class="btn btn-lg btn-primary rounded-pill r-btn my-2 w-100">CONTACT</a>
@@ -29,7 +29,6 @@
             <div class="col">
                 <div class="card shadow-sm">
                     <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/ongevallen.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
                     <rect width="100%" height="100%" fill="#55595c" />
                     </img>
 
@@ -40,6 +39,96 @@
                                 <button onclick="window.open('https://demo.gisarts.nl/cook/ongevallen')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
                             </div>
                             <small class="text-muted">Ongevallen</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/bonnebladen.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#55595c" />
+                    </img>
+
+                    <div class="card-body">
+                        <p class="card-text">Bonnebladen</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button onclick="window.open('https://demo.gisarts.nl/cook/bonnebladen')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
+                            </div>
+                            <small class="text-muted">Bonnebladen</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/windturbines.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#55595c" />
+                    </img>
+
+                    <div class="card-body">
+                        <p class="card-text">Wind turbines</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button onclick="window.open('https://demo.gisarts.nl/cook/windturbines')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
+                            </div>
+                            <small class="text-muted">Wind turbines</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/hta_edamvolendam.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#55595c" />
+                    </img>
+
+                    <div class="card-body">
+                        <p class="card-text">Begraafplaatsen</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button onclick="window.open('https://www.gishta.nl/cook/edamvolendam')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
+                            </div>
+                            <small class="text-muted">Begraafplaatsen</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/gwsw_denhaag.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#55595c" />
+                    </img>
+
+                    <div class="card-body">
+                        <p class="card-text">Rioleringen</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button onclick="window.open('https://www.viewer-duopp.nl/cook/gwsw_denhaag')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
+                            </div>
+                            <small class="text-muted">Rioleringen</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/lvc_strooiroutes.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#55595c" />
+                    </img>
+
+                    <div class="card-body">
+                        <p class="card-text">Strooiroutes</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button onclick="window.open('https://www.gislandvancuijk.nl/cook/gladheidsbestrijding')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
+                            </div>
+                            <small class="text-muted">Land van Cuijk</small>
                         </div>
                     </div>
                 </div>
@@ -64,7 +153,6 @@
             <div class="col">
                 <div class="card shadow-sm">
                     <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/AHN3.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
                     <rect width="100%" height="100%" fill="#55595c" />
                     </img>
 
@@ -81,7 +169,6 @@
             <div class="col">
                 <div class="card shadow-sm">
                     <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/spoorwegen.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
                     <rect width="100%" height="100%" fill="#55595c" />
                     </img>
 
@@ -97,10 +184,27 @@
                 </div>
             </div>
 
+            <div class="col" id="contact" >
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/wandelroutes.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#55595c" />
+                    </img>
+
+                    <div class="card-body">
+                        <p class="card-text">Wandelroutes</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button onclick="window.open('https://demo.gisarts.nl/cook/wandelroutes')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
+                            </div>
+                            <small class="text-muted">Wandelroutes</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="col">
                 <div class="card shadow-sm">
                     <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/world.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
                     <rect width="100%" height="100%" fill="#55595c" />
                     </img>
 
@@ -118,45 +222,7 @@
 
             <div class="col">
                 <div class="card shadow-sm">
-                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/antarctica.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c" />
-                    </img>
-
-                    <div class="card-body">
-                        <p class="card-text">Antarctica</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <button onclick="window.open('https://demo.gisarts.nl/cook/antartica')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
-                            </div>
-                            <small class="text-muted">Antarctica</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col" id="contact" >
-                <div class="card shadow-sm">
-                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/wandelroutes.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c" />
-                    </img>
-
-                    <div class="card-body">
-                        <p class="card-text">Wandelroutes</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <button onclick="window.open('https://demo.gisarts.nl/cook/wandelroutes')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
-                            </div>
-                            <small class="text-muted">Wandelroutes</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card shadow-sm">
                     <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/terrain.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
                     <rect width="100%" height="100%" fill="#55595c" />
                     </img>
 
@@ -167,101 +233,6 @@
                                 <button onclick="window.open('https://demo.gisarts.nl/cook/terrain')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
                             </div>
                             <small class="text-muted">Terrain</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card shadow-sm">
-                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/bonnebladen.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c" />
-                    </img>
-
-                    <div class="card-body">
-                        <p class="card-text">Bonnebladen</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <button onclick="window.open('https://demo.gisarts.nl/cook/bonnebladen')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
-                            </div>
-                            <small class="text-muted">Bonnebladen</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card shadow-sm">
-                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/windturbines.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c" />
-                    </img>
-
-                    <div class="card-body">
-                        <p class="card-text">Wind turbines</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <button onclick="window.open('https://demo.gisarts.nl/cook/windturbines')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
-                            </div>
-                            <small class="text-muted">Wind turbines</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card shadow-sm">
-                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/hta_edamvolendam.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c" />
-                    </img>
-
-                    <div class="card-body">
-                        <p class="card-text">Begraafplaatsen</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <button onclick="window.open('https://www.gishta.nl/cook/edamvolendam')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
-                            </div>
-                            <small class="text-muted">Begraafplaatsen</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card shadow-sm">
-                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/gwsw_denhaag.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c" />
-                    </img>
-
-                    <div class="card-body">
-                        <p class="card-text">Rioleringen</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <button onclick="window.open('https://www.viewer-duopp.nl/cook/gwsw_denhaag')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
-                            </div>
-                            <small class="text-muted">Rioleringen</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card shadow-sm">
-                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/lvc_strooiroutes.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c" />
-                    </img>
-
-                    <div class="card-body">
-                        <p class="card-text">Strooiroutes</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <button onclick="window.open('https://www.gislandvancuijk.nl/cook/gladheidsbestrijding')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
-                            </div>
-                            <small class="text-muted">Land van Cuijk</small>
                         </div>
                     </div>
                 </div>

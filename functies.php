@@ -1,6 +1,6 @@
 <div class="album py-5" style="background-color: #EBE1C9;"> 
     <div class="container-sm">
-        <h1 class="text-gold text-center">Functionaliteiten van <b>CO</b>OK</h1>
+        <h1 class="text-gold text-center">Functionaliteiten <b>CO</b>OK</h1>
         <p class="text-gold text-center py-3">Wat <b>CO</b>OK biedt aan de gebruiker</p>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" >
 
@@ -80,53 +80,45 @@
     </div>
 </div>
 
-<div class="row align-items-center" style="background-color: #A98112;">
-    <div class="col-lg-5 order-lg-2 py-5">
-        <div class="container-sm text-center">
-            <img src="./img/tijdreizen.png" class="img-fluid" alt="tijdreizen">
-        </div>
+<div class="row align-items-center" style="background-color: #D4BE87;">
+    <div class="col-lg-5 order-lg-2 m-0 p-0">
+        <img src="./img/tijdreizen.png" class="h-100 w-100" alt="tijdreizen">
     </div>
-    <div class="col-lg-7 order-lg-1" style="background-color: #D4BE87;">
-        <div class="container-sm p-5 m-pad">
+    <div class="col-lg-7 order-lg-1">
+        <div class="container-sm p-5">
             <h2 class="text-gold"><b>TIJDREIZEN</b> MET COOK</h2>
-            <p class="w-75 r-text">Wij zijn bij GISArts verzot op kaarten, zo is het mogelijk om bij ons te tijdreizen. De ontwikkeling van de historische Topografische Militaire kaart van 1850 of de bonnenbladen van 1900 en dat gecombineerd met de moderne techniek van nu. Prachtig om historie te combineren met eigen data. Dit is allemaal mogelijk in de Geo Viewer van COOK. U kunt de historie en het verloop volgen van ieder interessant gebied. Enorm handig voor Bosbeheer, enorm interessant voor iedereen. Probeer het zelf eens uit in de demo!</p>
+            <p class="w-75 r-text">Wij zijn bij GISArts verzot op kaarten, zo is het mogelijk om bij ons te tijdreizen. De ontwikkeling van de historische Topografische Militaire kaart van 1850 of de bonnenbladen van 1900 en dat gecombineerd met de moderne techniek van nu. Prachtig om historie te combineren met eigen data. Dit is allemaal mogelijk in de Geo Viewer van COOK. U kunt de historie en het verloop volgen van ieder interessant gebied. Enorm handig voor Bosbeheer, enorm interessant voor iedereen. Probeer het zelf eens uit in <a href="?page=demo" class="text-black">de demo!</a></p>
         </div>
     </div>
 </div>
 
 <div class="row align-items-center logo-background">
-    <div class="col-lg-5 py-5" style="background-color: rgba(0,0,0,0.2);">
-        <div class="container-sm text-center">
-            <img src="./img/query.png" class="img-fluid" alt="query">
-        </div>
+    <div class="col-lg-5 p-0 m-0" style="background-color: rgba(0,0,0,0.2);">
+        <img src="./img/query.png" class="h-75 w-100" alt="query">
     </div>
     <div class="col-lg-7">
         <div class="container-sm p-5">
             <h2 class="text-gold">FUNCTIES VAN DE <b>QUERYBUILDER</b></h2>
-            <p class="w-75 r-text">Met dit gereedschap kan je zelfstandig kaarten maken. Je stelt als het ware een vraag aan de kaart door een gebied te tekenen, door vragen te stellen, bijvoorbeeld: 'Laat mij alle gebouwen die na het jaar 2000 gebouwd zijn zien'. De gebouwen die voldoen aan de gestelde filters lichten op. Deze video laat zien hoe het werkt.</p>
+            <p class="w-75 r-text">Met dit gereedschap kan je zelfstandig kaarten maken. Je stelt als het ware een vraag aan de kaart door een gebied te tekenen, door vragen te stellen, bijvoorbeeld: 'Laat mij alle gebouwen zien die na het jaar 2000 gebouwd zijn'. De gebouwen die voldoen aan de gestelde filters lichten op. Deze video laat zien hoe het werkt.</p>
         </div>
     </div>
 </div>
 
-<div class="row align-items-center" style="background-color: #A98112;">
-    <div class="col-lg-5 order-lg-2 py-5">
-        <div class="container-sm text-center">
-            <img src="./img/360.png" class="img-fluid" alt="360">
-        </div>
+<div class="row align-items-center" style="background-color: #D4BE87;">
+    <div class="col-lg-5 order-lg-2 p-0 m-0">
+        <img src="./img/360.png" class="h-75 w-100" alt="360">
     </div>
-    <div class="col-lg-7 order-lg-1" style="background-color: #D4BE87;">
-        <div class="container-sm p-5 m-pad">
+    <div class="col-lg-7 order-lg-1">
+        <div class="container-sm p-5">
             <h2 class="text-gold"><b>360°</b> FOTO'S</h2>
             <p class="w-75 r-text">De foto's (streetview) worden bijna overal gemaakt door de auto's van Cyclomedia. Toch kunnen deze auto's niet op alle plekken komen. Daarom zit er in de GIS Viewer van COOK een 360° view. Plekken waar weinig mensen komen, geen wegen lopen of niet bereikbaar zijn. Voor onze klanten is het mogelijk om de beelden zelf aan COOK toe te voegen of te laten maken door GISArts. Bekijk de video om te zien hoe het werkt.</p>
         </div>
     </div>
 </div>
 
-<div class="row align-items-center mb-5 logo-background">
-    <div class="col-lg-5 py-5" style="background-color: rgba(0,0,0,0.2);">
-        <div class="container-sm text-center">
-            <img src="./img/brug.png" class="img-fluid" alt="brug">
-        </div>
+<div class="row align-items-center logo-background">
+    <div class="col-lg-5 p-0 m-0" style="background-color: rgba(0,0,0,0.2);">
+        <img src="./img/brug.png" class="h-100 w-100" alt="brug">
     </div>
     <div class="col-lg-7">
         <div class="container-sm p-5">
@@ -135,3 +127,20 @@
         </div>
     </div>
 </div>
+
+<div class="row align-items-center mb-5" style="background-color: #D4BE87;">
+    <div class="col-lg-5 order-lg-2 p-0 m-0">
+        <img src="./img/dashboard.png" class="h-75 w-100" alt="360">
+    </div>
+    <div class="col-lg-7 order-lg-1">
+        <div class="container-sm p-5">
+            <h2 class="text-gold"><b>DASHBOARDS</b> RAPPORTAGES</h2>
+            <p class="w-75 r-text">
+                De GIS viewer van COOK kan de applicatiebeheerder zelfstandig dashboards maken. De data uit het datawarenhuis wordt live weergegeven. Vanuit deze data kan COOK dashboards vaardigen die Geo gerelateerde antwoorden kan weergeven van bijvoorbeeld een overlap van twee verschillende geometrie. ''Welke bomen worden onderhouden die niet op eigendom van de gemeente groeien.'' Het is mogelijk geometrische vergelijking snel en eenvoudig in verschillende dashboards weer te geven. <br>
+                De mogelijkheden zijn legio. Andere voorbeelden zijn het opstellen binnen een gebied, aantallen, jaartallen, soorten segmenten etc. Door te kiezen uit een lijn-, staaf-, cirkel beelddiagram of tabel kunnen de eindgebruikers het dashboard zelfstandig naar de stijl aanpassen die zij fijn vinden. 
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="spacer" style="margin-bottom: 150px"></div>

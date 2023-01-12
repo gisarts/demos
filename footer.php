@@ -58,7 +58,7 @@
                     </div>
                     <div class="col">
                         <hr>
-                        <p>© 2022 <b>CO</b>OK onderdeel van <a href="https://www.gisarts.nl" target="_Blank">Gisarts.nl</a> | Alle rechten voorbehouden. </p>
+                        <p>© <?php echo date("Y"); ?> <b>CO</b>OK onderdeel van <a href="https://www.gisarts.nl" target="_Blank">Gisarts.nl</a> | Alle rechten voorbehouden. </p>
                     </div>
                 </div>
             </div>

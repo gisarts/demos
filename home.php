@@ -170,7 +170,7 @@ if(isset($_POST['submit'])){
             </div>
             <div class="row text-center">
                 <div class="col-lg-4 offset-lg-4">
-                    <a href="?page=functionaliteiten" class="btn btn-info re-btn rounded-pill p-4" style="font-weight: 500;">ALLE FUNCTIONALITEITEN</a>
+                    <a href="?page=functies" class="btn btn-info re-btn rounded-pill p-4" style="font-weight: 500;">ALLE FUNCTIONALITEITEN</a>
                 </div>
             </div>
         </div>

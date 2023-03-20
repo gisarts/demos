@@ -1,48 +1,6 @@
 <?php
 //Load Composer's autoloader
 require 'vendor/autoload.php';
-
-//Import PHPMailer classes into the global namespace
-//These must be at the top of your script, not inside a function
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
-use PHPMailer\PHPMailer\Exception;
-
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
-$dotenv->safeLoad();
-
-//Create an instance; passing `true` enables exceptions
-$mail = new PHPMailer(true);
-
-if(isset($_POST['submit'])){
-    try {
-        //Server settings
-        $mail->isSMTP();                                           //Send using SMTP
-        $mail->SMTPAuth   = true;                                  //Enable SMTP authentication
-        $mail->Host       = $_ENV['MAIL_HOST'];                    //Set the SMTP server to send through
-        $mail->Port       = $_ENV['MAIL_PORT'];                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS
-        $mail->Username   = $_ENV['MAIL_USERNAME'];                //SMTP username
-        $mail->Password   = $_ENV['MAIL_PASSWORD'];                //SMTP password
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;        //Enable implicit TLS encryption
-
-        //Recipients
-        $mail->setFrom('no-reply@gisarts.nl', 'Cook Demo');
-        $mail->addAddress('info@gisarts.nl');                //Name is optional
-
-        //Content
-        $mail->Subject = 'Bericht vanuit demo formulier van '. $_POST['name'];
-        $mail->Body    = "Bericht van: ".$_POST["name"]."<".$_POST["email"].">(".$_POST['number'].")"."\r\n" . $_POST["message"];
-
-        if(!empty($_POST['firstname'])){
-            return;
-        }else{
-            $mail->send();
-            echo "<div class='alert alert-success alert-dismissible fade show' role='alert'>Je bericht is verstuurd<button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button></div>";
-        }
-    } catch (Exception $e) {
-        echo "<div class='alert alert-danger alert-dismissible fade show' role='alert'>Je bericht kon niet verstuurd worden. Probeer het later opnieuw of neem direct contact met ons op.<button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button></div>";
-    }
-}
 ?>
 
 <div class="row justify-content-center text-center header-background">
@@ -119,7 +77,7 @@ if(isset($_POST['submit'])){
                 <p class="my-4 text-gold">
                     Voeg zelfstandig gebruikers toe en wijzig rechten. Monitor wat gebruikers doen
                 </p>
-                <a href="?page=applicatiebeheer" class="btn btn-lg btn-secondary rounded-pill my-2 r-btn w-100">BEKIJKEN</a>
+                <a href="?page=functies" class="btn btn-lg btn-secondary rounded-pill my-2 r-btn w-100">BEKIJKEN</a>
             </div>
         </div>
     </div>
@@ -170,7 +128,7 @@ if(isset($_POST['submit'])){
             </div>
             <div class="row text-center">
                 <div class="col-lg-4 offset-lg-4">
-                    <a href="?page=functies" class="btn btn-info re-btn rounded-pill p-4" style="font-weight: 500;">ALLE FUNCTIONALITEITEN</a>
+                    <a href="?page=functionaliteiten" class="btn btn-info re-btn rounded-pill p-4" style="font-weight: 500;">ALLE FUNCTIONALITEITEN</a>
                 </div>
             </div>
         </div>
@@ -227,40 +185,40 @@ if(isset($_POST['submit'])){
     </div>
 </div>
 
-<div class="gold-bg mb-5">
+<!-- <div class="gold-bg mb-5">
     <div class="container-sm text-start">
-        <div class="row py-5">
-            <div class="col-xl-8 py-3">
-                <h2 class="text-white"><b>MEER</b> WETEN?</h2>
-                <p class="text-white">Voor vragen kunt u ons altijd een bericht sturen via het formulier hieronder.</p>
-                <form name="form" method="POST" action="" enctype="multipart/form-data">
-                    <input name="firstname" type="text" id="firstname" class="hide-robot">
-                    <div class="mb-3">
-                        <input type="text" class="form-control" placeholder="Naam*" name="name" required>
-                    </div>
-                    <div class="mb-3">
-                        <input type="email" class="form-control" placeholder="Email*" name="email" required>
-                    </div>
-                    <div class="mb-3">
-                        <input type="text" class="form-control" placeholder="Telefoonnummer" name="number">
-                    </div>
-                    <div class="mb-3">
-                        <textarea class="form-control" placeholder="Bericht*" rows="3" name="message" required></textarea>
-                    </div>
-                    <div class="mb-3">
-                        <p class="success"> <?php //echo $success;  ?></p>
-                        <p class="failed"> <?php //echo $failed;  ?></p>
-                    </div>
-                    <button type="submit" name="submit" class="btn btn-info re-btn btn-lg w-25">Versturen</button>
-                </form>
+        <div class="row py-5 text-white">
+            <h2 class="text-white">Contact</h2>
+            <div class="col-sm-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-envelope inv" viewBox="0 0 16 16">
+                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                </svg>
+            </div>
+            <div class="col-sm-8">
+                <p><a href="mailto:info@gisarts.nl" target="_Blank">info@gisarts.nl</a></p>
+            </div>
+            <div class="col-sm-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-telephone inv" viewBox="0 0 16 16">
+                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                </svg>
+            </div>
+            <div class="col-sm-8">
+                <p><a href="tel:+0485 763601" target="_Blank">0485 - 763601</a></p>
+            </div>
+            <div class="col-sm-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-geo-alt inv" viewBox="0 0 16 16">
+                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                </svg>
+            </div>
+            <div class="col-sm-8">
+                <p><a href="https://goo.gl/maps/N6KkoTtjPo3DZ9eN8" target="_Blank">Zandkant 11, Sint Anthonis<br>Nederland 5845 EV</a></p>
             </div>
         </div>
     </div>
-</div>
-
-<div class="spacer" style="margin-bottom: 150px"></div>
-
-<!-- <div class="logo-small-background">
+</div> -->
+<!-- 
+<div class="logo-small-background">
     <div class="container-sm">
         <div class="row py-5">
             <div class="col-xl-3 p-0">

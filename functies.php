@@ -56,9 +56,9 @@
                 <div class="card mb-5 rounded-4 f-card">
                     <div class="card-body">
                         <img src="./img/functie5.png" alt="">
-                        <h4 class="text-gold"><b>ROUTE</b> PLANNING</h4>
+                        <h4 class="text-gold"><b>DATA</b> EXPORTEREN</h4>
                         <p class="fs-6 text-gold">
-                            De GIS Viewer van COOK bevat een routeplanner. Handig om digitale codes die in het veld aangebracht zijn terug te vinden. Of gewoon de route op te vragen.
+                        Met behulp van de GIS Viewer kun je elke dataset selecteren en exporteren naar verschillende formaten voor je eigen gebruik, zoals Shape, GML, MITAB en nog veel meer.
                         </p>
                     </div>
                 </div>

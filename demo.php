@@ -28,6 +28,24 @@
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" >
             <div class="col">
                 <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/3d.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#55595c" />
+                    </img>
+
+                    <div class="card-body">
+                        <p class="card-text">3D Demo</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button onclick="window.open('https://demo.gisarts.nl/cook/3d/three-dimensional')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
+                            </div>
+                            <small class="text-muted">3D BAG</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm">
                     <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/data-export.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <rect width="100%" height="100%" fill="#55595c" />
                     </img>
@@ -38,12 +56,11 @@
                             <div class="btn-group">
                                 <button onclick="window.open('https://demo.gisarts.nl/cook/fme')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
                             </div>
-                            <small class="text-muted">Met behulp van FME Flow data exporteren naar elk gewenst formaat</small>
+                            <small class="text-muted">FME Flow</small>
                         </div>
                     </div>
                 </div>
             </div>
-
 
             <div class="col">
                 <div class="card shadow-sm">

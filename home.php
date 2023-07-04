@@ -141,7 +141,7 @@ require 'vendor/autoload.php';
             <h2 class="align-center mb-3">ONTDEK MEER <b>TOOLS</b></h2>
             <p class="text-light-gold w-75 fs-3">
                 <b>CO</b>OK is makkelijk in gebruik dankzij de moderne look & feel. 
-                Beheer de omgeving naar eigen naar eigen ideeën.
+                Beheer de omgeving naar eigen ideeën.
             </p>
         </div>
         <div class="col-xl-4 offset-xl-1">

@@ -58,9 +58,9 @@ $page = $_GET['page'];
                             <li class="nav-item">
                                 <a class="nav-link <?php if($page == "applicatiebeheer") { echo "active";} ?>" href="?page=applicatiebeheer">Applicatiebeheer</a>
                             </li>
-                            <li class="nav-item">
+                            <!-- <li class="nav-item">
                                 <a class="nav-link" style="cursor: pointer;" onclick="window.scrollTo(0, document.body.scrollHeight);">Contact</a>
-                            </li>
+                            </li> -->
                         </ul>
                     </div>
                 </div>

@@ -10,7 +10,7 @@
                         <img src="./img/functie2.png" alt="">
                         <h4 class="text-gold"><b>FILTEREN</b> OP VRAAG</h4>
                         <p class="fs-6 text-gold">
-                            De COOK Gis Viewer bevat enorm veel informatie. Met de functie is het mogelijk om informatie te filteren. Vink de filters makkelijk uit/aan. 
+                            De COOK Gis Viewer bevat enorm veel informatie. Met het kaart beheer is het mogelijk om informatie te filteren. Vink de filters makkelijk uit/aan. 
                         </p>
                     </div>
                 </div>

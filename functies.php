@@ -80,7 +80,7 @@
     </div>
 </div>
 
-<div class="row align-items-center" style="background-color: #D4BE87;">
+<!-- <div class="row align-items-center" style="background-color: #D4BE87;">
     <div class="col-lg-5 order-lg-2 m-0 p-0">
         <img src="./img/tijdreizen.png" class="h-100 w-100" alt="tijdreizen">
     </div>
@@ -88,6 +88,19 @@
         <div class="container-sm p-5">
             <h2 class="text-gold"><b>TIJDREIZEN</b> MET COOK</h2>
             <p class="w-75 r-text">Wij zijn bij GISArts verzot op kaarten, zo is het mogelijk om bij ons te tijdreizen. De ontwikkeling van de historische Topografische Militaire kaart van 1850 of de bonnenbladen van 1900 en dat gecombineerd met de moderne techniek van nu. Prachtig om historie te combineren met eigen data. Dit is allemaal mogelijk in de Geo Viewer van COOK. U kunt de historie en het verloop volgen van ieder interessant gebied. Enorm handig voor Bosbeheer, enorm interessant voor iedereen. Probeer het zelf eens uit in <a href="?page=demo" class="text-black">de demo!</a></p>
+        </div>
+    </div>
+</div> -->
+
+<div class="row align-items-center" style="background-color: #D4BE87;">
+    <div class="col-lg-5 order-lg-2 m-0 p-0">
+        <img src="./img/azure_sso.png" class="h-100 w-100" alt="tijdreizen">
+    </div>
+    <div class="col-lg-7 order-lg-1">
+        <div class="container-sm p-5">
+            <h2 class="text-gold"><b>ACTIVE DIRECTORY</h2>
+            <p class="w-75 r-text">
+Om naadloos aan te sluiten op organisaties biedt Cook een integratie met verschillende autorisatiesystemen, waarvan Azure Active Directory de belangrijkste is. Dankzij deze integratie hoeven gebruikers niet opnieuw in te loggen wanneer ze al zijn ingelogd bij hun organisatie.</p>
         </div>
     </div>
 </div>

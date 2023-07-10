@@ -36,7 +36,7 @@
                         <p class="card-text">Wandel 4-daagse</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <button onclick="window.open('https://demo.gisarts.nl/cook/vierdaagse)" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
+                                <button onclick="window.open('https://demo.gisarts.nl/cook/vierdaagse')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
                             </div>
                             <!-- <small class="text-muted">3D BAG</small> -->
                         </div>

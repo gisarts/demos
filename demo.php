@@ -28,6 +28,23 @@
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" >
             <div class="col">
                 <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/milleu.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#55595c" />
+                    </img>
+
+                    <div class="card-body">
+                        <p class="card-text">Milleu & Energie</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button onclick="window.open('https://demo.gisarts.nl/cook/energietransitie')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
+                            </div>
+                            <small class="text-muted">RIVM, oplaadpalen.nl</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
                     <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/vierdaagse.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <rect width="100%" height="100%" fill="#55595c" />
                     </img>

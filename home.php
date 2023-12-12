@@ -33,7 +33,7 @@ require 'vendor/autoload.php';
             <div class="col-xl-4 text-start">
                 <h2>Wat is <b>CO</b>OK?</h2>
                 <p class="my-4 text-light-gold fs-3">
-                    De GIS Viewer van <b>CO</b>OK is snelste van Nederland. Naast snel, zijn onze viewers veilig, compleet en gepersonaliseerd 
+                    De GIS Viewer van <b>CO</b>OK is de snelste van Nederland. Naast snel, zijn onze viewers veilig, compleet en gepersonaliseerd 
                 </p>
                 <p class="mt-4 text-light-gold fs-3">
                     <b>CO</b>OK werkt op basis van open source voor Geo-registratie en publicatie. Dat geeft een sterke fundering voor het raadplegen van informatiesystemen uit verschillende stromen

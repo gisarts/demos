@@ -3,7 +3,7 @@
 require 'vendor/autoload.php';
 ?>
 
-<div class="row justify-content-center text-center header-background">
+<div class="row justify-content-center text-center header-section">
     <div class="col-xxl-4 r-padding text-center">
         <h1><b>Complete Veilige Gepersonaliseerde GIS-Viewer</b></h1>
         <div class="spacer mt-5"></div>
@@ -11,7 +11,7 @@ require 'vendor/autoload.php';
     </div>
     <div class="row justify-content-center">
         <div class="col-xxl-2 r-padding">
-            <a href="?page=demo" class="btn btn-lg btn-primary rounded-pill my-2 r-btn w-100">FREE DEMO</a>
+            <a href="?page=demo" class="btn btn-lg btn-primary rounded-pill my-2 r-btn w-25">FREE DEMO</a>
         </div>
     </div>
     <div class="row justify-content-center">

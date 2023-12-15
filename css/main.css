@@ -57,12 +57,21 @@ a:hover {
 
 /* Header */
 
-.header-background {
-    background: url('../img/header.webp') bottom / cover no-repeat;
-    padding-top: 3em;
-    padding-bottom: 3em;
-}
 
+.header-section {
+    padding-top: 100px;
+    position: relative;
+    z-index: 1;
+    width: 150%;
+    background-color: rgb(161, 117, 18, 0.9);
+    color: white;
+    transform: translateX(-18%);
+    border-bottom-left-radius: 50%;  /* Ronde linkeronderhoek */
+    border-bottom-right-radius: 50%;
+}
+.header-section div {
+    width: 75%;
+}
 .nav-link {
     font-weight: 300;
     font-style: normal;
@@ -232,7 +241,7 @@ a:hover {
 
 .footer {
     color: white;
-    background-image: url('../img/footer.webp');
+    background-image: url('../img/footer.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;

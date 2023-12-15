@@ -1,5 +1,5 @@
 <div class="row text-center">
-    <div class="row justify-content-center header-background">
+    <div class="row justify-content-center header-section">
         <div class="col-xxl-3 r-padding">
             <h1><b>Probeer de GIS Viewer van CO</b>OK</h1>
             <div class="spacer mt-5"></div>

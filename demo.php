@@ -1,24 +1,22 @@
-<div class="row text-center">
-    <div class="row justify-content-center header-section">
-        <div class="col-xxl-3 r-padding">
-            <h1><b>Probeer de GIS Viewer van CO</b>OK</h1>
-            <div class="spacer mt-5"></div>
-            <h4><b>CO</b>OK. YOU NAME IT, <b>WE SERVE IT!</b></h4>
+<div class="row justify-content-center text-center header-section">
+<div class="col-xxl-4 r-padding text-center">
+        <h1><b>Probeer de GIS Viewer van CO</b>OK</h1>
+        <div class="spacer mt-5"></div>
+        <h4><b>CO</b>OK. YOU NAME IT, <b>WE SERVE IT!</b></h4>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-xxl-2 r-padding">
+            <a href="https://www.gisarts.nl/" target="_blank" class="btn btn-lg btn-primary rounded-pill my-2 r-btn w-25">BEZOEK SITE</a>
         </div>
-        <div class="row justify-content-center">
-            <div class="col-xxl-2 r-padding">
-                <a href="https://www.gisarts.nl/" target="_blank" class="btn btn-lg btn-primary rounded-pill my-2 r-btn w-100">BEZOEK SITE</a>
-            </div>
-            <div class="col-xxl-2 r-padding">
-                <a onclick="window.scrollTo(0, document.body.scrollHeight);" class="btn btn-lg btn-primary rounded-pill r-btn my-2 w-100">CONTACT</a>
-            </div>
+        <div class="col-xxl-2 r-padding">
+            <a onclick="window.scrollTo(0, document.body.scrollHeight);" class="btn btn-lg btn-primary rounded-pill r-btn my-2 w-25">CONTACT</a>
         </div>
-        <div class="row justify-content-center">
-            <div class="col-xxl-2 r-padding">
-                <a onclick="window.scrollTo(0, 800);" class="text-decoration-none" style="cursor: pointer;">
-                    <p style="font-size: 50px"><b class="icon-animation">↓</b></p>
-                </a>
-            </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-xxl-2 r-padding">
+            <a onclick="window.scrollTo(0, 800);" class="text-decoration-none  w-25" style="cursor: pointer;">
+                <p style="font-size: 50px"><b class="icon-animation">↓</b></p>
+            </a>
         </div>
     </div>
 </div>

@@ -60,6 +60,7 @@
                     <div class="col">
                         <hr>
                         <p>© <?php echo date("Y"); ?> <b>CO</b>OK onderdeel van <a href="https://www.gisarts.nl" target="_Blank">Gisarts.nl</a> | Alle rechten voorbehouden. </p>
+                        <img src="/img/iso-dekra.png" class="iso">
                     </div>
                 </div>
             </div>

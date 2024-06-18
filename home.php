@@ -5,13 +5,13 @@ require 'vendor/autoload.php';
 
 <div class="row justify-content-center text-center header-section">
     <div class="col-xxl-4 r-padding text-center">
-        <h1><b>Complete Veilige Gepersonaliseerde GIS-Viewer</b></h1>
+        <h1><b>Meer dan een GIS-Viewer</b></h1>
         <div class="spacer mt-5"></div>
         <h4><b>CO</b>OK. YOU NAME IT, <b>WE SERVE IT!</b></h4>
     </div>
     <div class="row justify-content-center">
         <div class="col-xxl-2 r-padding">
-            <a href="?page=demo" class="btn btn-lg btn-primary rounded-pill my-2 r-btn w-25">FREE DEMO</a>
+            <a href="?page=demo" class="btn btn-lg btn-primary rounded-pill my-2 r-btn w-25">Bekijk het nu!</a>
         </div>
     </div>
     <div class="row justify-content-center">

@@ -23,7 +23,10 @@
 
 <div class="album my-5">
     <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" >
+        <div class="row justify-content-center d-flex" style="height: 34vh;">
+            <iframe src="https://demo.gisarts.nl/cook/wandelroutes" class="col-6 card" style="padding: calc(var(--bs-gutter-x)* .5);"></iframe>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mt-3">
             <div class="col">
                 <div class="card shadow-sm">
                     <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/carnaval.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">

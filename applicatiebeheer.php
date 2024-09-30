@@ -1,35 +1,41 @@
 <div class="album py-5 mb-5" style="background-color: #EBE1C9;"> 
     <div class="container-sm">
         <h1 class="text-gold text-center">Applicatiebeheer <b>CO</b>OK</h1>
-        <p class="text-gold text-center py-3">Richt de applicatie zelf in met het bepalen van functies</p>
+        <p class="text-gold text-center py-3">Configureer de applicatie naar eigen wens en bepaal de functionaliteiten</p>
         <div class="row">
             <div class="col-lg-7 py-5">
-                <img src="./img/app3.png" class="img-fluid" alt="app1">
+                <img src="./img/app3.png" class="img-fluid" alt="applicatiebeheer afbeelding 1">
             </div>
             <div class="col-lg align-self-center">
                 <h4 class="text-gold m-0">Publieke Informatie</h4>
-                <h2>Volledig beheer middels COOK</h2>
-                <p class="w-75 r-text">Voor zowel intern als extern beheert u volledig de portalen. Tot in de kleinste details kan het naar wens worden aangepast, met als doel de informatie zo effectief mogelijk over te brengen naar de eindgebruiker. Met slechts één klik op de knop kunt u de configuratie publiceren naar de burger, op voorwaarde dat alle AVG-datacontroles in orde zijn.</p>
+                <h2>Volledig beheer met <b>CO</b>OK</h2>
+                <p class="w-75 r-text">
+                    Beheer zowel interne als externe portalen volledig zelf. De portalen zijn aanpasbaar tot in de kleinste details, zodat u de informatie zo effectief mogelijk kunt communiceren naar de eindgebruiker. Met één druk op de knop kunt u de configuratie publiceren voor publieke toegang, mits alle AVG-controles zijn uitgevoerd en in orde bevonden.
+                </p>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-7 order-lg-2 py-5">
-                <img src="./img/app1.png" class="img-fluid" alt="app1">
+                <img src="./img/app1.png" class="img-fluid" alt="applicatiebeheer afbeelding 2">
             </div>
             <div class="col-lg-5 order-lg-1 align-self-center">
                 <h4 class="text-gold m-0">USERGEBONDEN</h4>
-                <h2>Voeg zelfstandig gebruikers toe met <b>CO</b>OK</h2>
-                <p class="w-75 r-text">Als applicatiebeheerder is het mogelijk om zelfstandig gebruikers toe te voegen. Aan deze gebruikers kunnen functionaliteiten worden toegewezen zodat iedereen over zijn eigen informatie beschikt. Alles voldoet volledig aan de AVG richtlijnen. Daarnaast is het mogelijk om inzicht te krijgen in wat de gebruikers doen. Hoe vaak en wanneer iemand ingelogd heeft, wie de GIS Viewer gebruikt en hoe ze deze gebruiken. Zo kan er altijd gemonitord worden of de user voldoende gebruik maakt van de COOK zodat er nooit teveel betaald wordt.</p>
+                <h2>Voeg gebruikers zelfstandig toe met <b>CO</b>OK</h2>
+                <p class="w-75 r-text">
+                    Als applicatiebeheerder kunt u zelfstandig gebruikers toevoegen en hen specifieke functionaliteiten toewijzen, zodat iedereen toegang heeft tot de informatie die voor hen relevant is. Deze configuratie voldoet volledig aan de AVG-richtlijnen. Bovendien kunt u inzicht krijgen in het gebruik van de applicatie: hoe vaak en wanneer gebruikers inloggen, wie de GIS Viewer gebruikt en hoe deze wordt gebruikt. Zo kunt u monitoren of er optimaal gebruik wordt gemaakt van de COOK GIS Viewer en voorkomt u onnodige kosten.
+                </p>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-7 py-5">
-                <img src="./img/app2.png" class="img-fluid" alt="app1">
+                <img src="./img/app2.png" class="img-fluid" alt="applicatiebeheer afbeelding 3">
             </div>
             <div class="col-lg align-self-center">
-                <h4 class="text-gold m-0">Kaart beheer</h4>
-                <h2>Voeg zelfstandig alle OGC kaarten toe</h2>
-                <p class="w-75 r-text">In Nederland zijn er talloze databronnen die op verschillende manieren weergegeven moeten worden. Onze applicatie streeft ernaar om zoveel mogelijk van deze bronnen beschikbaar te maken. Met behulp van ons kaartbeheer kunt u alle bronnen beheren en koppelen aan de gewenste gebruikers.</p>
+                <h4 class="text-gold m-0">Kaartbeheer</h4>
+                <h2>Beheer zelfstandig alle OGC-kaarten</h2>
+                <p class="w-75 r-text">
+                    Nederland kent tal van databronnen die op verschillende manieren moeten worden weergegeven. Met de COOK applicatie kunt u deze bronnen eenvoudig toegankelijk maken en beheren. Dankzij het kaartbeheersysteem kunt u alle relevante bronnen koppelen aan de juiste gebruikers, zodat de informatie altijd goed georganiseerd en beschikbaar is.
+                </p>
             </div>
         </div>
     </div>

@@ -70,12 +70,12 @@ require 'vendor/autoload.php';
         </div>
     </div>
     <div class="col-xl-4 py-5" style="background-color: #D4BE87;">
-        <img src="./img/icon3.png" alt="icon 3">
-        <h3><b>USER</b> MANAGEMENT</h3>
+        <img src="./img/icon4.png" style="height: 168px;" alt="icon 3">
+        <h3>Extract <b>Transform</b> Load </h3>
         <div class="row justify-content-md-center">
             <div class="col-xl-7 self-align-center">
                 <p class="my-4 text-gold">
-                    Beheer gebruikers en hun rechten eenvoudig zelf. Monitor de activiteiten van uw gebruikers.
+                    Publiceer je kaarten rechtstreeks van een shape of excel naar een online WMS kaart.
                 </p>
                 <a href="?page=functies" class="btn btn-lg btn-secondary rounded-pill my-2 r-btn w-100">BEKIJKEN</a>
             </div>

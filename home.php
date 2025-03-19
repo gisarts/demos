@@ -7,7 +7,7 @@ require 'vendor/autoload.php';
     <div class="col-xxl-4 r-padding text-center">
         <h1><b>Meer dan een GIS-Viewer</b></h1>
         <div class="spacer mt-5"></div>
-        <h4><b>CO</b>OK: YOU NAME IT, <b>WE SERVE IT!</b></h4>
+        <h4>Cook: You name it, We serve it!</h4>
     </div>
     <div class="row justify-content-center">
         <div class="col-xxl-2 r-padding">
@@ -31,12 +31,12 @@ require 'vendor/autoload.php';
             </div>
             <div class="mobile-spacer"></div>
             <div class="col-xl-4 text-start">
-                <h2>Wat is <b>CO</b>OK?</h2>
-                <p class="my-4 text-light-gold fs-3">
-                    De GIS Viewer van <b>CO</b>OK is de snelste in Nederland. Naast snelheid bieden onze viewers veiligheid, volledigheid en een op maat gemaakte ervaring.
+                <h2>Wat is Cook?</h2>
+                <p class="my-4 fs-4">
+                    De GIS-Viewer maakt het eenvoudig om geografische data te raadplegen, registreren en te analyseren. 
                 </p>
-                <p class="mt-4 text-light-gold fs-3">
-                    <b>CO</b>OK is gebouwd op een open source basis voor geo-registratie en publicatie, waardoor het een solide platform biedt voor het raadplegen van informatie uit diverse bronnen.
+                <p class="mt-4 fs-4">
+                Daarnaast kan Cook elk bestandstype inladen, waardoor het op elke organisatie aangesloten kan worden.
                 </p>
             </div>
         </div>
@@ -50,7 +50,7 @@ require 'vendor/autoload.php';
         <h3><b>OVERAL</b> INZETBAAR</h3>
         <div class="row justify-content-md-center">
             <div class="col-xl-7 self-align-center">
-                <p class="my-4 text-gold">
+                <p class="my-4">
                     Plan werkzaamheden op de kaart en meld bijzonderheden direct vanuit het veld.
                 </p>
                 <a href="?page=functies" class="btn btn-lg btn-secondary rounded-pill my-2 r-btn w-100">BEKIJKEN</a>
@@ -62,7 +62,7 @@ require 'vendor/autoload.php';
         <h3><b>APPLICATIE</b>BEHEER</h3>
         <div class="row justify-content-md-center">
             <div class="col-xl-7 self-align-center">
-                <p class="my-4 text-gold">
+                <p class="my-4">
                     Beheer de applicatie eenvoudig zelf en pas de look & feel aan naar eigen wens.
                 </p>
                 <a href="?page=applicatiebeheer" class="btn btn-lg btn-secondary rounded-pill my-2 r-btn w-100">BEKIJKEN</a>
@@ -74,7 +74,7 @@ require 'vendor/autoload.php';
         <h3>Extract <b>Transform</b> Load </h3>
         <div class="row justify-content-md-center">
             <div class="col-xl-7 self-align-center">
-                <p class="my-4 text-gold">
+                <p class="my-4>
                     Publiceer je kaarten rechtstreeks van een shape of excel naar een online WMS kaart.
                 </p>
                 <a href="?page=functies" class="btn btn-lg btn-secondary rounded-pill my-2 r-btn w-100">BEKIJKEN</a>
@@ -93,7 +93,7 @@ require 'vendor/autoload.php';
                     <div class="card-body">
                         <div class="row">
                             <div class="col-lg-10 offset-lg-1">
-                                <h4><b>ON</b>LINE & <b>OFF</b>LINE</h4>
+                                <h4><b>Online & Offline</b></h4>
                                 <p class="text-white fs-5 p-3">Gebruik de applicatie zowel online als offline in het veld. Beschikbaar op elk apparaat.</p>
                             </div>
                         </div>
@@ -106,7 +106,7 @@ require 'vendor/autoload.php';
                     <div class="card-body">
                         <div class="row">
                             <div class="col-lg-10 offset-lg-1">
-                                <h4>ZELF <b>TEKENEN</b></h4>
+                                <h4><b>Registratie</b></h4>
                                 <p class="text-white fs-5 p-3">Teken zelf en maak meldingen voor collega's. Analyseer data met behulp van de meest actuele GIS-gebaseerde kaart.</p>
                             </div>
                         </div>
@@ -119,7 +119,7 @@ require 'vendor/autoload.php';
                     <div class="card-body rounded-3">
                         <div class="row">
                             <div class="col-lg-10 offset-lg-1">
-                                <h4><b>RASTER</b>BEELDEN</h4>
+                                <h4><b>Rasterbeelden</b></h4>
                                 <p class="text-white fs-5 p-3">Voeg verschillende rasterbeelden toe, van 360° foto's en actuele luchtfoto's tot 3D-beelden. Alles overzichtelijk op één plek.</p>
                             </div>
                         </div>
@@ -139,15 +139,15 @@ require 'vendor/autoload.php';
     <div class="row py-5 align-items-center">
         <div class="col-xl-5 offset-xl-1">
             <h2 class="align-center mb-3">ONTDEK MEER <b>TOOLS</b></h2>
-            <p class="text-light-gold w-75 fs-3">
-                <b>CO</b>OK is eenvoudig in gebruik dankzij de moderne interface. Beheer de omgeving geheel naar uw eigen inzichten.
+            <p class="w-75 fs-4">
+                Cook is eenvoudig in gebruik dankzij de moderne interface. Beheer de omgeving geheel naar uw eigen inzichten.
             </p>
         </div>
         <div class="col-xl-4 offset-xl-1">
             <div class="card mb-5 rounded-4">
                 <div class="card-body">
                     <img src="./img/bestanden.png" alt="">
-                    <h4 class="text-gold"><b>BESTANDEN</b> IMPORT & EXPORT</h4>
+                    <h4 class="fs-3">Import & Export</h4>
                     <div class="row">
                         <div class="col">
                             <p class="fs-6 mb-0">
@@ -165,7 +165,7 @@ require 'vendor/autoload.php';
             <div class="card rounded-4">
                 <div class="card-body">
                     <img src="./img/dashboards.png" alt="">
-                    <h4 class="text-gold">DASHBOARDS <b>& RAPPORTAGES</b></h4>
+                    <h4 class="fs-3">Dashboards & Rapportages</h4>
                     <div class="row">
                         <div class="col-6">
                             <p class="fs-6 mb-0">

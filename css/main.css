@@ -21,20 +21,20 @@ h2 {
     font-style: normal;
     font-size: 40px;
     line-height: 50px;
-    color: rgb(161, 117, 18);
+    color: #333333;
 }
 
 h3 {
     font-style: normal;
     font-size: 28px;
     line-height: 63px;
-    color: rgb(161, 117, 18);
+    color: #333333;
 }
 
 h4 {
     font-size: 25px;
     line-height: 30px;
-    color: white;
+    color: #333333;
     font-weight: 300;
 }
 

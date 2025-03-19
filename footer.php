@@ -19,7 +19,7 @@
                         <div class="col-md-4">
                             <h3 class="text-white">Over ons</h3>
                             <p>
-                                De COOK GIS Viewer is de snelste van Nederland en daar zijn we trots op. Naast snel, zijn onze viewers veilig, compleet en gepersonaliseerd.
+                                De Cook GIS Viewer is de snelste van Nederland en daar zijn we trots op. Naast snel, zijn onze viewers veilig, compleet en gepersonaliseerd.
                             </p>
                         </div>
                         <div class="col-md-4 .r-logo">
@@ -73,7 +73,7 @@
                     </div>
                     <div class="col">
                         <hr>
-                        <p>© <?php echo date("Y"); ?> <b>CO</b>OK onderdeel van <a href="https://www.gisarts.nl" target="_Blank">Gisarts.nl</a> | Alle rechten voorbehouden.  | <a href="algemene-voorwaarden-gisarts.pdf" target="_Blank">Algemene voorwaarden</a></p>
+                        <p>© <?php echo date("Y"); ?> Cook onderdeel van <a href="https://www.gisarts.nl" target="_Blank">Gisarts.nl</a> | Alle rechten voorbehouden.  | <a href="algemene-voorwaarden-gisarts.pdf" target="_Blank">Algemene voorwaarden</a></p>
                     </div>
                 </div>
             </div>

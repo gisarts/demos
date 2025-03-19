@@ -49,6 +49,41 @@ $page = $_GET['page'];
         // })();
         // </script>
 
+        <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Cook - GIS Viewer",
+        "url": "https://www.gisarts.nl",
+        "image": "https://cook.gisarts.nl/assets/img/thumbnail_cook1_1.png",
+        "description": "De GIS-Viewer maakt het eenvoudig om geografische data te raadplegen, registreren en analyseren.",
+        "applicationCategory": "Geographic Information System",
+        "operatingSystem": "Windows, macOS, Linux, Web",
+        "offers": {
+            "@type": "Offer",
+            "price": "Op aanvraag",
+            "priceCurrency": "EUR"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Gisarts",
+            "url": "https://www.gisarts.nl",
+            "logo": "https://demo.gisarts.nl/img/logo_cook.webp",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "0485 763 601",
+                "contactType": "customer support"
+            }
+        },
+        "review": {},
+        "softwareVersion": "Laatste versie",
+        "sameAs": [
+            "https://www.linkedin.com/company/gisarts",
+            "https://www.instagram.com/gisarts"
+        ]
+        }
+        </script>
+
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-F2BEPCCC24"></script>
         <script>
             window.dataLayer = window.dataLayer || [];

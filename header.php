@@ -32,8 +32,8 @@ $page = $_GET['page'];
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet"> 
-        <base href="https://demo.gisarts.nl/">
-        <!-- <base href="http://localhost:1234"> -->
+        <!-- <base href="https://demo.gisarts.nl/"> -->
+        <base href="http://localhost:8123">
 
         <script>
         // var _paq = window._paq = window._paq || [];

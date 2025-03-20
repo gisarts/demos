@@ -74,7 +74,7 @@ require 'vendor/autoload.php';
         <h3>Extract <b>Transform</b> Load </h3>
         <div class="row justify-content-md-center">
             <div class="col-xl-7 self-align-center">
-                <p class="my-4>
+                <p class="my-4">
                     Publiceer je kaarten rechtstreeks van een shape of excel naar een online WMS kaart.
                 </p>
                 <a href="?page=functies" class="btn btn-lg btn-secondary rounded-pill my-2 r-btn w-100">BEKIJKEN</a>

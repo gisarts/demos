@@ -1,13 +1,13 @@
 <div class="album py-5" style="background-color: #EBE1C9;">
    <div class="container-sm">
-      <h1 class="text-gold text-center">Functionaliteiten van Cook </h1>
-      <p class="text-gold text-center py-3">Wat <b>CO</b>OK biedt aan de gebruiker </p>
+      <h1 class="text-black text-center">Functionaliteiten van Cook </h1>
+      <p class="text-black text-center py-3">Wat <b>CO</b>OK biedt aan de gebruiker </p>
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
          <div class="col">
             <div class="card mb-5 rounded-4 f-card">
                <div class="card-body">
                   <img src="./img/functie2.png" alt="">
-                  <h4 class="text-gold">
+                  <h4 class="text-black">
                      <b>FILTEREN</b> OP VRAAG
                   </h4>
                   <p class="fs-6"> De Cook GIS Viewer bevat een schat aan informatie. Met het kaartbeheer kunt u eenvoudig specifieke informatie filteren. Schakel de gewenste filters in of uit met slechts een klik. </p>
@@ -18,7 +18,7 @@
             <div class="card mb-5 rounded-4 f-card">
                <div class="card-body">
                   <img src="./img/functie3.png" alt="">
-                  <h4 class="text-gold">AANPASBARE <b>LEGENDA</b>
+                  <h4 class="text-black">AANPASBARE <b>LEGENDA</b>
                   </h4>
                   <p class="fs-6"> Pas de legenda in de Cook GIS Viewer naar wens aan. Markeer favoriete locaties, filter specifieke informatie en maak gemakkelijk selecties op de kaart. </p>
                </div>
@@ -28,7 +28,7 @@
             <div class="card mb-5 rounded-4 f-card">
                <div class="card-body">
                   <img src="./img/functie4.png" alt="">
-                  <h4 class="text-gold">
+                  <h4 class="text-black">
                      <b>3D</b> WEERGAVE
                   </h4>
                   <p class="fs-6"> Bekijk topografie en gebouwen op een realistische manier. Dankzij landmeetkundige apparatuur en drones biedt het 3D-model in de GIS Viewer nauwkeurigheid tot op de centimeter. </p>
@@ -39,7 +39,7 @@
             <div class="card mb-5 rounded-4 f-card">
                <div class="card-body">
                   <img src="./img/functie1.png" alt="">
-                  <h4 class="text-gold">
+                  <h4 class="text-black">
                      <b>CAD</b> INTEGRATIE
                   </h4>
                   <p class="fs-6"> Technische CAD-tekeningen kunnen moeiteloos in Cook worden geladen. Dit is ideaal voor het raadplegen van projectgegevens of het visualiseren van een gefaseerde uitvoering op de kaart. </p>
@@ -50,7 +50,7 @@
             <div class="card mb-5 rounded-4 f-card">
                <div class="card-body">
                   <img src="./img/functie5.png" alt="">
-                  <h4 class="text-gold">
+                  <h4 class="text-black">
                      <b>DATA</b> EXPORTEREN
                   </h4>
                   <p class="fs-6"> Met de GIS Viewer kunt u elke dataset selecteren en exporteren in verschillende formaten voor persoonlijk gebruik, zoals Shapefile, GML, MITAB en meer. </p>
@@ -61,7 +61,7 @@
             <div class="card mb-5 rounded-4 f-card">
                <div class="card-body">
                   <img src="./img/functie6.png" alt="">
-                  <h4 class="text-gold">
+                  <h4 class="text-black">
                      <b>ACTUELE</b> SATELLIETBEELDEN
                   </h4>
                   <p class="fs-6"> Naast luchtfoto's worden er in de GIS Viewer van Cook ook satellietbeelden gebruikt. Deze beelden zijn van hoge resolutie en worden gemiddeld zes keer per jaar bijgewerkt. </p>

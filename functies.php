@@ -1,7 +1,7 @@
 <div class="album py-5" style="background-color: #EBE1C9;">
    <div class="container-sm">
       <h1 class="text-black text-center">Functionaliteiten van Cook </h1>
-      <p class="text-black text-center py-3">Wat <b>CO</b>OK biedt aan de gebruiker </p>
+      <p class="text-black text-center py-3">Wat Cook biedt aan de gebruiker </p>
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
          <div class="col">
             <div class="card mb-5 rounded-4 f-card">

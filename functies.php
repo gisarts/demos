@@ -71,47 +71,57 @@
       </div>
    </div>
 </div>
-<!-- <div class="row align-items-center" style="background-color: #D4BE87;">
-   <div class="col-lg-5 order-lg-2 m-0 p-0">
-      <img src="./img/azure_sso.png" class="h-100 w-100" alt="tijdreizen">
-   </div>
-   <div class="col-lg-7 order-lg-1">
-      <div class="container-sm p-5">
-         <h2 class="text-gold">
-            <b>ACTIVE DIRECTORY</b> INTEGRATIE
-         </h2>
-         <p class="w-75 r-text"> Cook biedt een naadloze integratie met verschillende autorisatiesystemen, waaronder Azure Active Directory. Hierdoor hoeven gebruikers die al zijn ingelogd bij hun organisatie zich niet opnieuw aan te melden, wat de toegang gemakkelijk en efficiënt maakt. </p>
-      </div>
-   </div>
+
+<!-- Hero section voor formulieren -->
+<!-- <div class="position-relative" style="height: 400px; overflow: hidden;">
+  <img src="./img/forms-hero.jpg" class="w-100 h-100 object-fit-cover" alt="Formulieren in Cook">
+  <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background-color: rgba(0,0,0,0.5);">
+    <div class="container text-center">
+      <h1 class="text-white fw-bold">DYNAMISCHE FORMULIEREN</h1>
+      <p class="text-white lead">De kracht van gegevensregistratie in het veld</p>
+    </div>
+  </div>
 </div> -->
+
+
+<!-- Statistieken sectie -->
+<!-- <div class="py-5" style="background-color: #D4BE87;">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-3 mb-4 mb-md-0">
+        <h2 class="display-4 fw-bold">70%</h2>
+        <p class="lead">Snellere registratie</p>
+      </div>
+      <div class="col-md-3 mb-4 mb-md-0">
+        <h2 class="display-4 fw-bold">45%</h2>
+        <p class="lead">Hogere nauwkeurigheid</p>
+      </div>
+      <div class="col-md-3 mb-4 mb-md-0">
+        <h2 class="display-4 fw-bold">85%</h2>
+        <p class="lead">Gebruikerstevredenheid</p>
+      </div>
+      <div class="col-md-3">
+        <h2 class="display-4 fw-bold">60%</h2>
+        <p class="lead">Snellere afhandeling</p>
+      </div>
+    </div>
+  </div>
+</div> -->
+
 <div class="row align-items-center logo-background">
    <div class="col-lg-5 p-0 m-0" style="background-color: rgba(0,0,0,0.2);">
       <img src="./img/query.png" class="h-75 w-100" alt="query">
    </div>
    <div class="col-lg-7">
       <div class="container-sm p-5">
-         <h2 class="text-gold">FUNCTIES VAN DE <b>QUERYBUILDER</b>
+         <h2 class="">FUNCTIES VAN DE <b>QUERYBUILDER</b>
          </h2>
          <p class="w-75 r-text"> Met de Querybuilder kunt u zelfstandig kaarten creëren door specifieke vragen te stellen.
            Teken een gebied en stel bijvoorbeeld de vraag: "Toon alle gebouwen die na het jaar 2000 zijn gebouwd.
-          " De GIS Viewer markeert de relevante gebouwen die aan deze voorwaarden voldoen.</p>
+          " De GIS Viewer selecteert de relevante en exporteert deze naar elk gewenst formaat.</p>
       </div>
    </div>
 </div>
-<!-- <div class="container-sm">
-   <div class="row">
-      <div class="col-lg-7 order-lg-2 py-5">
-         <img src="./img/app1.png" class="img-fluid" alt="applicatiebeheer afbeelding 2">
-      </div>
-      <div class="col-lg-5 order-lg-1 align-self-center">
-         <h4 class="text-gold m-0"></h4>
-         <h2><b>CO</b>OK</h2>
-         <p class="w-75 r-text">
-            
-         </p>
-      </div>
-   </div>
-</div> -->
 
 <div class="row align-items-center" style="background-color: #D4BE87;">
    <div class="col-lg-5 order-lg-2 p-0 m-0">
@@ -119,14 +129,15 @@
    </div>
    <div class="col-lg-7 order-lg-1">
       <div class="container-sm p-5">
-         <h2 class="text-gold">
-            <b>360°</b> BEELDEN
+         <h2 class="">
+            <b>API</b> Integraties
          </h2>
-         <p class="w-75 r-text"> Voor het vastleggen van straatbeelden worden voornamelijk auto's van Cyclomedia gebruikt, maar niet alle locaties zijn bereikbaar per voertuig. Daarom biedt de GIS Viewer van Cook de mogelijkheid om 360°-beelden op moeilijk bereikbare plaatsen te bekijken. Klanten kunnen deze beelden zelf toevoegen of door GISArts laten vastleggen. </p>
+         <p class="w-75 r-text"> Cyclomedia, kavel10, Azure SSO, Google Maps zijn allemaal koppelingen met Cook om het naadloos te integreren in uw organisatie. </p>
       </div>
    </div>
 </div>
-<div class="row align-items-center logo-background">
+
+<!-- <div class="row align-items-center logo-background">
    <div class="col-lg-5 p-0 m-0" style="background-color: rgba(0,0,0,0.2);">
       <img src="./img/brug.png" class="h-100 w-100" alt="brug">
    </div>
@@ -138,14 +149,133 @@
          <p class="w-75 r-text"> Birdseye-weergaven bieden beelden vanuit een hoek van 45° en bevatten gedetailleerde informatie. Deze opnamen kunnen in de GIS Viewer van Cook worden bekeken vanuit vier verschillende perspectieven. Dankzij de hoge kwaliteit van deze beelden zijn ze uitstekend geschikt voor toepassingen in planning, bouw, infrastructuur, groenbeheer, en nog veel meer. </p>
       </div>
    </div>
+</div> -->
+
+
+<!-- Introductie formulieren -->
+<div class="album py-5" style="background-color: #EBE1C9;">
+   <div class="container-sm">
+      <h2 class="text-black text-center">Formulieren in Cook </h2>
+      <p class="text-black text-center py-3">Optimaliseer uw veldwerk met dynamische formulieren </p>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+         <div class="col">
+            <div class="card mb-5 rounded-4 f-card">
+               <div class="card-body">
+                  <img src="./img/formulier1.png" alt="">
+                  <h4 class="text-black">
+                     <b>DYNAMISCHE</b> FORMULIEREN
+                  </h4>
+                  <p class="fs-6">Beheerders kunnen eenvoudig zelf formulieren ontwerpen en aanpassen zonder technische kennis. Maak formulieren op maat voor verschillende afdelingen en werkzaamheden met intuïtieve drag-and-drop functionaliteit.</p>
+               </div>
+            </div>
+         </div>
+         <div class="col">
+            <div class="card mb-5 rounded-4 f-card">
+               <div class="card-body">
+                  <img src="./img/formulier2.png" alt="">
+                  <h4 class="text-black">FOTO- EN <b>BESTANDSBIJLAGEN</b>
+                  </h4>
+                  <p class="fs-6">Voeg foto's en bestanden toe aan meldingen voor uitgebreide documentatie. Ideaal voor het vastleggen van situaties in het veld, waardoor beheerders direct visuele context hebben bij binnenkomende meldingen.</p>
+               </div>
+            </div>
+         </div>
+         <div class="col">
+            <div class="card mb-5 rounded-4 f-card">
+               <div class="card-body">
+                  <img src="./img/formulier3.png" alt="">
+                  <h4 class="text-black">
+                     <b>THEMATISCHE</b> KAARTEN
+                  </h4>
+                  <p class="fs-6">Koppel formulieren aan specifieke thematische kaartlagen. Dit maakt het mogelijk om meldingen direct te visualiseren op de juiste kaartlaag, wat zorgt voor betere context en gerichtere inspectie.</p>
+               </div>
+            </div>
+         </div>
+         <div class="col">
+            <div class="card mb-5 rounded-4 f-card">
+               <div class="card-body">
+                  <img src="./img/formulier4.png" alt="">
+                  <h4 class="text-black">
+                     <b>GEOMETRIE</b> REGISTRATIE
+                  </h4>
+                  <p class="fs-6">Leg nauwkeurige geografische locaties vast met punten, lijnen of vlakken. Medewerkers kunnen direct op de kaart intekenen waar een melding zich bevindt voor accurate ruimtelijke registratie.</p>
+               </div>
+            </div>
+         </div>
+         <div class="col">
+            <div class="card mb-5 rounded-4 f-card">
+               <div class="card-body">
+                  <img src="./img/formulier5.png" alt="">
+                  <h4 class="text-black">
+                     <b>MELD</b> FUNCTIONALITEIT
+                  </h4>
+                  <p class="fs-6">Na het indienen van een formulier worden automatisch de juiste personen geïnformeerd via e-mail. Zowel beheerders als melders ontvangen berichten over nieuwe meldingen en statusupdates.</p>
+               </div>
+            </div>
+         </div>
+         <div class="col">
+            <div class="card mb-5 rounded-4 f-card">
+               <div class="card-body">
+                  <img src="./img/formulier6.png" alt="">
+                  <h4 class="text-black">
+                     <b>MOBIEL</b> GEBRUIK
+                  </h4>
+                  <p class="fs-6">Speciaal ontworpen voor gebruik in het veld op smartphones en tablets. De responsieve interface maakt het eenvoudig om ter plekke gegevens vast te leggen, ook in gebieden met beperkte connectiviteit.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
 </div>
-<div class="row align-items-center mb-5" style="background-color: #D4BE87;">
+
+<!-- Voordelen sectie met kaarten -->
+<!-- <div class="py-5" style="background-color: #EBE1C9;">
+  <div class="container">
+    <div class="row text-center mb-5">
+      <div class="col-12">
+        <h2 style="color: #000;"><b>VOORDELEN</b> VAN DYNAMISCHE FORMULIEREN</h2>
+        <p class="lead">Verbeter uw werkprocessen met intelligente formulieren</p>
+      </div>
+    </div>
+    
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 border-0 rounded-4 shadow-sm overflow-hidden">
+          <img src="./img/efficiency.jpg" class="card-img-top" style="height: 200px; object-fit: cover;" alt="Efficiency">
+          <div class="card-body">
+            <h4 class="card-title"><b>VERHOOGDE</b> EFFICIËNTIE</h4>
+            <p class="card-text">Bespaar tijd door gegevens direct in het veld te verzamelen en te verwerken, zonder handmatige overdrachtsstappen.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 border-0 rounded-4 shadow-sm overflow-hidden">
+          <img src="./img/accuracy.jpg" class="card-img-top" style="height: 200px; object-fit: cover;" alt="Nauwkeurigheid">
+          <div class="card-body">
+            <h4 class="card-title"><b>HOGERE</b> NAUWKEURIGHEID</h4>
+            <p class="card-text">Verbeter de datakwaliteit door gegevens ter plekke vast te leggen met geografische precisie en visueel bewijs.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 border-0 rounded-4 shadow-sm overflow-hidden">
+          <img src="./img/analytics.jpg" class="card-img-top" style="height: 200px; object-fit: cover;" alt="Analyses">
+          <div class="card-body">
+            <h4 class="card-title"><b>UITGEBREIDE</b> ANALYSES</h4>
+            <p class="card-text">Analyseer verzamelde gegevens direct in Cook met geavanceerde dashboards en rapportagetools voor betere inzichten.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<div class="row align-items-center " style="background-color: #D4BE87;">
    <div class="col-lg-5 order-lg-2 p-0 m-0">
       <img src="./img/dashboard.png" class="h-75 w-100" alt="dashboard">
    </div>
    <div class="col-lg-7 order-lg-1">
       <div class="container-sm p-5">
-         <h2 class="text-gold">
+         <h2 class="">
             <b>DASHBOARDS</b> EN RAPPORTAGES
          </h2>
          <p class="w-75 r-text"> Met de GIS Viewer van Cook kunnen applicatiebeheerders zelfstandig dashboards opstellen. 
@@ -156,4 +286,89 @@
       </div>
    </div>
 </div>
+
+<!-- Testimonial sectie -->
+<!-- <div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <div class="p-5 text-center" style="background-color: #f8f9fa; border-radius: 1rem;">
+        <i class="bi bi-quote fs-1" style="color: #D4BE87;"></i>
+        <p class="lead fst-italic my-4">"De formulierenfunctionaliteit in Cook heeft onze werkprocessen volledig getransformeerd. Onze buitendienstmedewerkers kunnen nu snel en nauwkeurig gegevens vastleggen, wat heeft geleid tot een aanzienlijke verbetering in onze dienstverlening."</p>
+        <div class="d-flex align-items-center justify-content-center">
+          <img src="./img/avatar.jpg" class="rounded-circle me-3" style="width: 50px; height: 50px;" alt="Gebruiker">
+          <div class="text-start">
+            <p class="mb-0 fw-bold">Jan Janssen</p>
+            <p class="mb-0 small">GIS Coördinator, Gemeente Voorbeeld</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<!-- CTA sectie -->
+<div class="py-5" style="background-color: #EBE1C9;">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-8">
+        <h2 class="fw-bold mb-3">KLAAR OM AAN DE SLAG TE GAAN?</h2>
+        <p class="lead mb-4">Ontdek hoe de formulierenfunctionaliteit van Cook uw organisatie kan helpen om efficiënter te werken.</p>
+        <button class="btn btn-lg btn-dark me-2">Demo aanvragen</button>
+        <button class="btn btn-lg btn-outline-dark">Meer informatie</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FAQ Accordion -->
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <h2 class="text-center mb-4" style="color: #D4BE87;">VEELGESTELDE <b>VRAGEN</b></h2>
+      
+      <div class="accordion" id="faqAccordion">
+        <div class="accordion-item border-0 mb-3 shadow-sm">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+              Hoe kan ik zelf een formulier maken?
+            </button>
+          </h2>
+          <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Als beheerder kunt u via het Cook-dashboard naar de sectie 'Formulierenbeheer' gaan. Hier vindt u een intuïtieve drag-and-drop interface waarmee u eenvoudig uw eigen formulieren kunt samenstellen.
+            </div>
+          </div>
+        </div>
+        
+        <div class="accordion-item border-0 mb-3 shadow-sm">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+              Kan ik formulieren gebruiken zonder internetverbinding?
+            </button>
+          </h2>
+          <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Ja, de Cook-app heeft een offline modus waarmee u formulieren kunt invullen zonder internetverbinding. De gegevens worden lokaal opgeslagen en automatisch gesynchroniseerd zodra u weer verbinding heeft.
+            </div>
+          </div>
+        </div>
+        
+        <div class="accordion-item border-0 mb-3 shadow-sm">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+              Hoe worden meldingen verwerkt en doorgestuurd?
+            </button>
+          </h2>
+          <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Wanneer een formulier wordt ingediend, worden automatisch notificaties verzonden naar de ingestelde ontvangers. Beheerders kunnen workflows definiëren om te bepalen welke afdelingen of personen bepaalde typen meldingen ontvangen.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <div class="spacer" style="margin-bottom: 150px"></div>

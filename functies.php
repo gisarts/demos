@@ -313,7 +313,7 @@
       <div class="col-lg-8">
         <h2 class="fw-bold mb-3">KLAAR OM AAN DE SLAG TE GAAN?</h2>
         <p class="lead mb-4">Ontdek hoe de formulierenfunctionaliteit van Cook uw organisatie kan helpen om efficiënter te werken.</p>
-        <a href="https://www.gisarts.nl/contact" class="btn btn-lg btn-dark me-2">Demo aanvragen</button>
+        <a href="https://www.gisarts.nl/contact" class="btn btn-lg btn-dark me-2">Demo aanvragen</a>
         <!-- <button class="btn btn-lg btn-outline-dark">Meer informatie</button> -->
       </div>
     </div>

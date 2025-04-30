@@ -73,8 +73,7 @@
             "review": {},
             "softwareVersion": "Laatste versie",
             "sameAs": [
-                "https://www.linkedin.com/company/gisarts",
-                "https://www.instagram.com/gisarts"
+                "https://www.linkedin.com/company/gisarts"
             ]
         }
     </script>

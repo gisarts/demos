@@ -26,7 +26,7 @@ require 'vendor/autoload.php';
     <div class="container-sm">
         <div class="row justify-content-md-center py-4">
             <div class="col-xl-8 text-start">
-                <img rel="preload" src="./img/devices-cook.webp" alt="Devices cook" class="img-fluid" width="700px">
+                <img src="./img/devices-cook.webp" alt="Devices cook" class="img-fluid" width="700px">
             </div>
             <div class="mobile-spacer"></div>
             <div class="col-xl-4 text-start">

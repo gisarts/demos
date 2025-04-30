@@ -44,6 +44,12 @@
             href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
             rel="stylesheet">
     </noscript> <!-- <base href="http://localhost:8123"> -->
+    <link
+        rel="preload"
+        href="/img/devices-cook.webp"
+        as="image"
+        type="image/webp"
+        fetchpriority="high" />
 
     <script>
         // var _paq = window._paq = window._paq || [];

@@ -10,9 +10,7 @@ require 'vendor/autoload.php';
     </div>
     <div class="row justify-content-center">
         <div class="col-xxl-2 r-padding">
-            <a href="/demo" class="btn btn-lg btn-primary rounded-pill my-2 r-btn w-25">
-                Bekijk het nu!
-            </a>
+            <a href="/demo" class="btn btn-lg btn-primary rounded-pill my-2 r-btn w-25">Bekijk het nu!</a>
         </div>
     </div>
     <div class="row justify-content-center">
@@ -46,7 +44,6 @@ require 'vendor/autoload.php';
 
 <div class="row text-center">
     <h2 class="py-5">FUNCTIONALITEITEN</h2>
-
     <div class="col-xl-4 py-5" style="background-color: #F7F7F6;">
         <img src="./img/icon1.png" alt="icon 1">
         <h3><b>OVERAL</b> INZETBAAR</h3>
@@ -55,13 +52,10 @@ require 'vendor/autoload.php';
                 <p class="my-4">
                     Plan werkzaamheden op de kaart en meld bijzonderheden direct vanuit het veld.
                 </p>
-                <a href="/functies" class="btn btn-lg btn-secondary rounded-pill my-2 r-btn w-100">
-                    BEKIJKEN
-                </a>
+                <a href="/functies" class="btn btn-lg btn-secondary rounded-pill my-2 r-btn w-100">BEKIJKEN</a>
             </div>
         </div>
     </div>
-
     <div class="col-xl-4 py-5" style="background-color: #EBE1C9;">
         <img src="./img/icon2.png" alt="icon 2">
         <h3><b>APPLICATIE</b>BEHEER</h3>
@@ -70,13 +64,10 @@ require 'vendor/autoload.php';
                 <p class="my-4">
                     Beheer de applicatie eenvoudig zelf en pas de look & feel aan naar eigen wens.
                 </p>
-                <a href="/applicatiebeheer" class="btn btn-lg btn-secondary rounded-pill my-2 r-btn w-100">
-                    BEKIJKEN
-                </a>
+                <a href="/applicatiebeheer" class="btn btn-lg btn-secondary rounded-pill my-2 r-btn w-100">BEKIJKEN</a>
             </div>
         </div>
     </div>
-
     <div class="col-xl-4 py-5" style="background-color: #D4BE87;">
         <img src="./img/icon4.png" style="height: 168px;" alt="icon 3">
         <h3>Extract <b>Transform</b> Load </h3>
@@ -85,9 +76,7 @@ require 'vendor/autoload.php';
                 <p class="my-4">
                     Publiceer je kaarten rechtstreeks van een shape of excel naar een online WMS kaart.
                 </p>
-                <a href="/functies" class="btn btn-lg btn-secondary rounded-pill my-2 r-btn w-100">
-                    BEKIJKEN
-                </a>
+                <a href="/functies" class="btn btn-lg btn-secondary rounded-pill my-2 r-btn w-100">BEKIJKEN</a>
             </div>
         </div>
     </div>
@@ -97,19 +86,48 @@ require 'vendor/autoload.php';
     <div class="container-sm">
         <div class="row py-4 text-center">
             <h2 class="text-start mb-5">DE MOGELIJKHEDEN <b>ZIJN EINDELOOS</b></h2>
-
             <div class="col-lg-4 mb-5 p-4">
+                <div class="card gold-bg r-card rounded-4">
+                    <img src="./img/bestemmingsplannen.webp" class="card-img-top rounded-4" alt="COOK systeem">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-10 offset-lg-1">
+                                <h4><b>Online & Offline</b></h4>
+                                <p class="text-white fs-5 p-3">Gebruik de applicatie zowel online als offline in het veld. Beschikbaar op elk apparaat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="col-lg-4 mb-5 p-4">
+                <div class="card gold-bg r-card rounded-4">
+                    <img src="./img/lvc_strooiroutes.webp" class="card-img-top rounded-4" alt="COOK systeem">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-10 offset-lg-1">
+                                <h4><b>Registratie</b></h4>
+                                <p class="text-white fs-5 p-3">Teken zelf en maak meldingen voor collega's. Analyseer data met behulp van de meest actuele GIS-gebaseerde kaart.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="col-lg-4 p-4">
+                <div class="card gold-bg r-card rounded-4">
+                    <img src="./img/hta_edamvolendam.webp" class="card-img-top rounded-4" alt="COOK systeem">
+                    <div class="card-body rounded-3">
+                        <div class="row">
+                            <div class="col-lg-10 offset-lg-1">
+                                <h4><b>Rasterbeelden</b></h4>
+                                <p class="text-white fs-5 p-3">Voeg verschillende rasterbeelden toe, van 360° foto's en actuele luchtfoto's tot 3D-beelden. Alles overzichtelijk op één plek.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
             <div class="row text-center">
                 <div class="col-lg-4 offset-lg-4">
-                    <a href="/functies" class="btn btn-info re-btn rounded-pill p-4" style="font-weight: 500;">
-                        ALLE FUNCTIONALITEITEN
-                    </a>
+                    <a href="/functies" class="btn btn-info re-btn rounded-pill p-4" style="font-weight: 500;">ALLE FUNCTIONALITEITEN</a>
                 </div>
             </div>
         </div>

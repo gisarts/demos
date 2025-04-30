@@ -14,9 +14,9 @@
     </div>
     <div class="row justify-content-center">
         <div class="col-xxl-2 r-padding">
-            <a onclick="window.scrollTo(0, 800);" class="text-decoration-none  w-25" style="cursor: pointer;">
+            <span onclick="window.scrollTo(0, 800);" class="text-decoration-none  w-25" style="cursor: pointer;">
                 <p style="font-size: 50px"><b class="icon-animation">↓</b></p>
-            </a>
+            </span>
         </div>
     </div>
 </div>
@@ -29,7 +29,7 @@
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mt-3">
             <div class="col">
                 <div class="card shadow-sm">
-                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/carnaval.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/carnaval.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <rect width="100%" height="100%" fill="#55595c" />
                     </img>
 
@@ -46,7 +46,7 @@
             </div>
             <div class="col">
                 <div class="card shadow-sm">
-                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/milleu.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/milleu.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <rect width="100%" height="100%" fill="#55595c" />
                     </img>
 
@@ -63,7 +63,7 @@
             </div>
             <div class="col">
                 <div class="card shadow-sm">
-                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/vierdaagse.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/vierdaagse.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <rect width="100%" height="100%" fill="#55595c" />
                     </img>
 
@@ -81,7 +81,7 @@
 
             <div class="col">
                 <div class="card shadow-sm">
-                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/3d.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/3d.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <rect width="100%" height="100%" fill="#55595c" />
                     </img>
 
@@ -99,7 +99,7 @@
 
             <div class="col">
                 <div class="card shadow-sm">
-                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/data-export.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/data-export.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <rect width="100%" height="100%" fill="#55595c" />
                     </img>
 
@@ -117,7 +117,7 @@
 
             <div class="col">
                 <div class="card shadow-sm">
-                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/endeavour.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/endeavour.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <rect width="100%" height="100%" fill="#55595c" />
                     </img>
 
@@ -135,7 +135,7 @@
 
             <!-- <div class="col">
                 <div class="card shadow-sm">
-                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/ongevallen.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/ongevallen.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <rect width="100%" height="100%" fill="#55595c" />
                     </img>
 

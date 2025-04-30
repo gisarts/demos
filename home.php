@@ -15,9 +15,9 @@ require 'vendor/autoload.php';
     </div>
     <div class="row justify-content-center">
         <div class="col-xxl-2 r-padding">
-            <a onclick="window.scrollTo(0, 600);" class="text-decoration-none" style="cursor: pointer;">
+            <span onclick="window.scrollTo(0, 600);" class="text-decoration-none" style="cursor: pointer;">
                 <p style="font-size: 50px"><b class="icon-animation">↓</b></p>
-            </a>
+            </span>
         </div>
     </div>
 </div>
@@ -26,7 +26,7 @@ require 'vendor/autoload.php';
     <div class="container-sm">
         <div class="row justify-content-md-center py-4">
             <div class="col-xl-8 text-start">
-                <img src="./img/devices-cook.png" alt="Devices cook" class="img-fluid" width="700px">
+                <img src="./img/devices-cook.webp" alt="Devices cook" class="img-fluid" width="700px">
             </div>
             <div class="mobile-spacer"></div>
             <div class="col-xl-4 text-start">
@@ -45,7 +45,7 @@ require 'vendor/autoload.php';
 <div class="row text-center">
     <h2 class="py-5">FUNCTIONALITEITEN</h2>
     <div class="col-xl-4 py-5" style="background-color: #F7F7F6;">
-        <img src="./img/icon1.png" alt="icon 1">
+        <img src="./img/icon1.webp" alt="icon 1">
         <h3><b>OVERAL</b> INZETBAAR</h3>
         <div class="row justify-content-md-center">
             <div class="col-xl-7 self-align-center">
@@ -57,7 +57,7 @@ require 'vendor/autoload.php';
         </div>
     </div>
     <div class="col-xl-4 py-5" style="background-color: #EBE1C9;">
-        <img src="./img/icon2.png" alt="icon 2">
+        <img src="./img/icon2.webp" alt="icon 2">
         <h3><b>APPLICATIE</b>BEHEER</h3>
         <div class="row justify-content-md-center">
             <div class="col-xl-7 self-align-center">
@@ -69,7 +69,7 @@ require 'vendor/autoload.php';
         </div>
     </div>
     <div class="col-xl-4 py-5" style="background-color: #D4BE87;">
-        <img src="./img/icon4.png" style="height: 168px;" alt="icon 3">
+        <img src="./img/icon4.webp" style="height: 168px;" alt="icon 3">
         <h3>Extract <b>Transform</b> Load </h3>
         <div class="row justify-content-md-center">
             <div class="col-xl-7 self-align-center">
@@ -145,7 +145,7 @@ require 'vendor/autoload.php';
         <div class="col-xl-4 offset-xl-1">
             <div class="card mb-5 rounded-4">
                 <div class="card-body">
-                    <img src="./img/bestanden.png" alt="">
+                    <img src="./img/bestanden.webp" alt="">
                     <h4 class="fs-3">Import & Export</h4>
                     <div class="row">
                         <div class="col">
@@ -163,7 +163,7 @@ require 'vendor/autoload.php';
             </div>
             <div class="card rounded-4">
                 <div class="card-body">
-                    <img src="./img/dashboards.png" alt="">
+                    <img src="./img/dashboards.webp" alt="">
                     <h4 class="fs-3">Dashboards & Rapportages</h4>
                     <div class="row">
                         <div class="col-6">

@@ -4,7 +4,7 @@
         <p class="text-black text-center py-3">Configureer de applicatie naar eigen wens en bepaal de functionaliteiten</p>
         <div class="row">
             <div class="col-lg-7 py-5">
-                <img src="./img/app3.png" class="img-fluid" alt="applicatiebeheer afbeelding 1">
+                <img src="./img/app3.webp" class="img-fluid" alt="applicatiebeheer afbeelding 1">
             </div>
             <div class="col-lg align-self-center">
                 <h4 class="text-black m-0">Publieke Informatie</h4>
@@ -16,7 +16,7 @@
         </div>
         <div class="row">
             <div class="col-lg-7 order-lg-2 py-5">
-                <img src="./img/app1.png" class="img-fluid" alt="applicatiebeheer afbeelding 2">
+                <img src="./img/app1.webp" class="img-fluid" alt="applicatiebeheer afbeelding 2">
             </div>
             <div class="col-lg-5 order-lg-1 align-self-center">
                 <h4 class="text-black m-0">USERGEBONDEN</h4>
@@ -28,7 +28,7 @@
         </div>
         <div class="row">
             <div class="col-lg-7 py-5">
-                <img src="./img/app2.png" class="img-fluid" alt="applicatiebeheer afbeelding 3">
+                <img src="./img/app2.webp" class="img-fluid" alt="applicatiebeheer afbeelding 3">
             </div>
             <div class="col-lg align-self-center">
                 <h4 class="text-black m-0">Kaartbeheer</h4>

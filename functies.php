@@ -6,7 +6,7 @@
          <div class="col">
             <div class="card mb-5 rounded-4 f-card">
                <div class="card-body">
-                  <img src="./img/functie2.png" alt="">
+                  <img src="./img/functie2.webp" alt="">
                   <h4 class="text-black">
                      <b>FILTEREN</b> OP VRAAG
                   </h4>
@@ -17,7 +17,7 @@
          <div class="col">
             <div class="card mb-5 rounded-4 f-card">
                <div class="card-body">
-                  <img src="./img/functie3.png" alt="">
+                  <img src="./img/functie3.webp" alt="">
                   <h4 class="text-black">AANPASBARE <b>LEGENDA</b>
                   </h4>
                   <p class="fs-6"> Pas de legenda in de Cook GIS Viewer naar wens aan. Markeer favoriete locaties, filter specifieke informatie en maak gemakkelijk selecties op de kaart. </p>
@@ -27,7 +27,7 @@
          <div class="col">
             <div class="card mb-5 rounded-4 f-card">
                <div class="card-body">
-                  <img src="./img/functie4.png" alt="">
+                  <img src="./img/functie4.webp" alt="">
                   <h4 class="text-black">
                      <b>3D</b> WEERGAVE
                   </h4>
@@ -38,7 +38,7 @@
          <div class="col">
             <div class="card mb-5 rounded-4 f-card">
                <div class="card-body">
-                  <img src="./img/functie1.png" alt="">
+                  <img src="./img/functie1.webp" alt="">
                   <h4 class="text-black">
                      <b>CAD</b> INTEGRATIE
                   </h4>
@@ -49,7 +49,7 @@
          <div class="col">
             <div class="card mb-5 rounded-4 f-card">
                <div class="card-body">
-                  <img src="./img/functie5.png" alt="">
+                  <img src="./img/functie5.webp" alt="">
                   <h4 class="text-black">
                      <b>DATA</b> EXPORTEREN
                   </h4>
@@ -60,7 +60,7 @@
          <div class="col">
             <div class="card mb-5 rounded-4 f-card">
                <div class="card-body">
-                  <img src="./img/functie6.png" alt="">
+                  <img src="./img/functie6.webp" alt="">
                   <h4 class="text-black">
                      <b>ACTUELE</b> SATELLIETBEELDEN
                   </h4>
@@ -74,7 +74,7 @@
 
 <!-- Hero section voor formulieren -->
 <!-- <div class="position-relative" style="height: 400px; overflow: hidden;">
-  <img src="./img/forms-hero.jpg" class="w-100 h-100 object-fit-cover" alt="Formulieren in Cook">
+  <img src="./img/forms-hero.webp" class="w-100 h-100 object-fit-cover" alt="Formulieren in Cook">
   <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background-color: rgba(0,0,0,0.5);">
     <div class="container text-center">
       <h1 class="text-white fw-bold">DYNAMISCHE FORMULIEREN</h1>
@@ -110,7 +110,7 @@
 
 <div class="row align-items-center logo-background">
    <div class="col-lg-5 p-0 m-0" style="background-color: rgba(0,0,0,0.2);">
-      <img src="./img/query.png" class="h-75 w-100" alt="query">
+      <img src="./img/query.webp" class="h-75 w-100" alt="query">
    </div>
    <div class="col-lg-7">
       <div class="container-sm p-5">
@@ -125,7 +125,7 @@
 
 <div class="row align-items-center" style="background-color: #D4BE87;">
    <div class="col-lg-5 order-lg-2 p-0 m-0">
-      <img src="./img/360.png" class="h-75 w-100" alt="360">
+      <img src="./img/360.webp" class="h-75 w-100" alt="360">
    </div>
    <div class="col-lg-7 order-lg-1">
       <div class="container-sm p-5">
@@ -139,7 +139,7 @@
 
 <!-- <div class="row align-items-center logo-background">
    <div class="col-lg-5 p-0 m-0" style="background-color: rgba(0,0,0,0.2);">
-      <img src="./img/brug.png" class="h-100 w-100" alt="brug">
+      <img src="./img/brug.webp" class="h-100 w-100" alt="brug">
    </div>
    <div class="col-lg-7">
       <div class="container-sm p-5">
@@ -161,7 +161,7 @@
          <div class="col">
             <div class="card mb-5 rounded-4 f-card">
                <div class="card-body">
-                  <img src="./img/formulier1.png" alt="">
+                  <img src="./img/formulier1.webp" alt="">
                   <h4 class="text-black">
                      <b>DYNAMISCHE</b> FORMULIEREN
                   </h4>
@@ -172,7 +172,7 @@
          <div class="col">
             <div class="card mb-5 rounded-4 f-card">
                <div class="card-body">
-                  <img src="./img/formulier2.png" alt="">
+                  <img src="./img/formulier2.webp" alt="">
                   <h4 class="text-black">FOTO- EN <b>BESTANDSBIJLAGEN</b>
                   </h4>
                   <p class="fs-6">Voeg foto's en bestanden toe aan meldingen voor uitgebreide documentatie. Ideaal voor het vastleggen van situaties in het veld, waardoor beheerders direct visuele context hebben bij binnenkomende meldingen.</p>
@@ -182,7 +182,7 @@
          <div class="col">
             <div class="card mb-5 rounded-4 f-card">
                <div class="card-body">
-                  <img src="./img/formulier3.png" alt="">
+                  <img src="./img/formulier3.webp" alt="">
                   <h4 class="text-black">
                      <b>THEMATISCHE</b> KAARTEN
                   </h4>
@@ -193,7 +193,7 @@
          <div class="col">
             <div class="card mb-5 rounded-4 f-card">
                <div class="card-body">
-                  <img src="./img/formulier4.png" alt="">
+                  <img src="./img/formulier4.webp" alt="">
                   <h4 class="text-black">
                      <b>GEOMETRIE</b> REGISTRATIE
                   </h4>
@@ -204,7 +204,7 @@
          <div class="col">
             <div class="card mb-5 rounded-4 f-card">
                <div class="card-body">
-                  <img src="./img/formulier5.png" alt="">
+                  <img src="./img/formulier5.webp" alt="">
                   <h4 class="text-black">
                      <b>MELD</b> FUNCTIONALITEIT
                   </h4>
@@ -215,7 +215,7 @@
          <div class="col">
             <div class="card mb-5 rounded-4 f-card">
                <div class="card-body">
-                  <img src="./img/formulier6.png" alt="">
+                  <img src="./img/formulier6.webp" alt="">
                   <h4 class="text-black">
                      <b>MOBIEL</b> GEBRUIK
                   </h4>
@@ -240,7 +240,7 @@
     <div class="row g-4">
       <div class="col-md-4">
         <div class="card h-100 border-0 rounded-4 shadow-sm overflow-hidden">
-          <img src="./img/efficiency.jpg" class="card-img-top" style="height: 200px; object-fit: cover;" alt="Efficiency">
+          <img src="./img/efficiency.webp" class="card-img-top" style="height: 200px; object-fit: cover;" alt="Efficiency">
           <div class="card-body">
             <h4 class="card-title"><b>VERHOOGDE</b> EFFICIËNTIE</h4>
             <p class="card-text">Bespaar tijd door gegevens direct in het veld te verzamelen en te verwerken, zonder handmatige overdrachtsstappen.</p>
@@ -249,7 +249,7 @@
       </div>
       <div class="col-md-4">
         <div class="card h-100 border-0 rounded-4 shadow-sm overflow-hidden">
-          <img src="./img/accuracy.jpg" class="card-img-top" style="height: 200px; object-fit: cover;" alt="Nauwkeurigheid">
+          <img src="./img/accuracy.webp" class="card-img-top" style="height: 200px; object-fit: cover;" alt="Nauwkeurigheid">
           <div class="card-body">
             <h4 class="card-title"><b>HOGERE</b> NAUWKEURIGHEID</h4>
             <p class="card-text">Verbeter de datakwaliteit door gegevens ter plekke vast te leggen met geografische precisie en visueel bewijs.</p>
@@ -258,7 +258,7 @@
       </div>
       <div class="col-md-4">
         <div class="card h-100 border-0 rounded-4 shadow-sm overflow-hidden">
-          <img src="./img/analytics.jpg" class="card-img-top" style="height: 200px; object-fit: cover;" alt="Analyses">
+          <img src="./img/analytics.webp" class="card-img-top" style="height: 200px; object-fit: cover;" alt="Analyses">
           <div class="card-body">
             <h4 class="card-title"><b>UITGEBREIDE</b> ANALYSES</h4>
             <p class="card-text">Analyseer verzamelde gegevens direct in Cook met geavanceerde dashboards en rapportagetools voor betere inzichten.</p>
@@ -271,7 +271,7 @@
 
 <div class="row align-items-center " style="background-color: #D4BE87;">
    <div class="col-lg-5 order-lg-2 p-0 m-0">
-      <img src="./img/dashboard.png" class="h-75 w-100" alt="dashboard">
+      <img src="./img/dashboard.webp" class="h-75 w-100" alt="dashboard">
    </div>
    <div class="col-lg-7 order-lg-1">
       <div class="container-sm p-5">
@@ -296,7 +296,7 @@
         <i class="bi bi-quote fs-1" style="color: #D4BE87;"></i>
         <p class="lead fst-italic my-4">"De formulierenfunctionaliteit in Cook heeft onze werkprocessen volledig getransformeerd. Onze buitendienstmedewerkers kunnen nu snel en nauwkeurig gegevens vastleggen, wat heeft geleid tot een aanzienlijke verbetering in onze dienstverlening."</p>
         <div class="d-flex align-items-center justify-content-center">
-          <img src="./img/avatar.jpg" class="rounded-circle me-3" style="width: 50px; height: 50px;" alt="Gebruiker">
+          <img src="./img/avatar.webp" class="rounded-circle me-3" style="width: 50px; height: 50px;" alt="Gebruiker">
           <div class="text-start">
             <p class="mb-0 fw-bold">Jan Janssen</p>
             <p class="mb-0 small">GIS Coördinator, Gemeente Voorbeeld</p>

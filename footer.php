@@ -3,9 +3,9 @@
             <div class="container">
                 <div class="row justify-content-center inv">
                     <div class="col-xxl-2 r-padding">
-                        <a onclick="window.scrollTo(0, 0);" class="text-decoration-none" style="cursor: pointer;">
+                        <span onclick="window.scrollTo(0, 0);" class="text-decoration-none" style="cursor: pointer;">
                             <p style="font-size: 50px"><b>↑</b></p>
-                        </a>
+                        </span>
                     </div>
                 </div>
                 <div class="row justify-content-center">
@@ -14,7 +14,7 @@
                             <a class="gisarts_link" href="https://www.gisarts.nl" target="_Blank">
                                 <img src="/img/logo_gisarts.webp" alt="logo_gisarts" class="w-100" style="filter: brightness(0) invert(1);">
                             </a>
-                            <img src="/img/iso-dekra.png" class="w-25 iso">
+                            <img src="/img/iso-dekra.webp" class="w-25 iso" alt="ISO 27001 DEKRA certificering logo">
                         </div>
                         <div class="col-md-4">
                             <h3 class="text-white">Over ons</h3>

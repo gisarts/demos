@@ -85,7 +85,7 @@ a:hover {
 /* Body */
 
 .lines-background {
-  background: url("../img/background-lines.png") top / cover no-repeat;
+  background: url("../img/background-lines.webp") top / cover no-repeat;
   padding-top: 2em;
   padding-bottom: 2em;
   margin-top: 2rem;
@@ -93,13 +93,13 @@ a:hover {
 }
 
 .logo-big-background {
-  background: url("../img/cook-logo-bg.png") bottom / cover no-repeat;
+  background: url("../img/cook-logo-bg.webp") bottom / cover no-repeat;
   padding-top: 2em;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 12px !important;
 }
 
 .logo-small-background {
-  background: url("../img/Cook-logo-bg-small.png") bottom / cover no-repeat;
+  background: url("../img/Cook-logo-bg-small.webp") bottom / cover no-repeat;
   padding-top: 2em;
   padding-bottom: 5em;
   margin-bottom: 5rem;
@@ -119,11 +119,11 @@ a:hover {
 }
 
 .logo-background {
-  background: url("../img/cook-logo-bg.png") bottom / cover no-repeat;
+  background: url("../img/cook-logo-bg.webp") bottom / cover no-repeat;
 }
 
 .function1 {
-  background: url("../img/tijdreizen.png") top / cover no-repeat;
+  background: url("../img/tijdreizen.webp") top / cover no-repeat;
 }
 
 .text-gold {
@@ -242,7 +242,7 @@ a:hover {
 
 .footer {
   color: white;
-  background-image: url("../img/footer.png");
+  background-image: url("../img/footer.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;

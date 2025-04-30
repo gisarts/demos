@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 include_once("header.php");
 
@@ -26,5 +26,3 @@ try {
 }
 
 include_once("footer.php");
-
-?>

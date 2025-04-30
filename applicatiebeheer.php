@@ -1,4 +1,4 @@
-<div class="album py-5 mb-5" style="background-color: #EBE1C9;"> 
+<div class="album py-5 mb-5" style="background-color: #EBE1C9;">
     <div class="container-sm">
         <h1 class="text-black text-center">Applicatiebeheer Cook</h1>
         <p class="text-black text-center py-3">Configureer de applicatie naar eigen wens en bepaal de functionaliteiten</p>

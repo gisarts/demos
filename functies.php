@@ -117,8 +117,8 @@
          <h2 class="">FUNCTIES VAN DE <b>QUERYBUILDER</b>
          </h2>
          <p class="w-75 r-text"> Met de Querybuilder kunt u zelfstandig kaarten creëren door specifieke vragen te stellen.
-           Teken een gebied en stel bijvoorbeeld de vraag: "Toon alle gebouwen die na het jaar 2000 zijn gebouwd.
-          " De GIS Viewer selecteert de relevante en exporteert deze naar elk gewenst formaat.</p>
+            Teken een gebied en stel bijvoorbeeld de vraag: "Toon alle gebouwen die na het jaar 2000 zijn gebouwd.
+            " De GIS Viewer selecteert de relevante en exporteert deze naar elk gewenst formaat.</p>
       </div>
    </div>
 </div>
@@ -278,11 +278,12 @@
          <h2 class="">
             <b>DASHBOARDS</b> EN RAPPORTAGES
          </h2>
-         <p class="w-75 r-text"> Met de GIS Viewer van Cook kunnen applicatiebeheerders zelfstandig dashboards opstellen. 
-          De data uit het datawarenhuis wordt live weergegeven, waardoor gebruikers geo-gerelateerde analyses kunnen uitvoeren, zoals het identificeren van bomen die onderhouden worden, maar niet op gemeentelijk terrein groeien. 
-          Cook maakt geometrische vergelijkingen snel en eenvoudig zichtbaar in verschillende dashboards.
-          <br> De mogelijkheden zijn talrijk, bijvoorbeeld het in kaart brengen van aantallen, jaartallen of soorten segmenten binnen een gebied.
-           Gebruikers kunnen kiezen uit verschillende visualisatievormen, zoals lijn-, staaf-, cirkeldiagrammen of tabellen, en deze naar eigen voorkeur aanpassen voor optimale gebruikservaring. </p>
+         <p class="w-75 r-text"> Met de GIS Viewer van Cook kunnen applicatiebeheerders zelfstandig dashboards opstellen.
+            De data uit het datawarenhuis wordt live weergegeven, waardoor gebruikers geo-gerelateerde analyses kunnen uitvoeren, zoals het identificeren van bomen die onderhouden worden, maar niet op gemeentelijk terrein groeien.
+            Cook maakt geometrische vergelijkingen snel en eenvoudig zichtbaar in verschillende dashboards.
+            <br> De mogelijkheden zijn talrijk, bijvoorbeeld het in kaart brengen van aantallen, jaartallen of soorten segmenten binnen een gebied.
+            Gebruikers kunnen kiezen uit verschillende visualisatievormen, zoals lijn-, staaf-, cirkeldiagrammen of tabellen, en deze naar eigen voorkeur aanpassen voor optimale gebruikservaring.
+         </p>
       </div>
    </div>
 </div>
@@ -308,66 +309,66 @@
 
 <!-- CTA sectie -->
 <div class="py-5" style="background-color: #EBE1C9;">
-  <div class="container">
-    <div class="row justify-content-center text-center">
-      <div class="col-lg-8">
-        <h2 class="fw-bold mb-3">KLAAR OM AAN DE SLAG TE GAAN?</h2>
-        <p class="lead mb-4">Ontdek hoe de formulierenfunctionaliteit van Cook uw organisatie kan helpen om efficiënter te werken.</p>
-        <a href="https://www.gisarts.nl/contact" class="btn btn-lg btn-dark me-2">Demo aanvragen</a>
-        <!-- <button class="btn btn-lg btn-outline-dark">Meer informatie</button> -->
+   <div class="container">
+      <div class="row justify-content-center text-center">
+         <div class="col-lg-8">
+            <h2 class="fw-bold mb-3">KLAAR OM AAN DE SLAG TE GAAN?</h2>
+            <p class="lead mb-4">Ontdek hoe de formulierenfunctionaliteit van Cook uw organisatie kan helpen om efficiënter te werken.</p>
+            <a href="https://www.gisarts.nl/contact" class="btn btn-lg btn-dark me-2">Demo aanvragen</a>
+            <!-- <button class="btn btn-lg btn-outline-dark">Meer informatie</button> -->
+         </div>
       </div>
-    </div>
-  </div>
+   </div>
 </div>
 
 <!-- FAQ Accordion -->
 <div class="container my-5">
-  <div class="row justify-content-center">
-    <div class="col-lg-8">
-      <h2 class="text-center mb-4" style="color: #D4BE87;">VEELGESTELDE <b>VRAGEN</b></h2>
-      
-      <div class="accordion" id="faqAccordion">
-        <div class="accordion-item border-0 mb-3 shadow-sm">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
-              Hoe kan ik zelf een formulier maken?
-            </button>
-          </h2>
-          <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-            <div class="accordion-body">
-              Als beheerder kunt u via het Cook-dashboard naar de sectie 'Formulierenbeheer' gaan. Hier vindt u een intuïtieve drag-and-drop interface waarmee u eenvoudig uw eigen formulieren kunt samenstellen.
+   <div class="row justify-content-center">
+      <div class="col-lg-8">
+         <h2 class="text-center mb-4" style="color: #D4BE87;">VEELGESTELDE <b>VRAGEN</b></h2>
+
+         <div class="accordion" id="faqAccordion">
+            <div class="accordion-item border-0 mb-3 shadow-sm">
+               <h2 class="accordion-header">
+                  <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                     Hoe kan ik zelf een formulier maken?
+                  </button>
+               </h2>
+               <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                     Als beheerder kunt u via het Cook-dashboard naar de sectie 'Formulierenbeheer' gaan. Hier vindt u een intuïtieve drag-and-drop interface waarmee u eenvoudig uw eigen formulieren kunt samenstellen.
+                  </div>
+               </div>
             </div>
-          </div>
-        </div>
-        
-        <div class="accordion-item border-0 mb-3 shadow-sm">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
-              Kan ik formulieren gebruiken zonder internetverbinding?
-            </button>
-          </h2>
-          <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-            <div class="accordion-body">
-              Ja, de Cook-app heeft een offline modus waarmee u formulieren kunt invullen zonder internetverbinding. De gegevens worden lokaal opgeslagen en automatisch gesynchroniseerd zodra u weer verbinding heeft.
+
+            <div class="accordion-item border-0 mb-3 shadow-sm">
+               <h2 class="accordion-header">
+                  <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                     Kan ik formulieren gebruiken zonder internetverbinding?
+                  </button>
+               </h2>
+               <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                     Ja, de Cook-app heeft een offline modus waarmee u formulieren kunt invullen zonder internetverbinding. De gegevens worden lokaal opgeslagen en automatisch gesynchroniseerd zodra u weer verbinding heeft.
+                  </div>
+               </div>
             </div>
-          </div>
-        </div>
-        
-        <div class="accordion-item border-0 mb-3 shadow-sm">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
-              Hoe worden meldingen verwerkt en doorgestuurd?
-            </button>
-          </h2>
-          <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-            <div class="accordion-body">
-              Wanneer een formulier wordt ingediend, worden automatisch notificaties verzonden naar de ingestelde ontvangers. Beheerders kunnen workflows definiëren om te bepalen welke afdelingen of personen bepaalde typen meldingen ontvangen.
+
+            <div class="accordion-item border-0 mb-3 shadow-sm">
+               <h2 class="accordion-header">
+                  <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                     Hoe worden meldingen verwerkt en doorgestuurd?
+                  </button>
+               </h2>
+               <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                     Wanneer een formulier wordt ingediend, worden automatisch notificaties verzonden naar de ingestelde ontvangers. Beheerders kunnen workflows definiëren om te bepalen welke afdelingen of personen bepaalde typen meldingen ontvangen.
+                  </div>
+               </div>
             </div>
-          </div>
-        </div>
+         </div>
       </div>
-    </div>
-  </div>
+   </div>
 </div>
 
 

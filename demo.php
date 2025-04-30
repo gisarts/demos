@@ -1,5 +1,5 @@
 <div class="row justify-content-center text-center header-section">
-<div class="col-xxl-4 r-padding text-center">
+    <div class="col-xxl-4 r-padding text-center">
         <h1><b>Probeer de GIS Viewer van </b>Cook</h1>
         <div class="spacer mt-5"></div>
         <h4>Cook. YOU NAME IT, <b>WE SERVE IT!</b></h4>
@@ -291,7 +291,7 @@
                 </div>
             </div>
 
-            <div class="col" id="contact" >
+            <div class="col" id="contact">
                 <div class="card shadow-sm">
                     <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/wandelroutes.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <rect width="100%" height="100%" fill="#55595c" />

@@ -33,10 +33,10 @@ require 'vendor/autoload.php';
             <div class="col-xl-4 text-start">
                 <h2>Wat is Cook?</h2>
                 <p class="my-4 fs-4">
-                    De GIS-Viewer maakt het eenvoudig om geografische data te raadplegen, registreren en te analyseren. 
+                    De GIS-Viewer maakt het eenvoudig om geografische data te raadplegen, registreren en te analyseren.
                 </p>
                 <p class="mt-4 fs-4">
-                Daarnaast kan Cook elk bestandstype inladen, waardoor het op elke organisatie aangesloten kan worden.
+                    Daarnaast kan Cook elk bestandstype inladen, waardoor het op elke organisatie aangesloten kan worden.
                 </p>
             </div>
         </div>

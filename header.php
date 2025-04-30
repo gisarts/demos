@@ -1,9 +1,3 @@
-<?php
-
-$page = $_GET['page'];
-
-?>
-
 <!doctype html>
 <html lang="nl-NL">
 
@@ -18,9 +12,9 @@ $page = $_GET['page'];
 
     <meta property="og:title" content="Cook Demo | De complete veilige gepersonaliseerde GIS Viewer van GISArts" />
     <meta property="og:description" content="Probeer hier de GIS Viewer van Cook. Op deze pagina kunt u de demo GIS viewer van Cook bekijken." />
-    <meta property="og:image" content="https://demo.gisarts.nl/img/logo_cook.webp" />
+    <meta property="og:image" content="https://gis-cook.nl/img/logo_cook.webp" />
     <meta property="og:site_name" content="Cook Demo" />
-    <meta property="og:url" content="https://demo.gisarts.nl/" />
+    <meta property="og:url" content="https://gis-cook.nl/" />
 
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="subject" content="Serve The World">
@@ -33,7 +27,6 @@ $page = $_GET['page'];
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-    <base href="https://demo.gisarts.nl/">
     <!-- <base href="http://localhost:8123"> -->
 
     <script>
@@ -70,7 +63,7 @@ $page = $_GET['page'];
                 "@type": "Organization",
                 "name": "Gisarts",
                 "url": "https://www.gisarts.nl",
-                "logo": "https://demo.gisarts.nl/img/logo_cook.webp",
+                "logo": "https://gis-cook.nl/img/logo_cook.webp",
                 "contactPoint": {
                     "@type": "ContactPoint",
                     "telephone": "0485 763 601",
@@ -100,40 +93,33 @@ $page = $_GET['page'];
 </head>
 
 <body>
-    <header class="text-center header nav-down">
-        <nav class="navbar navbar-expand-lg">
+    <header class="header nav-down">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
-                <div class="nav-item text-start nav-logo">
-                    <a aria-current="page" href="/"><img width="250px" src="./img/logo_cook.webp" class="r-logo-main" alt="logo_cook"></a>
-                </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="/">
+                    <img src="/img/logo_cook.webp" alt="Cook Logo" width="200">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link <?php if ($page == "") {
-                                                    echo "active";
-                                                } ?>" href="/">Home</a>
+                            <a class="nav-link <?= $page === 'home' ? 'active' : '' ?>" href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link <?php if ($page == "demo") {
-                                                    echo "active";
-                                                } ?>" href="?page=demo">Demo</a>
+                            <a class="nav-link <?= $page === 'demo' ? 'active' : '' ?>" href="/demo">Demo</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link <?php if ($page == "functies") {
-                                                    echo "active";
-                                                } ?>" href="?page=functies">Functies</a>
+                            <a class="nav-link <?= $page === 'functies' ? 'active' : '' ?>" href="/functies">Functies</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link <?php if ($page == "applicatiebeheer") {
-                                                    echo "active";
-                                                } ?>" href="?page=applicatiebeheer">Applicatiebeheer</a>
+                            <a class="nav-link <?= $page === 'applicatiebeheer' ? 'active' : '' ?>"
+                                href="/applicatiebeheer">Applicatiebeheer</a>
                         </li>
-                        <!-- <li class="nav-item">
-                                <a class="nav-link" style="cursor: pointer;" onclick="window.scrollTo(0, document.body.scrollHeight);">Contact</a>
-                            </li> -->
                     </ul>
                 </div>
             </div>

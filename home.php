@@ -182,3 +182,128 @@ require 'vendor/autoload.php';
         </div>
     </div>
 </div>
+
+<!-- FAQ Accordion -->
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <h2 class="text-center mb-4" style="color: #D4BE87;">VEELGESTELDE <b>VRAGEN</b></h2>
+
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item border-0 mb-3 shadow-sm">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                            Wat kan ik precies doen binnen de Cook demo?
+                        </button>
+                    </h2>
+                    <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Binnen de Cook demo kunt u verschillende geografische datasets bekijken, combineren en analyseren. U kunt interactieve kaarten samenstellen, gegevens filteren en eenvoudige rapportages maken. Zo krijgt u een compleet beeld van de mogelijkheden van ons GIS data platform. De demo is bedoeld om u inzicht te geven in de functionaliteiten zonder verplichtingen. U kunt Cook vrijblijvend testen, wanneer het u uitkomt.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item border-0 mb-3 shadow-sm">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                            Heb ik technische kennis nodig om Cook te gebruiken?
+                        </button>
+                    </h2>
+                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Nee, Cook is ontworpen om gebruiksvriendelijk te zijn. Iedereen kan ermee aan de slag zonder speciale kennis van GIS-systemen. Dankzij de intuïtieve interface kun je snel data verkennen en kaarten samenstellen.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item border-0 mb-3 shadow-sm">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                            Is de Cook demo gratis beschikbaar?
+                        </button>
+                    </h2>
+                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Ja, de demo van Cook is volledig gratis en zonder verplichtingen beschikbaar. U hoeft zich niet vooraf te registreren om toegang te krijgen tot de basisfunctionaliteiten. Zo kunt u eenvoudig zelf ervaren hoe het platform werkt en of het aansluit bij uw wensen. Wilt u later uitgebreidere functionaliteiten testen, dan kunt u altijd een vrijblijvende demonstratie aanvragen. Wij helpen u graag verder om alle mogelijkheden te verkennen.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item border-0 mb-3 shadow-sm">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                            Welke soorten geografische data kan ik bekijken in Cook?
+                        </button>
+                    </h2>
+                    <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            In de Cook demo kunt u verschillende soorten geografische datasets bekijken, zoals kaarten van openbare ruimte, infrastructuur, milieu en vastgoed. De data in de demo is representatief voor het type informatie dat u in de echte omgeving kunt beheren. U kunt lagen combineren, locaties selecteren en eigenschappen van objecten raadplegen. Dit geeft u een goed beeld van de brede inzetbaarheid van Cook. De echte omgeving biedt uiteraard nog veel meer mogelijkheden en maatwerk.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item border-0 mb-3 shadow-sm">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                            Kan ik mijn eigen datasets uploaden in de demo?
+                        </button>
+                    </h2>
+                    <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            In de standaarddemo is het niet mogelijk om eigen datasets te uploaden. Dit is bewust gedaan om de omgeving eenvoudig en veilig te houden. Als u wilt zien hoe uw eigen data werkt binnen Cook, bieden wij de mogelijkheid tot een uitgebreide persoonlijke demonstratie. Tijdens deze sessie kunnen we samen uw data integreren en toepassingen bespreken. Neem gerust contact op om hiervoor een afspraak te maken.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- FAQ Structured Data for Google Rich Snippets -->
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [{
+                "@type": "Question",
+                "name": "Wat kan ik precies doen binnen de Cook demo?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Binnen de Cook demo kunt u verschillende geografische datasets bekijken, combineren en analyseren. U kunt interactieve kaarten samenstellen, gegevens filteren en eenvoudige rapportages maken. Zo krijgt u een compleet beeld van de mogelijkheden van ons GIS data platform. De demo is bedoeld om u inzicht te geven in de functionaliteiten zonder verplichtingen. U kunt Cook vrijblijvend testen, wanneer het u uitkomt."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Heb ik technische kennis nodig om Cook te gebruiken?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Nee, Cook is ontworpen om gebruiksvriendelijk te zijn. Iedereen kan ermee aan de slag zonder speciale kennis van GIS-systemen. Dankzij de intuïtieve interface kun je snel data verkennen en kaarten samenstellen."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is de Cook demo gratis beschikbaar?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Ja, de demo van Cook is volledig gratis en zonder verplichtingen beschikbaar. U hoeft zich niet vooraf te registreren om toegang te krijgen tot de basisfunctionaliteiten. Zo kunt u eenvoudig zelf ervaren hoe het platform werkt en of het aansluit bij uw wensen. Wilt u later uitgebreidere functionaliteiten testen, dan kunt u altijd een vrijblijvende demonstratie aanvragen. Wij helpen u graag verder om alle mogelijkheden te verkennen."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Welke soorten geografische data kan ik bekijken in Cook?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "In de Cook demo kunt u verschillende soorten geografische datasets bekijken, zoals kaarten van openbare ruimte, infrastructuur, milieu en vastgoed. De data in de demo is representatief voor het type informatie dat u in de echte omgeving kunt beheren. U kunt lagen combineren, locaties selecteren en eigenschappen van objecten raadplegen. Dit geeft u een goed beeld van de brede inzetbaarheid van Cook. De echte omgeving biedt uiteraard nog veel meer mogelijkheden en maatwerk."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Kan ik mijn eigen datasets uploaden in de demo?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "In de standaarddemo is het niet mogelijk om eigen datasets te uploaden. Dit is bewust gedaan om de omgeving eenvoudig en veilig te houden. Als u wilt zien hoe uw eigen data werkt binnen Cook, bieden wij de mogelijkheid tot een uitgebreide persoonlijke demonstratie. Tijdens deze sessie kunnen we samen uw data integreren en toepassingen bespreken. Neem gerust contact op om hiervoor een afspraak te maken."
+                }
+            }
+        ]
+    }
+</script>

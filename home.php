@@ -26,7 +26,8 @@ require 'vendor/autoload.php';
     <div class="container-sm">
         <div class="row justify-content-md-center py-4">
             <div class="col-xl-8 text-start">
-                <img src="./img/devices-cook.webp" alt="Devices cook" class="img-fluid" width="700px">
+                <img src="./img/devices-cook.webp" alt="Devices cook" class="img-fluid"
+                    width="700" height="461">
             </div>
             <div class="mobile-spacer"></div>
             <div class="col-xl-4 text-start">
@@ -45,7 +46,8 @@ require 'vendor/autoload.php';
 <div class="row text-center">
     <h2 class="py-5">FUNCTIONALITEITEN</h2>
     <div class="col-xl-4 py-5" style="background-color: #F7F7F6;">
-        <img src="./img/icon1.webp" alt="icon 1">
+        <img src="./img/icon1.webp" alt="icon 1"
+            width="100" height="100">
         <h3><b>OVERAL</b> INZETBAAR</h3>
         <div class="row justify-content-md-center">
             <div class="col-xl-7 self-align-center">
@@ -57,7 +59,8 @@ require 'vendor/autoload.php';
         </div>
     </div>
     <div class="col-xl-4 py-5" style="background-color: #EBE1C9;">
-        <img src="./img/icon2.webp" alt="icon 2">
+        <img src="./img/icon2.webp"
+            width="100" height="100" alt="icon 2">
         <h3><b>APPLICATIE</b>BEHEER</h3>
         <div class="row justify-content-md-center">
             <div class="col-xl-7 self-align-center">
@@ -69,7 +72,8 @@ require 'vendor/autoload.php';
         </div>
     </div>
     <div class="col-xl-4 py-5" style="background-color: #D4BE87;">
-        <img src="./img/icon4.webp" style="height: 168px;" alt="icon 3">
+        <img src="./img/icon4.webp"
+            width="100" height="100" style="height: 168px;" alt="icon 3">
         <h3>Extract <b>Transform</b> Load </h3>
         <div class="row justify-content-md-center">
             <div class="col-xl-7 self-align-center">
@@ -88,7 +92,7 @@ require 'vendor/autoload.php';
             <h2 class="text-start mb-5">DE MOGELIJKHEDEN <b>ZIJN EINDELOOS</b></h2>
             <div class="col-lg-4 mb-5 p-4">
                 <div class="card gold-bg r-card rounded-4">
-                    <img src="./img/bestemmingsplannen.webp" class="card-img-top rounded-4" alt="COOK systeem">
+                    <img src="./img/bestemmingsplannen.webp" loading="lazy" class="card-img-top rounded-4" width="400" height="300" alt="COOK systeem">
                     <div class="card-body">
                         <div class="row">
                             <div class="col-lg-10 offset-lg-1">
@@ -101,7 +105,7 @@ require 'vendor/autoload.php';
             </div>
             <div class="col-lg-4 mb-5 p-4">
                 <div class="card gold-bg r-card rounded-4">
-                    <img src="./img/lvc_strooiroutes.webp" loading="lazy" class="card-img-top rounded-4" alt="COOK systeem">
+                    <img src="./img/lvc_strooiroutes.webp" loading="lazy" class="card-img-top rounded-4" width="600" height="400" alt="COOK systeem">
                     <div class="card-body">
                         <div class="row">
                             <div class="col-lg-10 offset-lg-1">
@@ -114,7 +118,7 @@ require 'vendor/autoload.php';
             </div>
             <div class="col-lg-4 p-4">
                 <div class="card gold-bg r-card rounded-4">
-                    <img src="./img/hta_edamvolendam.webp" loading="lazy" class="card-img-top rounded-4" alt="COOK systeem">
+                    <img src="./img/hta_edamvolendam.webp" loading="lazy" class="card-img-top rounded-4" width="600" height="400" alt="COOK systeem">
                     <div class="card-body rounded-3">
                         <div class="row">
                             <div class="col-lg-10 offset-lg-1">

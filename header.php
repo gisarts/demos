@@ -135,7 +135,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="/">
-                    <img src="/img/logo_cook.webp" alt="Cook Logo" width="200">
+                    <img src="/img/logo_cook.webp" alt="Cook Logo" width="200" height="83">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNav" aria-controls="navbarNav"

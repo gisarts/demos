@@ -392,13 +392,12 @@ a:hover {
 }
 
 .accordion-collapse.collapse {
-  display: block !important; /* keep it in the flow */
-  max-height: 0; /* collapsed */
-  overflow: hidden; /* clip the contents */
+  display: block !important;
+  max-height: 0;
+  overflow: hidden;
   transition: max-height 300ms ease;
 }
 
-/* 2) When shown, expand to a big enough height */
 .accordion-collapse.collapse.show {
-  max-height: 800px; /* set higher than your tallest panel */
+  max-height: 800px;
 }

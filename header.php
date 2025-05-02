@@ -22,34 +22,37 @@
     <meta name="keywords" content="cook, gis, viewer, geo, gisarts" />
 
     <link rel="icon" href="./img/favicon.webp">
-    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-        as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <!-- Preload critical CSS -->
+    <link rel="preload"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+        as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
         <link rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
     </noscript>
 
-    <link rel="preload" href="/css/main.css"
-        as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload"
+        href="/css/main.css"
+        as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
         <link rel="stylesheet" href="/css/main.css">
     </noscript>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
     <link rel="preload"
         href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
-        as="style" onload="this.onload=null;this.rel='stylesheet'">
+        as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
-            rel="stylesheet">
-    </noscript> <!-- <base href="http://localhost:8123"> -->
-    <link
-        rel="preload"
-        href="/img/devices-cook.webp"
-        as="image"
-        type="image/webp"
-        fetchpriority="high" />
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    </noscript>
+
+    <!-- Preload LCP hero image -->
+    <link rel="preload" as="image" href="/img/devices-cook.webp" fetchpriority="high">
+    <link rel="preload" as="image" href="/img/background-lines.webp" fetchpriority="high">
 
     <script>
         // var _paq = window._paq = window._paq || [];
@@ -100,17 +103,31 @@
         }
     </script>
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F2BEPCCC24"></script>
-    <script>
+    <script defer src="https://www.googletagmanager.com/gtag/js?id=G-F2BEPCCC24"></script>
+    <script defer>
         window.dataLayer = window.dataLayer || [];
 
         function gtag() {
             dataLayer.push(arguments);
         }
         gtag('js', new Date());
-
         gtag('config', 'G-F2BEPCCC24');
     </script>
+    <style>
+        /* Critical above-the-fold styles */
+        .header-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .header-section h1 {
+            font-family: 'Lato', sans-serif;
+            font-size: 2.5rem;
+        }
+
+        /* …add only what’s needed for first view… */
+    </style>
 </head>
 
 <body>

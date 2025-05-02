@@ -12,9 +12,9 @@
                     <div class="row">
                         <div class="col-md-4">
                             <a class="gisarts_link" href="https://www.gisarts.nl" target="_Blank">
-                                <img src="/img/logo_gisarts.webp" alt="logo_gisarts" class="w-100" style="filter: brightness(0) invert(1);">
+                                <img src="/img/logo_gisarts.webp" loading="lazy" alt="logo_gisarts" class="w-100" style="filter: brightness(0) invert(1);">
                             </a>
-                            <img src="/img/iso-dekra.webp" class="w-25 iso" alt="ISO 27001 DEKRA certificering logo">
+                            <img src="/img/iso-dekra.webp" loading="lazy" class="w-25 iso" alt="ISO 27001 DEKRA certificering logo">
                         </div>
                         <div class="col-md-4">
                             <h3 class="text-white">Over ons</h3>

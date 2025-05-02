@@ -161,7 +161,7 @@
          <div class="col">
             <div class="card mb-5 rounded-4 f-card">
                <div class="card-body">
-                  <img src="./img/formulier1.webp" alt="">
+                  <!-- <img src="./img/formulier1.webp" alt=""> -->
                   <h4 class="text-black">
                      <b>DYNAMISCHE</b> FORMULIEREN
                   </h4>
@@ -172,7 +172,7 @@
          <div class="col">
             <div class="card mb-5 rounded-4 f-card">
                <div class="card-body">
-                  <img src="./img/formulier2.webp" alt="">
+                  <!-- <img src="./img/formulier2.webp" alt=""> -->
                   <h4 class="text-black">FOTO- EN <b>BESTANDSBIJLAGEN</b>
                   </h4>
                   <p class="fs-6">Voeg foto's en bestanden toe aan meldingen voor uitgebreide documentatie. Ideaal voor het vastleggen van situaties in het veld, waardoor beheerders direct visuele context hebben bij binnenkomende meldingen.</p>
@@ -182,7 +182,7 @@
          <div class="col">
             <div class="card mb-5 rounded-4 f-card">
                <div class="card-body">
-                  <img src="./img/formulier3.webp" alt="">
+                  <!-- <img src="./img/formulier3.webp" alt=""> -->
                   <h4 class="text-black">
                      <b>THEMATISCHE</b> KAARTEN
                   </h4>
@@ -193,7 +193,7 @@
          <div class="col">
             <div class="card mb-5 rounded-4 f-card">
                <div class="card-body">
-                  <img src="./img/formulier4.webp" alt="">
+                  <!-- <img src="./img/formulier4.webp" alt=""> -->
                   <h4 class="text-black">
                      <b>GEOMETRIE</b> REGISTRATIE
                   </h4>
@@ -204,7 +204,7 @@
          <div class="col">
             <div class="card mb-5 rounded-4 f-card">
                <div class="card-body">
-                  <img src="./img/formulier5.webp" alt="">
+                  <!-- <img src="./img/formulier5.webp" alt=""> -->
                   <h4 class="text-black">
                      <b>MELD</b> FUNCTIONALITEIT
                   </h4>
@@ -215,7 +215,7 @@
          <div class="col">
             <div class="card mb-5 rounded-4 f-card">
                <div class="card-body">
-                  <img src="./img/formulier6.webp" alt="">
+                  <!-- <img src="./img/formulier6.webp" alt=""> -->
                   <h4 class="text-black">
                      <b>MOBIEL</b> GEBRUIK
                   </h4>

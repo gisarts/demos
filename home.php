@@ -101,7 +101,7 @@ require 'vendor/autoload.php';
             </div>
             <div class="col-lg-4 mb-5 p-4">
                 <div class="card gold-bg r-card rounded-4">
-                    <img src="./img/lvc_strooiroutes.webp" class="card-img-top rounded-4" alt="COOK systeem">
+                    <img src="./img/lvc_strooiroutes.webp" loading="lazy" class="card-img-top rounded-4" alt="COOK systeem">
                     <div class="card-body">
                         <div class="row">
                             <div class="col-lg-10 offset-lg-1">
@@ -114,7 +114,7 @@ require 'vendor/autoload.php';
             </div>
             <div class="col-lg-4 p-4">
                 <div class="card gold-bg r-card rounded-4">
-                    <img src="./img/hta_edamvolendam.webp" class="card-img-top rounded-4" alt="COOK systeem">
+                    <img src="./img/hta_edamvolendam.webp" loading="lazy" class="card-img-top rounded-4" alt="COOK systeem">
                     <div class="card-body rounded-3">
                         <div class="row">
                             <div class="col-lg-10 offset-lg-1">

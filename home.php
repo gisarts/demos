@@ -258,6 +258,38 @@ require 'vendor/autoload.php';
         </div>
     </div>
 </div>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const accordion = document.getElementById('faqAccordion');
+        const buttons = accordion.querySelectorAll('.accordion-button');
+
+        buttons.forEach(btn => {
+            // ensure aria-expanded is set for accessibility
+            btn.setAttribute('aria-expanded', 'false');
+
+            btn.addEventListener('click', function() {
+                const targetSelector = btn.getAttribute('data-bs-target');
+                const target = document.querySelector(targetSelector);
+                const isOpen = target.classList.contains('show');
+
+                // Close any open panel
+                accordion.querySelectorAll('.accordion-collapse.show').forEach(openPanel => {
+                    openPanel.classList.remove('show');
+                    const otherBtn = openPanel.previousElementSibling.querySelector('.accordion-button');
+                    otherBtn.classList.add('collapsed');
+                    otherBtn.setAttribute('aria-expanded', 'false');
+                });
+
+                // If the clicked one was closed, open it
+                if (!isOpen) {
+                    target.classList.add('show');
+                    btn.classList.remove('collapsed');
+                    btn.setAttribute('aria-expanded', 'true');
+                }
+            });
+        });
+    });
+</script>
 
 <!-- FAQ Structured Data for Google Rich Snippets -->
 <script type="application/ld+json">

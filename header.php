@@ -2,7 +2,7 @@
 <html lang="nl-NL">
 
 <head>
-    <title>Cook Demo | Gis Viewer</title>
+    <title>Cook | Gis Viewer</title>
     <meta charset="utf-8">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,10 +10,10 @@
     <meta name="robots" content="index,follow">
     <meta name="description" content="Probeer hier de GIS Viewer van Cook. Op deze pagina kunt u de demo GIS viewer van Cook bekijken.">
 
-    <meta property="og:title" content="Cook Demo | De complete veilige gepersonaliseerde GIS Viewer van GISArts" />
+    <meta property="og:title" content="Cook | De complete veilige gepersonaliseerde GIS Viewer van GISArts" />
     <meta property="og:description" content="Probeer hier de GIS Viewer van Cook. Op deze pagina kunt u de demo GIS viewer van Cook bekijken." />
     <meta property="og:image" content="https://gis-cook.nl/img/logo_cook.webp" />
-    <meta property="og:site_name" content="Cook Demo" />
+    <meta property="og:site_name" content="Cook" />
     <meta property="og:url" content="https://gis-cook.nl/" />
 
     <meta name="apple-mobile-web-app-capable" content="yes">

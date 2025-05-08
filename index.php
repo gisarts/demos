@@ -1,7 +1,21 @@
 <?php
 $requestPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-$segments   = explode('/', trim($requestPath, '/'));
-$page       = $segments[0] ?: 'home';
+$segments    = explode('/', trim($requestPath, '/'));
+
+// Only allow one segment like "/home", "/demo", etc.
+if (count($segments) > 1 && $segments[1] !== '') {
+    header("Location: /", true, 302);
+    exit;
+}
+
+$page = $segments[0] ?: 'home';
+
+$validPages = ['home', 'demo', 'functies', 'applicatiebeheer'];
+
+if (!in_array($page, $validPages)) {
+    header("Location: /", true, 302);
+    exit;
+}
 
 include_once 'header.php';
 
@@ -22,13 +36,10 @@ try {
         case 'applicatiebeheer':
             include_once 'applicatiebeheer.php';
             break;
-
-        default:
-            include_once 'home.php';
-            break;
     }
-} catch (\Throwable $th) {
-    include_once 'home.php';
+} catch (Throwable $th) {
+    header("Location: /", true, 302);
+    exit;
 }
 
 include_once 'footer.php';

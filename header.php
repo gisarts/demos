@@ -137,13 +137,11 @@
                 <a class="navbar-brand" href="/">
                     <img src="/img/logo_cook.webp" alt="Cook Logo" width="200" height="83">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav" aria-controls="navbarNav"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" aria-label="Toggle navigation" data-toggle="navbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
                             <a class="nav-link <?= $page === 'home' ? 'active' : '' ?>" href="/">Home</a>
@@ -155,8 +153,7 @@
                             <a class="nav-link <?= $page === 'functies' ? 'active' : '' ?>" href="/functies">Functies</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link <?= $page === 'applicatiebeheer' ? 'active' : '' ?>"
-                                href="/applicatiebeheer">Applicatiebeheer</a>
+                            <a class="nav-link <?= $page === 'applicatiebeheer' ? 'active' : '' ?>" href="/applicatiebeheer">Applicatiebeheer</a>
                         </li>
                     </ul>
                 </div>

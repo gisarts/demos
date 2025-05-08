@@ -77,8 +77,9 @@
                     </div>
                 </div>
             </div>
+            <script src="header.js" defer></script>
+            <script src="navbar.js" defer></script>
         </footer>
-        <script src="header.js"></script>
         </body>
 
         </html>

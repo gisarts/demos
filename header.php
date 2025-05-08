@@ -21,7 +21,7 @@
     <meta name="copyright" content="Gisarts">
     <meta name="keywords" content="cook, gis, viewer, geo, gisarts" />
 
-    <link rel="icon" href="./img/favicon.webp">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
     <!-- Preload critical CSS -->
     <link rel="preload"
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"

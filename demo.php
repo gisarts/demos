@@ -24,7 +24,7 @@
 <div class="album my-5">
     <div class="container">
         <!-- <div class="row justify-content-center d-flex" style="height: 34vh;">
-            <iframe src="https://demo.gisarts.nl/cook/wandelroutes" class="col-12 col-lg-6 card" style="padding: calc(var(--bs-gutter-x)* .5);"></iframe>
+            <iframe src="https://cook.gisarts.nl/cook/wandelroutes" class="col-12 col-lg-6 card" style="padding: calc(var(--bs-gutter-x)* .5);"></iframe>
         </div> -->
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mt-3">
             <div class="col">
@@ -37,7 +37,7 @@
                         <p class="card-text">Carnavalskaart</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <button onclick="window.open('https://demo.gisarts.nl/cook/carnavalplaatsnamen')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
+                                <button onclick="window.open('https://cook.gisarts.nl/cook/carnavalplaatsnamen')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
                             </div>
                             <small class="text-muted">Openstreetmap</small>
                         </div>
@@ -54,7 +54,7 @@
                         <p class="card-text">Milleu & Energie</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <button onclick="window.open('https://demo.gisarts.nl/cook/energietransitie')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
+                                <button onclick="window.open('https://cook.gisarts.nl/cook/energietransitie')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
                             </div>
                             <small class="text-muted">RIVM, oplaadpalen.nl</small>
                         </div>
@@ -71,7 +71,7 @@
                         <p class="card-text">Wandel 4-daagse</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <button onclick="window.open('https://demo.gisarts.nl/cook/vierdaagse')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
+                                <button onclick="window.open('https://cook.gisarts.nl/cook/vierdaagse')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
                             </div>
                             <!-- <small class="text-muted">3D BAG</small> -->
                         </div>
@@ -89,7 +89,7 @@
                         <p class="card-text">3D Demo</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <button onclick="window.open('https://demo.gisarts.nl/cook/3d/three-dimensional')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
+                                <button onclick="window.open('https://cook.gisarts.nl/cook/3d/three-dimensional')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
                             </div>
                             <small class="text-muted">3D BAG</small>
                         </div>
@@ -107,7 +107,7 @@
                         <p class="card-text">Data Exporteren</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <button onclick="window.open('https://demo.gisarts.nl/cook/fme')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
+                                <button onclick="window.open('https://cook.gisarts.nl/cook/fme')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
                             </div>
                             <small class="text-muted">FME Flow</small>
                         </div>
@@ -125,7 +125,7 @@
                         <p class="card-text">Reizen van James Cook</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <button onclick="window.open('https://demo.gisarts.nl/cook/jamescook')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
+                                <button onclick="window.open('https://cook.gisarts.nl/cook/jamescook')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
                             </div>
                             <small class="text-muted">James Cook</small>
                         </div>
@@ -143,7 +143,7 @@
                         <p class="card-text">Ongevallen</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <button onclick="window.open('https://demo.gisarts.nl/cook/ongevallen')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
+                                <button onclick="window.open('https://cook.gisarts.nl/cook/ongevallen')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
                             </div>
                             <small class="text-muted">Ongevallen</small>
                         </div>
@@ -161,7 +161,7 @@
                         <p class="card-text">Bonnebladen</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <button onclick="window.open('https://demo.gisarts.nl/cook/bonnebladen')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
+                                <button onclick="window.open('https://cook.gisarts.nl/cook/bonnebladen')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
                             </div>
                             <small class="text-muted">Bonnebladen</small>
                         </div>
@@ -179,7 +179,7 @@
                         <p class="card-text">Wind turbines</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <button onclick="window.open('https://demo.gisarts.nl/cook/windturbines')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
+                                <button onclick="window.open('https://cook.gisarts.nl/cook/windturbines')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
                             </div>
                             <small class="text-muted">Wind turbines</small>
                         </div>
@@ -250,7 +250,7 @@
                     <div class="card-body">
                         <p class="card-text">Bestemmingsplannen</p>
                         <div class="d-flex justify-content-between align-items-center">
-                            <button onclick="window.open('https://demo.gisarts.nl/cook/bestemmingsplannen')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
+                            <button onclick="window.open('https://cook.gisarts.nl/cook/bestemmingsplannen')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
                             <small class="text-muted">Bestemmingsplannen</small>
                         </div>
                     </div>
@@ -266,7 +266,7 @@
                     <div class="card-body">
                         <p class="card-text">ANH3 Hoogtekaart</p>
                         <div class="d-flex justify-content-between align-items-center">
-                            <button onclick="window.open('https://demo.gisarts.nl/cook/ahn')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
+                            <button onclick="window.open('https://cook.gisarts.nl/cook/ahn')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
                             <small class="text-muted">Point Cloud</small>
                         </div>
                     </div>
@@ -283,7 +283,7 @@
                         <p class="card-text">Spoorwegen</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <button onclick="window.open('https://demo.gisarts.nl/cook/spoorwegen')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
+                                <button onclick="window.open('https://cook.gisarts.nl/cook/spoorwegen')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
                             </div>
                             <small class="text-muted">Spoorwegen</small>
                         </div>
@@ -301,7 +301,7 @@
                         <p class="card-text">Wandelroutes</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <button onclick="window.open('https://demo.gisarts.nl/cook/wandelroutes')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
+                                <button onclick="window.open('https://cook.gisarts.nl/cook/wandelroutes')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
                             </div>
                             <small class="text-muted">Wandelroutes</small>
                         </div>
@@ -319,7 +319,7 @@
                         <p class="card-text">World</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <button onclick="window.open('https://demo.gisarts.nl/cook/world')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
+                                <button onclick="window.open('https://cook.gisarts.nl/cook/world')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
                             </div>
                             <small class="text-muted">World</small>
                         </div>
@@ -337,7 +337,7 @@
                         <p class="card-text">Terrain</p>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <button onclick="window.open('https://demo.gisarts.nl/cook/terrain')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
+                                <button onclick="window.open('https://cook.gisarts.nl/cook/terrain')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
                             </div>
                             <small class="text-muted">Terrain</small>
                         </div>

@@ -10,7 +10,7 @@ if (count($segments) > 1 && $segments[1] !== '') {
 
 $page = $segments[0] ?: 'home';
 
-$validPages = ['home', 'demo', 'functies', 'applicatiebeheer'];
+$validPages = ['home', 'demo', 'functies', 'applicatiebeheer', 'releases'];
 
 if (!in_array($page, $validPages)) {
     header("Location: /", true, 302);
@@ -35,6 +35,10 @@ try {
 
         case 'applicatiebeheer':
             include_once 'applicatiebeheer.php';
+            break;
+
+        case 'releases':
+            include_once 'release_notes.php';
             break;
     }
 } catch (Throwable $th) {

@@ -245,27 +245,9 @@ a:hover {
   }
 }
 
-/* Footer */
-
-.footer {
-  color: white;
-  background-image: url("../img/footer.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-}
-
-.footer .container {
-  padding-top: 5rem;
-}
-
 .gisarts_link {
   color: white;
   text-decoration: none;
-}
-
-.footer .container svg {
-  padding-bottom: 0.5em;
 }
 
 .bd-placeholder-img {

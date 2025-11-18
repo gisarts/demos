@@ -36,6 +36,10 @@
         href="/css/main.css"
         as="style"
         onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload"
+        href="/css/footer.css"
+        as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
         <link rel="stylesheet" href="/css/main.css">
     </noscript>

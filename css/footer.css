@@ -1,0 +1,230 @@
+/* Footer Styles */
+
+.footer {
+  color: white;
+  background-color: rgb(161, 117, 18);
+  position: relative;
+}
+
+.footer .container {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+.footer h3 {
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.5px;
+}
+
+.footer p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.footer a:hover {
+  color: #bc9c47;
+  text-decoration: none;
+}
+
+/* Footer Contact Icons */
+.footer-contact-row {
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer-icon-wrapper {
+  min-width: 40px;
+  margin-right: 15px;
+}
+
+.footer-icon-wrapper svg {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-contact-text {
+  flex: 1;
+}
+
+.footer-contact-text p {
+  margin-bottom: 0;
+}
+
+/* Footer Logo Section */
+.footer-logo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-logo-section a {
+  display: block;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  max-width: 200px;
+}
+
+.footer-logo-section img {
+  width: 100%;
+  height: auto;
+  transition: opacity 0.3s ease;
+}
+
+.footer-logo-section a:hover img {
+  opacity: 0.8;
+}
+
+.iso-certification {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.iso-certification img {
+  width: 80px;
+  height: auto;
+  max-width: 100%;
+}
+
+/* Footer Link with Icon */
+.footer-link-with-icon {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 0;
+  transition: transform 0.3s ease;
+}
+
+.footer-link-with-icon:hover {
+  transform: translateX(5px);
+}
+
+.footer-link-with-icon svg {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+/* Back to Top Button */
+.back-to-top {
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 1rem;
+}
+
+.back-to-top:hover {
+  transform: translateY(-5px);
+}
+
+.back-to-top-text {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+/* Footer Bottom Bar */
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 2rem;
+  margin-top: 3rem;
+}
+
+.footer-bottom p {
+  margin-bottom: 0;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-bottom a {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: underline;
+}
+
+.footer-bottom a:hover {
+  color: #bc9c47;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .footer .container {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+
+  .footer h3 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+
+  .footer p {
+    font-size: 14px;
+  }
+
+  .footer-icon-wrapper svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .footer-logo-section a {
+    max-width: 180px;
+  }
+
+  .iso-certification img {
+    width: 60px;
+  }
+
+  .back-to-top-text {
+    font-size: 40px;
+  }
+
+  .footer-contact-row {
+    margin-bottom: 1rem;
+  }
+
+  .footer-bottom {
+    padding-top: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  /* Center all footer columns on mobile */
+  .footer .text-start {
+    text-align: center !important;
+  }
+  
+  .footer-contact-row {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 769px) {
+  .footer-desktop-hide {
+    display: none;
+  }
+  
+  /* Keep logo section centered on desktop too */
+  .footer .col-md-4:first-child {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .footer-mobile-hide {
+    display: none;
+  }
+}

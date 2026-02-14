@@ -23,13 +23,52 @@ include_once("header.php");
 <div class="container-sm my-5">
     <div class="row">
         <div class="col-lg-10 offset-lg-1">
-            
-            <!-- Release 1.6.2 -->
+
             <div class="card mb-4 shadow-sm rounded-4">
                 <div class="card-body p-4">
                     <div class="row">
                         <div class="col-md-3">
                             <span class="badge bg-success mb-2">Nieuwste versie</span>
+                            <h3 class="text-gold mb-0">v1.6.4</h3>
+                            <p class="text-muted">Februari 2026</p>
+                        </div>
+                        <div class="col-md-9">
+                            <h4 class="mb-3">Verbeterslag beheer formulieren</h4>
+                            <ul class="fs-6">
+                                <li>Verbeterslag in het beheer van de formulieren.</li>
+                                <li>Mails koppelen middels een morph relatie.</li>
+                                <li>Fixes voor verhoogde stabiliteit.</li>
+                                <li>Optimalisaties middels meer individuele componenten</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-4 shadow-sm rounded-4">
+                <div class="card-body p-4">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h3 class="text-gold mb-0">v1.6.3</h3>
+                            <p class="text-muted">December 2025</p>
+                        </div>
+                        <div class="col-md-9">
+                            <h4 class="mb-3">Update Formulier rechten</h4>
+                            <ul class="fs-6">
+                                <li>Formulieren zijn geoptimaliseerd.</li>
+                                <li>Formulier rechten zijn vereenvoudigd</li>
+                                <li>Mogelijkheid om tijdens het printen te annuleren.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Release 1.6.2 -->
+            <div class="card mb-4 shadow-sm rounded-4">
+                <div class="card-body p-4">
+                    <div class="row">
+                        <div class="col-md-3">
                             <h3 class="text-gold mb-0">v1.6.2</h3>
                             <p class="text-muted">November 2025</p>
                         </div>

@@ -72,12 +72,14 @@ a:hover {
   width: 150%;
   background-color: rgb(161, 117, 18, 0.9);
   color: white;
-  transform: translateX(-18%);
+  transform: translateX(-16.67%);
   border-bottom-left-radius: 50%; /* Ronde linkeronderhoek */
   border-bottom-right-radius: 50%;
 }
 .header-section div {
   width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .nav-link {
   font-weight: 300;

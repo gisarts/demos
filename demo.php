@@ -4,27 +4,30 @@
         <div class="spacer mt-5"></div>
         <h4>Cook. YOU NAME IT, <b>WE SERVE IT!</b></h4>
     </div>
-    <div class="row justify-content-center">
-        <div class="col-xxl-2 r-padding">
-            <a href="https://www.gisarts.nl/" target="_blank" class="btn btn-lg btn-primary rounded-pill my-2 r-btn w-25">BEZOEK SITE</a>
-        </div>
-        <div class="col-xxl-2 r-padding">
-            <a onclick="window.scrollTo(0, document.body.scrollHeight);" class="btn btn-lg btn-primary rounded-pill r-btn my-2 w-25">CONTACT</a>
-        </div>
+    <div>
+        <a onclick="window.scrollTo(0, document.body.scrollHeight);" class="btn btn-lg btn-primary rounded-pill r-btn my-2">CONTACT</a>
     </div>
-    <div class="row justify-content-center">
-        <div class="col-xxl-2 r-padding">
-            <span onclick="window.scrollTo(0, 800);" class="text-decoration-none  w-25" style="cursor: pointer;">
-                <p style="font-size: 50px"><b class="icon-animation">↓</b></p>
-            </span>
-        </div>
+    <div>
+        <span onclick="window.scrollTo(0, 800);" class="text-decoration-none" style="cursor: pointer;">
+            <p style="font-size: 50px"><b class="icon-animation">↓</b></p>
+        </span>
     </div>
 </div>
 
-<div class="album my-5">
+<div class="album mb-5">
     <div class="container">
+        <div class="text-center mb-3">
+            <h3>Live Demo</h3>
+            <p class="text-muted">Bekijk hieronder een live voorbeeld van de GIS Viewer in actie. Scroll verder voor linkjes naar alle beschikbare viewers.</p>
+        </div>
         <div class="row justify-content-center d-flex" style="height: 34vh;">
             <iframe src="https://cook.gisarts.nl/cook/wandelroutes" class="col-12 col-lg-6 card" style="padding: calc(var(--bs-gutter-x)* .5);"></iframe>
+        </div>
+        <div class="row justify-content-center text-center mt-4 mb-2">
+            <div class="col-12 col-lg-8">
+                <h4>Alle Viewers</h4>
+                <p class="text-muted">Klik op een viewer om deze in volledig scherm te openen.</p>
+            </div>
         </div>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mt-3">
             <div class="col">

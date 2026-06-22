@@ -29,6 +29,27 @@ include_once("header.php");
                     <div class="row">
                         <div class="col-md-3">
                             <span class="badge bg-success mb-2">Nieuwste versie</span>
+                            <h3 class="text-gold mb-0">v1.7.0</h3>
+                            <p class="text-muted">Juni 2026</p>
+                        </div>
+                        <div class="col-md-9">
+                            <h4 class="mb-3">Vernieuwde interface &amp; snellere viewer</h4>
+                            <ul class="fs-6">
+                                <li>Volledig vernieuwde en consistente interface voor alle beheerschermen (gebruikers, kaarten en configuraties).</li>
+                                <li>Snellere laadtijden door het slim en gefaseerd laden van onderdelen en compactere bestanden.</li>
+                                <li>Vernieuwde, uniforme iconografie voor een rustiger en herkenbaarder beeld.</li>
+                                <li>Verbeteringen in het beheer en gebruik van formulieren.</li>
+                                <li>Panoramax-integratie: open 360°-streetview rechtstreeks in de viewer.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-4 shadow-sm rounded-4">
+                <div class="card-body p-4">
+                    <div class="row">
+                        <div class="col-md-3">
                             <h3 class="text-gold mb-0">v1.6.4</h3>
                             <p class="text-muted">Februari 2026</p>
                         </div>

@@ -73,7 +73,7 @@ export const roadmap: RoadmapEntry[] = [
   {
     period: '2026',
     items: [
-      'API-first architectuur: volledige implementatie Cook Datacatalogus (OGC API — Features, Tiles, Records).',
+      'API-first architectuur: volledige implementatie Cook Datacatalogus (OGC API voor Features, Tiles en Records).',
       'Slimme datakwaliteit: automatische datavalidaties via ETL (FME Flow).',
       'Datacatalogus-uitbreiding: meer soorten datadistributie.',
       'Uitbreiding koppelingen: integratie met DSO (Digitaal Stelsel Omgevingswet).',
@@ -85,7 +85,7 @@ export const roadmap: RoadmapEntry[] = [
     status: 'TBA',
   },
   {
-    period: '2028 – 2029',
+    period: '2028-2029',
     status: 'TBA',
   },
 ];

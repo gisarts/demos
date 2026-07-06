@@ -15,7 +15,7 @@ export const features: Feature[] = [
   {
     title: 'Viewer & navigatie',
     description:
-      'Snelle OpenLayers-kaart met pannen, zoomen, geolocatie, coördinaten ophalen en het wisselen van achtergrondkaarten — met deep links naar elke extent of element.',
+      'Snelle OpenLayers-kaart met pannen, zoomen, geolocatie, coördinaten ophalen en het wisselen van achtergrondkaarten, met deep links naar elke extent of element.',
     icon: 'map',
     highlight: true,
   },
@@ -43,7 +43,7 @@ export const features: Feature[] = [
   {
     title: 'Zoeken op adres & object',
     description:
-      'Vind in een oogwenk adressen, percelen en objecten met de ingebouwde zoeker — gevoed door de PDOK-locatieserver en uw eigen kaartlagen.',
+      'Vind in een oogwenk adressen, percelen en objecten met de ingebouwde zoeker, gevoed door de PDOK-locatieserver en uw eigen kaartlagen.',
     icon: 'search',
   },
   {
@@ -75,7 +75,7 @@ export const features: Feature[] = [
   {
     title: '3D-weergave',
     description:
-      'Een volwaardige 3D-omgeving met terrain-tiles, eigen legenda, info- en meet-tools, en camera-besturing — tot op de centimeter nauwkeurig.',
+      'Een volwaardige 3D-omgeving met terrain-tiles, eigen legenda, info- en meet-tools, en camera-besturing, tot op de centimeter nauwkeurig.',
     icon: 'cube',
     highlight: true,
   },
@@ -94,7 +94,7 @@ export const features: Feature[] = [
   {
     title: 'Eigen kaarten importeren',
     description:
-      'Maak nieuwe kaarten vanuit CSV, XLSX, KML, DWG, Shapefile of een externe WMS-service — zonder technische kennis.',
+      'Maak nieuwe kaarten vanuit CSV, XLSX, KML, DWG, Shapefile of een externe WMS-service, zonder technische kennis.',
     icon: 'upload',
   },
   {
@@ -118,7 +118,7 @@ export const features: Feature[] = [
   {
     title: 'PWA & offline',
     description:
-      'Cook is als Progressive Web App te installeren en werkt online én offline in het veld, op elk apparaat — via een service worker.',
+      'Cook is als Progressive Web App te installeren en werkt online én offline in het veld, op elk apparaat, via een service worker.',
     icon: 'offline',
   },
   {

@@ -4,7 +4,7 @@ export const site = {
   domain: 'https://gis-cook.nl',
   viewerBase: 'https://cook.gisarts.nl',
   description:
-    'Cook is de complete, veilige en volledig personaliseerbare GIS-Viewer van Gisarts. Raadpleeg, registreer en analyseer geografische data — online én offline.',
+    'Cook is de complete, veilige en volledig personaliseerbare GIS-Viewer van Gisarts. Raadpleeg, registreer en analyseer geografische data, online én offline.',
 };
 
 export const nav = [

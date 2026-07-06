@@ -1,0 +1,135 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero.astro';
+import SectionHeading from '../components/SectionHeading.astro';
+import FeatureCard from '../components/FeatureCard.astro';
+import CTA from '../components/CTA.astro';
+import Icon from '../components/Icon.astro';
+import { features } from '../data/features';
+
+const showcases = [
+  {
+    img: '/img/query.webp',
+    title: 'Functies van de <b>querybuilder</b>',
+    text: 'Met de querybuilder creëert u zelfstandig kaarten door vragen te stellen. Teken een gebied en vraag bijvoorbeeld: “Toon alle gebouwen die na 2000 zijn gebouwd.” Cook selecteert de relevante features en exporteert ze naar elk gewenst formaat.',
+    reverse: false,
+  },
+  {
+    img: '/img/360.webp',
+    title: '<b>API</b>-integraties',
+    text: 'Cyclomedia, Kavel10, Azure SSO en Google Maps — allemaal koppelingen met Cook om het naadloos te integreren in uw organisatie. Een REST- en OGC-API vormt de bron voor kaarten, formulieren en dashboards.',
+    reverse: true,
+  },
+  {
+    img: '/img/dashboard.webp',
+    title: '<b>Dashboards</b> en rapportages',
+    text: 'Applicatiebeheerders stellen zelfstandig dashboards op. Data uit het datawarehouse wordt live weergegeven, waardoor gebruikers geo-gerelateerde analyses uitvoeren. Kies uit lijn-, staaf- en cirkeldiagrammen of tabellen en pas ze naar wens aan.',
+    reverse: true,
+  },
+];
+
+const forms = [
+  {
+    title: 'Dynamische formulieren',
+    text: 'Beheerders ontwerpen zelf formulieren zonder technische kennis, op maat voor elke afdeling — met intuïtieve drag-and-drop.',
+    icon: 'clipboard',
+  },
+  {
+    title: 'Foto- en bestandsbijlagen',
+    text: 'Voeg foto’s en bestanden toe aan meldingen voor uitgebreide documentatie en directe visuele context in het veld.',
+    icon: 'upload',
+  },
+  {
+    title: 'Thematische kaarten',
+    text: 'Koppel formulieren aan specifieke kaartlagen, zodat meldingen direct op de juiste laag worden gevisualiseerd.',
+    icon: 'layers',
+  },
+  {
+    title: 'Geometrie-registratie',
+    text: 'Leg nauwkeurige locaties vast met punten, lijnen of vlakken door direct op de kaart in te tekenen.',
+    icon: 'ruler',
+  },
+  {
+    title: 'Meldfunctionaliteit',
+    text: 'Na indienen worden automatisch de juiste personen per e-mail geïnformeerd, inclusief statusupdates.',
+    icon: 'mail',
+  },
+  {
+    title: 'Mobiel gebruik',
+    text: 'Ontworpen voor smartphone en tablet in het veld — ook in gebieden met beperkte connectiviteit.',
+    icon: 'offline',
+  },
+];
+---
+
+<Layout
+  title="Functionaliteiten | Cook GIS-Viewer"
+  description="Ontdek alle functionaliteiten van Cook: legenda, tekenen & meten, 3D, formulieren, querybuilder, dashboards, import/export en meer."
+>
+  <Hero
+    compact
+    eyebrow="Functionaliteiten"
+    title="Alles wat Cook <b>voor u doet</b>"
+    subtitle="Een volledig overzicht van de gereedschappen in de viewer. Wat een gebruiker ziet, bepaalt u per configuratie."
+  />
+
+  <!-- Volledige feature-grid -->
+  <section class="py-20">
+    <div class="container-x">
+      <SectionHeading
+        eyebrow="Compleet overzicht"
+        title="Wat Cook biedt aan de <b>gebruiker</b>"
+        subtitle="Van kaartnavigatie tot 3D, formulieren en offline gebruik — georganiseerd per gebied."
+      />
+      <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {features.map((f) => <FeatureCard title={f.title} description={f.description} icon={f.icon} />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- Alternating showcases -->
+  <section class="space-y-px bg-cream">
+    {
+      showcases.map((s) => (
+        <div class="bg-cream-soft">
+          <div class="container-x grid items-stretch gap-0 lg:grid-cols-2">
+            <div class:list={['min-h-[280px] bg-cover bg-center', s.reverse ? 'lg:order-2' : '']} style={`background-image:url('${s.img}')`} role="img" aria-label={s.title.replace(/<[^>]+>/g, '')} />
+            <div class:list={['flex flex-col justify-center px-2 py-14 lg:px-12', s.reverse ? 'lg:order-1' : '']}>
+              <h2 class="text-3xl font-light text-ink [&_b]:font-bold" set:html={s.title} />
+              <p class="mt-4 max-w-xl text-lg text-muted">{s.text}</p>
+            </div>
+          </div>
+        </div>
+      ))
+    }
+  </section>
+
+  <!-- Formulieren -->
+  <section class="bg-cream-deep py-20">
+    <div class="container-x">
+      <SectionHeading
+        eyebrow="Registraties & meldingen"
+        title="Formulieren in <b>Cook</b>"
+        subtitle="Optimaliseer uw veldwerk met dynamische formulieren voor inspecties, meldingen en registraties op locatie."
+      />
+      <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {
+          forms.map((f) => (
+            <article class="rounded-2xl bg-white p-7 shadow-soft">
+              <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-cream text-gold">
+                <Icon name={f.icon} size={24} />
+              </div>
+              <h3 class="mt-5 text-lg font-bold text-ink">{f.title}</h3>
+              <p class="mt-2 text-[15px] leading-relaxed text-muted">{f.text}</p>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <CTA
+    title="Klaar om aan de slag te gaan?"
+    text="Ontdek hoe de functionaliteiten van Cook uw organisatie helpen om efficiënter te werken."
+  />
+</Layout>

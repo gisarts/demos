@@ -1,0 +1,110 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero.astro';
+import SectionHeading from '../components/SectionHeading.astro';
+import Icon from '../components/Icon.astro';
+import { releases, roadmap } from '../data/releases';
+import { contact } from '../data/site';
+---
+
+<Layout
+  title="Release Notes & Roadmap | Cook GIS-Viewer"
+  description="Cook wordt continu verbeterd. Bekijk de meest recente releases en onze roadmap voor 2026 – 2029."
+>
+  <Hero
+    compact
+    eyebrow="Release Notes & Roadmap"
+    title="Cook wordt <b>continu beter</b>"
+    subtitle="Nieuwe functionaliteiten en optimalisaties, release na release. Hieronder de meest recente updates en onze plannen voor de toekomst."
+  />
+
+  <!-- Timeline -->
+  <section class="py-20">
+    <div class="container-x max-w-4xl">
+      <SectionHeading eyebrow="Wat is er nieuw" title="Recente <b>releases</b>" />
+      <div class="mt-12 space-y-6 border-l-2 border-cream pl-6 sm:pl-8">
+        {
+          releases.map((r) => (
+            <article class="relative rounded-2xl border border-black/5 bg-white p-6 shadow-soft sm:p-7">
+              <span class:list={['absolute -left-[calc(1.5rem+7px)] top-8 h-3.5 w-3.5 rounded-full ring-4 ring-white sm:-left-[calc(2rem+7px)]', r.latest ? 'bg-gold' : 'bg-cream-deep']} />
+              <div class="flex flex-wrap items-center gap-3">
+                <h3 class="text-2xl font-bold text-gold">{r.version}</h3>
+                {r.latest && (
+                  <span class="rounded-full bg-green-100 px-3 py-1 text-xs font-bold uppercase tracking-wide text-green-700">
+                    Nieuwste versie
+                  </span>
+                )}
+                <span class="text-sm text-muted">{r.date}</span>
+              </div>
+              <h4 class="mt-2 text-lg font-medium text-ink">{r.title}</h4>
+              <ul class="mt-4 space-y-2">
+                {r.items.map((item) => (
+                  <li class="flex items-start gap-3 text-[15px] text-muted">
+                    <Icon name="check" size={18} class="mt-0.5 shrink-0 text-gold" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- Roadmap -->
+  <section class="bg-cream-soft py-20">
+    <div class="container-x max-w-4xl">
+      <SectionHeading
+        eyebrow="Vooruitblik"
+        title="Roadmap <b>2026 – 2029</b>"
+        subtitle="Onze plannen voor de toekomst. We werken continu aan nieuwe functionaliteiten om Cook nog beter te maken."
+      />
+      <div class="mt-12 space-y-6">
+        {
+          roadmap.map((entry) => (
+            <article class="rounded-2xl border border-black/5 bg-white p-7 shadow-soft">
+              <div class="grid gap-4 md:grid-cols-[160px_1fr]">
+                <div>
+                  <h3 class="text-2xl font-bold text-gold">{entry.period}</h3>
+                  {entry.status && (
+                    <p class="mt-1 text-sm font-medium uppercase tracking-wide text-muted">{entry.status}</p>
+                  )}
+                </div>
+                {entry.items && (
+                  <ul class="space-y-2">
+                    {entry.items.map((item) => (
+                      <li class="flex items-start gap-3 text-[15px] text-muted">
+                        <Icon name="arrow" size={17} class="mt-0.5 shrink-0 text-gold" />
+                        <span set:html={item} />
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- Suggestions -->
+  <section class="py-20">
+    <div class="container-x max-w-3xl">
+      <div class="rounded-2xl bg-cream-deep p-10 text-center shadow-soft sm:p-14">
+        <h2 class="text-3xl font-bold text-ink">Heeft u suggesties?</h2>
+        <p class="mx-auto mt-4 max-w-xl text-lg text-muted">
+          We horen graag uw ideeën! Uw feedback helpt ons om Cook nog beter te
+          maken. Heeft u een functie die u graag zou willen zien?
+        </p>
+        <a
+          href={`mailto:${contact.email}?subject=Feature Request voor Cook`}
+          class="btn btn-gold mt-8 px-8"
+        >
+          Deel uw suggestie
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>

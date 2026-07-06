@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white font-sans text-ink antialiased;
+    font-size: 18px;
+    line-height: 1.65;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    text-wrap: balance;
+  }
+
+  /* Respect users who prefer reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    :root {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-content px-5 sm:px-6 lg:px-8;
+  }
+
+  /* Buttons */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-base font-medium
+      transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-gold
+      focus-visible:ring-offset-2;
+  }
+  .btn-white {
+    @apply bg-white text-gold-strong shadow-soft hover:bg-neutral-100 hover:shadow-card;
+  }
+  .btn-gold {
+    @apply bg-gold text-white shadow-soft hover:bg-gold-strong hover:shadow-gold;
+  }
+  .btn-ink {
+    @apply bg-ink text-white hover:bg-white hover:text-ink hover:shadow-card;
+  }
+  .btn-outline {
+    @apply border border-gold/40 bg-white/70 text-gold-strong hover:border-gold hover:bg-white;
+  }
+
+  /* Section heading eyebrow */
+  .eyebrow {
+    @apply inline-block text-sm font-bold uppercase tracking-[0.18em] text-gold;
+  }
+
+  /* Prose links inside gold surfaces */
+  .link-underline {
+    @apply underline decoration-gold/40 underline-offset-4 transition-colors hover:decoration-gold;
+  }
+}
+
+/* Decorative background used behind the "possibilities" section */
+.bg-lines {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.72), rgba(255, 255, 255, 0.72)),
+    url('/img/background-lines.webp');
+  background-size: cover;
+  background-position: top center;
+}

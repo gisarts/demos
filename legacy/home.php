@@ -44,43 +44,43 @@ require 'vendor/autoload.php';
 </div>
 
 <div class="row text-center">
-    <h2 class="py-5">FUNCTIONALITEITEN</h2>
-    <div class="col-xl-4 py-5" style="background-color: #F7F7F6;">
+    <h2 class="py-5">Functionaliteiten</h2>
+    <div class="col-xl-4 py-5" style="background-color: var(--cream-soft);">
         <img src="./img/icon1.webp" alt="icon 1"
             width="100" height="100">
-        <h3><b>OVERAL</b> INZETBAAR</h3>
+        <h3><b>Overal</b> inzetbaar</h3>
         <div class="row justify-content-md-center">
             <div class="col-xl-7 self-align-center">
                 <p class="my-4">
                     Plan werkzaamheden op de kaart en meld bijzonderheden direct vanuit het veld.
                 </p>
-                <a href="/functies" class="btn btn-lg btn-secondary rounded-pill my-2 r-btn w-100">BEKIJKEN</a>
+                <a href="/functies" class="btn btn-lg btn-secondary rounded-pill my-2 r-btn w-100">Bekijken</a>
             </div>
         </div>
     </div>
-    <div class="col-xl-4 py-5" style="background-color: #EBE1C9;">
+    <div class="col-xl-4 py-5" style="background-color: var(--cream-soft);">
         <img src="./img/icon2.webp"
             width="100" height="100" alt="icon 2">
-        <h3><b>APPLICATIE</b>BEHEER</h3>
+        <h3><b>Applicatie</b>beheer</h3>
         <div class="row justify-content-md-center">
             <div class="col-xl-7 self-align-center">
                 <p class="my-4">
                     Beheer de applicatie eenvoudig zelf en pas de look & feel aan naar eigen wens.
                 </p>
-                <a href="/applicatiebeheer" class="btn btn-lg btn-secondary rounded-pill my-2 r-btn w-100">BEKIJKEN</a>
+                <a href="/applicatiebeheer" class="btn btn-lg btn-secondary rounded-pill my-2 r-btn w-100">Bekijken</a>
             </div>
         </div>
     </div>
-    <div class="col-xl-4 py-5" style="background-color: #D4BE87;">
+    <div class="col-xl-4 py-5" style="background-color: var(--cream-soft);">
         <img src="./img/icon4.webp"
             width="100" height="100" style="height: 168px;" alt="icon 3">
-        <h3>Extract <b>Transform</b> Load </h3>
+        <h3><b>Extract</b> Transform Load</h3>
         <div class="row justify-content-md-center">
             <div class="col-xl-7 self-align-center">
                 <p class="my-4">
                     Publiceer je kaarten rechtstreeks van een shape of excel naar een online WMS kaart.
                 </p>
-                <a href="/functies" class="btn btn-lg btn-secondary rounded-pill my-2 r-btn w-100">BEKIJKEN</a>
+                <a href="/functies" class="btn btn-lg btn-secondary rounded-pill my-2 r-btn w-100">Bekijken</a>
             </div>
         </div>
     </div>
@@ -89,7 +89,7 @@ require 'vendor/autoload.php';
 <div class="logo-big-background">
     <div class="container-sm">
         <div class="row py-4 text-center">
-            <h2 class="text-start mb-5">DE MOGELIJKHEDEN <b>ZIJN EINDELOOS</b></h2>
+            <h2 class="text-start mb-5">De mogelijkheden <b>zijn eindeloos</b></h2>
             <div class="col-lg-4 mb-5 p-4">
                 <div class="card gold-bg r-card rounded-4">
                     <img src="./img/bestemmingsplannen.webp" loading="lazy" class="card-img-top rounded-4" width="400" height="300" alt="COOK systeem">
@@ -131,7 +131,7 @@ require 'vendor/autoload.php';
             </div>
             <div class="row text-center">
                 <div class="col-lg-4 offset-lg-4">
-                    <a href="/functies" class="btn btn-info re-btn rounded-pill p-4" style="font-weight: 500;">ALLE FUNCTIONALITEITEN</a>
+                    <a href="/functies" class="btn btn-info re-btn rounded-pill p-4" style="font-weight: 500;">Alle functionaliteiten</a>
                 </div>
             </div>
         </div>
@@ -141,7 +141,7 @@ require 'vendor/autoload.php';
 <div class="container-sm text-start">
     <div class="row py-5 align-items-center">
         <div class="col-xl-5 offset-xl-1">
-            <h2 class="align-center mb-3">ONTDEK MEER <b>TOOLS</b></h2>
+            <h2 class="align-center mb-3">Ontdek meer <b>tools</b></h2>
             <p class="w-75 fs-4">
                 Cook is eenvoudig in gebruik dankzij de moderne interface. Beheer de omgeving geheel naar uw eigen inzichten.
             </p>
@@ -191,7 +191,7 @@ require 'vendor/autoload.php';
 <div class="container my-5">
     <div class="row justify-content-center">
         <div class="col-lg-8">
-            <h2 class="text-center mb-4" style="color: #D4BE87;">VEELGESTELDE <b>VRAGEN</b></h2>
+            <h2 class="text-center mb-4" style="color: #D4BE87;">Veelgestelde <b>vragen</b></h2>
 
             <div class="accordion" id="faqAccordion">
                 <div class="accordion-item border-0 mb-3 shadow-sm">

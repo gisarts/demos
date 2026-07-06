@@ -1,0 +1,203 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero.astro';
+import SectionHeading from '../components/SectionHeading.astro';
+import FeatureCard from '../components/FeatureCard.astro';
+import Faq from '../components/Faq.astro';
+import CTA from '../components/CTA.astro';
+import Icon from '../components/Icon.astro';
+import { highlightFeatures } from '../data/features';
+
+const possibilities = [
+  {
+    img: '/img/bestemmingsplannen.webp',
+    title: 'Online & Offline',
+    text: 'Gebruik de applicatie zowel online als offline in het veld. Beschikbaar op elk apparaat als installeerbare PWA.',
+  },
+  {
+    img: '/img/lvc_strooiroutes.webp',
+    title: 'Registratie',
+    text: 'Teken zelf en maak meldingen voor collega’s. Analyseer data met de meest actuele GIS-gebaseerde kaart.',
+  },
+  {
+    img: '/img/hta_edamvolendam.webp',
+    title: 'Rasterbeelden',
+    text: '360°-foto’s, actuele luchtfoto’s en 3D-beelden — alles overzichtelijk op één plek in de viewer.',
+  },
+];
+
+const faq = [
+  {
+    q: 'Wat kan ik precies doen binnen de Cook demo?',
+    a: 'Binnen de Cook demo kunt u verschillende geografische datasets bekijken, combineren en analyseren. U kunt interactieve kaarten samenstellen, gegevens filteren en eenvoudige rapportages maken. Zo krijgt u een compleet beeld van de mogelijkheden zonder verplichtingen. U kunt Cook vrijblijvend testen, wanneer het u uitkomt.',
+  },
+  {
+    q: 'Heb ik technische kennis nodig om Cook te gebruiken?',
+    a: 'Nee, Cook is ontworpen om gebruiksvriendelijk te zijn. Iedereen kan ermee aan de slag zonder speciale kennis van GIS-systemen. Dankzij de intuïtieve interface verkent u snel data en stelt u kaarten samen.',
+  },
+  {
+    q: 'Is de Cook demo gratis beschikbaar?',
+    a: 'Ja, de demo van Cook is volledig gratis en zonder verplichtingen beschikbaar. U hoeft zich niet vooraf te registreren om toegang te krijgen tot de basisfunctionaliteiten. Wilt u later uitgebreidere functionaliteiten testen, dan kunt u altijd een vrijblijvende demonstratie aanvragen.',
+  },
+  {
+    q: 'Welke soorten geografische data kan ik bekijken in Cook?',
+    a: 'In de Cook demo bekijkt u uiteenlopende datasets, zoals kaarten van openbare ruimte, infrastructuur, milieu en vastgoed. U combineert lagen, selecteert locaties en raadpleegt eigenschappen van objecten. De echte omgeving biedt uiteraard nog veel meer mogelijkheden en maatwerk.',
+  },
+  {
+    q: 'Kan ik mijn eigen datasets uploaden in de demo?',
+    a: 'In de standaarddemo is dit bewust niet mogelijk om de omgeving eenvoudig en veilig te houden. In de volledige omgeving importeert u eenvoudig eigen data vanuit CSV, Excel, KML, Shapefile, DWG of een externe WMS-service. Neem gerust contact op voor een persoonlijke demonstratie met uw eigen data.',
+  },
+];
+---
+
+<Layout>
+  <Hero
+    eyebrow="Meer dan een GIS-Viewer"
+    title="Raadpleeg, registreer en <b>analyseer</b> geografische data"
+    subtitle="Cook — you name it, we serve it. Eén platform dat elk bestandstype inlaadt en op elke organisatie aansluit."
+  >
+    <a href="/demo" class="btn btn-white px-8">Bekijk het nu!</a>
+    <a href="/functies" class="btn btn-ink px-8">Alle functionaliteiten</a>
+  </Hero>
+
+  <!-- Wat is Cook -->
+  <section class="py-20">
+    <div class="container-x grid items-center gap-12 lg:grid-cols-2">
+      <div class="overflow-hidden rounded-2xl shadow-card">
+        <img
+          src="/img/devices-cook.webp"
+          alt="Cook GIS-Viewer op verschillende apparaten"
+          width="700"
+          height="461"
+          class="w-full"
+          fetchpriority="high"
+        />
+      </div>
+      <div>
+        <SectionHeading
+          align="left"
+          eyebrow="Wat is Cook?"
+          title="Eén viewer, <b>eindeloze</b> databronnen"
+        />
+        <p class="mt-5 text-lg text-muted">
+          De GIS-Viewer maakt het eenvoudig om geografische data te raadplegen,
+          registreren en te analyseren.
+        </p>
+        <p class="mt-4 text-lg text-muted">
+          Daarnaast laadt Cook elk bestandstype in, waardoor het op elke
+          organisatie kan worden aangesloten — van gemeente tot netbeheerder.
+        </p>
+        <a
+          href="/applicatiebeheer"
+          class="mt-6 inline-flex items-center gap-2 font-medium text-gold hover:text-gold-strong"
+        >
+          Zelf beheren met applicatiebeheer <Icon name="arrow" size={18} />
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kern-functionaliteiten -->
+  <section class="bg-cream-soft py-20">
+    <div class="container-x">
+      <SectionHeading
+        eyebrow="Functionaliteiten"
+        title="Krachtige gereedschappen, <b>één interface</b>"
+        subtitle="Een greep uit wat Cook standaard biedt. Welke tools zichtbaar zijn, bepaalt u per configuratie."
+      />
+      <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {highlightFeatures.map((f) => <FeatureCard {...f} />)}
+      </div>
+      <div class="mt-10 text-center">
+        <a href="/functies" class="btn btn-gold px-8">Bekijk alle functies</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mogelijkheden -->
+  <section class="bg-lines py-20">
+    <div class="container-x">
+      <SectionHeading
+        align="left"
+        title="De mogelijkheden <b>zijn eindeloos</b>"
+      />
+      <div class="mt-12 grid gap-6 md:grid-cols-3">
+        {
+          possibilities.map((p) => (
+            <article class="overflow-hidden rounded-2xl bg-gold text-white shadow-card">
+              <img src={p.img} alt={p.title} width="600" height="400" loading="lazy" class="h-52 w-full object-cover" />
+              <div class="p-7">
+                <h3 class="text-xl font-bold">{p.title}</h3>
+                <p class="mt-2 text-[15px] leading-relaxed text-white/85">{p.text}</p>
+              </div>
+            </article>
+          ))
+        }
+      </div>
+      <div class="mt-10 text-center">
+        <a href="/functies" class="btn btn-ink px-8">Alle functionaliteiten</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ontdek meer tools -->
+  <section class="py-20">
+    <div class="container-x grid items-center gap-12 lg:grid-cols-2">
+      <div>
+        <SectionHeading
+          align="left"
+          eyebrow="Beheer & data"
+          title="Ontdek meer <b>tools</b>"
+        />
+        <p class="mt-5 text-lg text-muted">
+          Cook is eenvoudig in gebruik dankzij de moderne interface. Beheer de
+          omgeving volledig naar eigen inzicht.
+        </p>
+      </div>
+      <div class="grid gap-5">
+        <div class="rounded-2xl border border-black/5 bg-white p-6 shadow-soft">
+          <div class="flex items-start gap-4">
+            <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-cream text-gold">
+              <Icon name="download" size={24} />
+            </div>
+            <div>
+              <h3 class="text-lg font-bold">Import & Export</h3>
+              <p class="mt-1 text-[15px] text-muted">
+                Importeer en exporteer diverse bestandsformaten, van JSON en CSV
+                tot KML en Shapefile.
+              </p>
+              <a href="/functies" class="mt-2 inline-flex items-center gap-1.5 text-sm font-medium text-gold hover:text-gold-strong">Lees meer <Icon name="arrow" size={15} /></a>
+            </div>
+          </div>
+        </div>
+        <div class="rounded-2xl border border-black/5 bg-white p-6 shadow-soft">
+          <div class="flex items-start gap-4">
+            <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-cream text-gold">
+              <Icon name="chart" size={24} />
+            </div>
+            <div>
+              <h3 class="text-lg font-bold">Dashboards & Rapportages</h3>
+              <p class="mt-1 text-[15px] text-muted">
+                Krijg live inzicht in uitgevoerde werkzaamheden en data via
+                grafieken, diagrammen en kaartwidgets.
+              </p>
+              <a href="/functies" class="mt-2 inline-flex items-center gap-1.5 text-sm font-medium text-gold hover:text-gold-strong">Lees meer <Icon name="arrow" size={15} /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="bg-cream-soft py-20">
+    <div class="container-x">
+      <SectionHeading eyebrow="Veelgestelde vragen" title="Vragen over <b>Cook</b>?" />
+      <div class="mt-12">
+        <Faq items={faq} />
+      </div>
+    </div>
+  </section>
+
+  <CTA />
+</Layout>

@@ -2,10 +2,10 @@
     <div class="col-xxl-4 r-padding text-center">
         <h1><b>Probeer de GIS Viewer van </b>Cook</h1>
         <div class="spacer mt-5"></div>
-        <h4>Cook. YOU NAME IT, <b>WE SERVE IT!</b></h4>
+        <h4>Cook. You name it, <b>we serve it!</b></h4>
     </div>
     <div>
-        <a onclick="window.scrollTo(0, document.body.scrollHeight);" class="btn btn-lg btn-primary rounded-pill r-btn my-2">CONTACT</a>
+        <a onclick="window.scrollTo(0, document.body.scrollHeight);" class="btn btn-lg btn-primary rounded-pill r-btn my-2">Contact</a>
     </div>
     <div>
         <span onclick="window.scrollTo(0, 800);" class="text-decoration-none" style="cursor: pointer;">
@@ -30,23 +30,6 @@
             </div>
         </div>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mt-3">
-            <div class="col">
-                <div class="card shadow-sm">
-                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/carnaval.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <rect width="100%" height="100%" fill="#55595c" />
-                    </img>
-
-                    <div class="card-body">
-                        <p class="card-text">Carnavalskaart</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <button onclick="window.open('https://cook.gisarts.nl/cook/carnavalplaatsnamen')" type="button" class="btn btn-sm btn-outline-secondary">Bekijken</button>
-                            </div>
-                            <small class="text-muted">Openstreetmap</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="col">
                 <div class="card shadow-sm">
                     <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="../img/milleu.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">

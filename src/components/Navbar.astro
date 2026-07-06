@@ -1,0 +1,134 @@
+---
+import { nav } from '../data/site';
+
+const path = Astro.url.pathname;
+const isActive = (href: string) =>
+  href === '/' ? path === '/' : path.startsWith(href);
+---
+
+<header
+  id="site-header"
+  class="fixed inset-x-0 top-0 z-50 border-b border-black/5 bg-white/85 backdrop-blur-md transition-transform duration-300"
+>
+  <nav class="container-x flex h-[72px] items-center justify-between">
+    <a href="/" class="flex items-center" aria-label="Cook — naar home">
+      <img
+        src="/img/logo_cook.webp"
+        alt="Cook logo"
+        width="160"
+        height="66"
+        class="h-11 w-auto"
+      />
+    </a>
+
+    <!-- Desktop nav -->
+    <ul class="hidden items-center gap-1 lg:flex">
+      {
+        nav.map((item) => (
+          <li>
+            <a
+              href={item.href}
+              class:list={[
+                'rounded-full px-4 py-2 text-[17px] font-medium transition-colors',
+                isActive(item.href)
+                  ? 'text-gold-strong'
+                  : 'text-ink/80 hover:text-gold',
+              ]}
+              aria-current={isActive(item.href) ? 'page' : undefined}
+            >
+              {item.label}
+            </a>
+          </li>
+        ))
+      }
+      <li>
+        <a href="/demo" class="btn btn-gold ml-2 px-5 py-2.5 text-[15px]">
+          Bekijk de demo
+        </a>
+      </li>
+    </ul>
+
+    <!-- Mobile toggle -->
+    <button
+      id="nav-toggle"
+      type="button"
+      class="inline-flex h-11 w-11 items-center justify-center rounded-lg text-ink hover:bg-black/5 lg:hidden"
+      aria-label="Menu openen"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
+      <svg class="menu-open h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/></svg>
+      <svg class="menu-close hidden h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12"/><path d="M18 6 6 18"/></svg>
+    </button>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div
+    id="mobile-menu"
+    class="grid grid-rows-[0fr] overflow-hidden transition-[grid-template-rows] duration-300 lg:hidden"
+  >
+    <div class="min-h-0">
+      <ul class="container-x flex flex-col gap-1 pb-4 pt-1">
+        {
+          nav.map((item) => (
+            <li>
+              <a
+                href={item.href}
+                class:list={[
+                  'block rounded-lg px-4 py-3 text-lg font-medium transition-colors',
+                  isActive(item.href)
+                    ? 'bg-cream-soft text-gold-strong'
+                    : 'text-ink/80 hover:bg-cream-soft',
+                ]}
+                aria-current={isActive(item.href) ? 'page' : undefined}
+              >
+                {item.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </div>
+</header>
+
+<!-- spacer for the fixed header -->
+<div class="h-[72px]"></div>
+
+<script is:inline>
+  (() => {
+    const toggle = document.getElementById('nav-toggle');
+    const menu = document.getElementById('mobile-menu');
+    const header = document.getElementById('site-header');
+    if (toggle && menu) {
+      const openIcon = toggle.querySelector('.menu-open');
+      const closeIcon = toggle.querySelector('.menu-close');
+      toggle.addEventListener('click', () => {
+        const open = menu.classList.toggle('grid-rows-[1fr]');
+        menu.classList.toggle('grid-rows-[0fr]', !open);
+        toggle.setAttribute('aria-expanded', String(open));
+        toggle.setAttribute('aria-label', open ? 'Menu sluiten' : 'Menu openen');
+        openIcon?.classList.toggle('hidden', open);
+        closeIcon?.classList.toggle('hidden', !open);
+      });
+    }
+
+    // Hide-on-scroll-down, show-on-scroll-up
+    let last = 0;
+    if (header) {
+      window.addEventListener(
+        'scroll',
+        () => {
+          const y = window.scrollY;
+          if (y > last && y > 120) {
+            header.style.transform = 'translateY(-100%)';
+          } else {
+            header.style.transform = 'translateY(0)';
+          }
+          last = y;
+        },
+        { passive: true },
+      );
+    }
+  })();
+</script>

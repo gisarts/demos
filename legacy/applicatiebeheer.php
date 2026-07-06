@@ -19,10 +19,10 @@
                 <img src="./img/app1.webp" class="img-fluid" alt="applicatiebeheer afbeelding 2">
             </div>
             <div class="col-lg-5 order-lg-1 align-self-center">
-                <h4 class="text-black m-0">USERGEBONDEN</h4>
+                <h4 class="text-black m-0">Gebruikergebonden</h4>
                 <h2>Voeg gebruikers zelfstandig toe met Cook</h2>
                 <p class="w-75 r-text">
-                    Als applicatiebeheerder kunt u zelfstandig gebruikers toevoegen en hen specifieke functionaliteiten toewijzen, zodat iedereen toegang heeft tot de informatie die voor hen relevant is. Deze configuratie voldoet volledig aan de AVG-richtlijnen. Bovendien kunt u inzicht krijgen in het gebruik van de applicatie: hoe vaak en wanneer gebruikers inloggen, wie de GIS Viewer gebruikt en hoe deze wordt gebruikt. Zo kunt u monitoren of er optimaal gebruik wordt gemaakt van de COOK GIS Viewer en voorkomt u onnodige kosten.
+                    Als applicatiebeheerder kunt u zelfstandig gebruikers toevoegen en hen specifieke functionaliteiten toewijzen, zodat iedereen toegang heeft tot de informatie die voor hen relevant is. Deze configuratie voldoet volledig aan de AVG-richtlijnen. Bovendien kunt u inzicht krijgen in het gebruik van de applicatie: hoe vaak en wanneer gebruikers inloggen, wie de GIS Viewer gebruikt en hoe deze wordt gebruikt. Zo kunt u monitoren of er optimaal gebruik wordt gemaakt van de Cook GIS Viewer en voorkomt u onnodige kosten.
                 </p>
             </div>
         </div>

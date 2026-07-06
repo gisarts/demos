@@ -1,0 +1,40 @@
+---
+interface Props {
+  eyebrow?: string;
+  title: string;
+  subtitle?: string;
+  compact?: boolean;
+}
+const { eyebrow, title, subtitle, compact = false } = Astro.props;
+---
+
+<section
+  class:list={[
+    'relative overflow-hidden bg-gradient-to-br from-gold to-gold-strong text-white',
+    compact ? 'py-20 sm:py-24' : 'py-24 sm:py-32',
+  ]}
+>
+  <!-- decorative glow -->
+  <div class="pointer-events-none absolute inset-0 opacity-40" aria-hidden="true">
+    <div class="absolute -left-24 -top-24 h-72 w-72 rounded-full bg-white/10 blur-3xl"></div>
+    <div class="absolute -bottom-32 right-0 h-96 w-96 rounded-full bg-gold-bright/30 blur-3xl"></div>
+  </div>
+
+  <div class="container-x relative text-center">
+    {eyebrow && <p class="animate-fade-up text-sm font-bold uppercase tracking-[0.2em] text-white/70">{eyebrow}</p>}
+    <h1
+      class="mx-auto mt-4 max-w-4xl animate-fade-up text-4xl font-light leading-[1.1] sm:text-5xl lg:text-6xl [&_b]:font-black"
+      set:html={title}
+    />
+    {
+      subtitle && (
+        <p class="mx-auto mt-6 max-w-2xl animate-fade-up text-lg text-white/85 sm:text-xl">
+          {subtitle}
+        </p>
+      )
+    }
+    <div class="mt-9 flex flex-wrap items-center justify-center gap-3">
+      <slot />
+    </div>
+  </div>
+</section>

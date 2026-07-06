@@ -1,0 +1,21 @@
+---
+import Icon from './Icon.astro';
+interface Props {
+  title: string;
+  description: string;
+  icon: string;
+}
+const { title, description, icon } = Astro.props;
+---
+
+<article
+  class="group h-full rounded-2xl border border-black/5 bg-white p-7 shadow-soft transition-all duration-300 hover:-translate-y-1.5 hover:shadow-gold"
+>
+  <div
+    class="flex h-14 w-14 items-center justify-center rounded-xl bg-cream text-gold transition-colors duration-300 group-hover:bg-gold group-hover:text-white"
+  >
+    <Icon name={icon} size={26} />
+  </div>
+  <h3 class="mt-5 text-xl font-bold text-ink">{title}</h3>
+  <p class="mt-2 text-[15px] leading-relaxed text-muted">{description}</p>
+</article>

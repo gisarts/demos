@@ -1,0 +1,95 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero.astro';
+import CTA from '../components/CTA.astro';
+import Icon from '../components/Icon.astro';
+
+const blocks = [
+  {
+    img: '/img/app3.webp',
+    eyebrow: 'Publieke informatie',
+    title: 'Volledig beheer met Cook',
+    text: 'Beheer zowel interne als externe portalen volledig zelf. De portalen zijn aanpasbaar tot in de kleinste details, zodat u informatie zo effectief mogelijk communiceert naar de eindgebruiker. Met één druk op de knop publiceert u een configuratie voor publieke toegang — mits alle AVG-controles zijn uitgevoerd en in orde bevonden.',
+    icon: 'globe',
+    reverse: false,
+  },
+  {
+    img: '/img/app1.webp',
+    eyebrow: 'Gebruikergebonden',
+    title: 'Voeg gebruikers zelfstandig toe',
+    text: 'Als applicatiebeheerder voegt u zelfstandig gebruikers toe en wijst u hen specifieke functionaliteiten toe, zodat iedereen toegang heeft tot relevante informatie — volledig AVG-conform. Bovendien krijgt u inzicht in het gebruik: hoe vaak en wanneer gebruikers inloggen en hoe de viewer wordt gebruikt, zodat u onnodige kosten voorkomt.',
+    icon: 'users',
+    reverse: true,
+  },
+  {
+    img: '/img/app2.webp',
+    eyebrow: 'Kaartbeheer',
+    title: 'Beheer zelfstandig alle OGC-kaarten',
+    text: 'Nederland kent tal van databronnen die op verschillende manieren moeten worden weergegeven. Met Cook maakt u deze bronnen eenvoudig toegankelijk en beheert u ze centraal. Dankzij het kaartbeheersysteem koppelt u alle relevante bronnen aan de juiste gebruikers, zodat informatie altijd goed georganiseerd en beschikbaar is.',
+    icon: 'layers',
+    reverse: false,
+  },
+];
+---
+
+<Layout
+  title="Applicatiebeheer | Cook GIS-Viewer"
+  description="Configureer Cook volledig naar eigen wens: beheer portalen, gebruikers, rechten en OGC-kaarten — AVG-conform en zonder technische kennis."
+>
+  <Hero
+    compact
+    eyebrow="Applicatiebeheer"
+    title="Configureer Cook <b>naar eigen wens</b>"
+    subtitle="Bepaal zelf welke functionaliteiten, kaarten en gebruikers beschikbaar zijn — zonder technische kennis."
+  />
+
+  <section class="py-20">
+    <div class="container-x space-y-16">
+      {
+        blocks.map((b) => (
+          <div class="grid items-center gap-10 lg:grid-cols-2">
+            <div class:list={['overflow-hidden rounded-2xl shadow-card', b.reverse ? 'lg:order-2' : '']}>
+              <img src={b.img} alt={b.title} loading="lazy" class="w-full" />
+            </div>
+            <div class={b.reverse ? 'lg:order-1' : ''}>
+              <div class="flex items-center gap-3">
+                <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-cream text-gold">
+                  <Icon name={b.icon} size={22} />
+                </span>
+                <p class="eyebrow">{b.eyebrow}</p>
+              </div>
+              <h2 class="mt-4 text-3xl font-light text-ink [&_b]:font-bold">{b.title}</h2>
+              <p class="mt-4 text-lg text-muted">{b.text}</p>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- AVG / veiligheid strip -->
+  <section class="bg-cream-soft py-16">
+    <div class="container-x grid gap-6 sm:grid-cols-3">
+      {
+        [
+          { icon: 'shield', title: 'AVG-conform', text: 'Publiceren pas na afronding van de ingebouwde AVG-controles.' },
+          { icon: 'lock', title: 'ISO 27001', text: 'Ontwikkeld binnen een ISO 27001-gecertificeerd proces.' },
+          { icon: 'sliders', title: 'Rolgebaseerd', text: 'Ken per gebruiker precies de juiste rechten en tools toe.' },
+        ].map((c) => (
+          <div class="rounded-2xl bg-white p-7 text-center shadow-soft">
+            <div class="mx-auto flex h-12 w-12 items-center justify-center rounded-xl bg-cream text-gold">
+              <Icon name={c.icon} size={24} />
+            </div>
+            <h3 class="mt-4 text-lg font-bold text-ink">{c.title}</h3>
+            <p class="mt-2 text-[15px] text-muted">{c.text}</p>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <CTA
+    title="Zelf de regie in handen?"
+    text="Ontdek hoe eenvoudig u Cook volledig naar de hand van uw organisatie zet."
+  />
+</Layout>

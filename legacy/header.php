@@ -121,13 +121,22 @@
         /* Critical above-the-fold styles */
         .header-section {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
+            text-align: center;
+            min-height: 60vh;
+            padding: 160px 1.5rem 80px;
+            background: linear-gradient(135deg, #8c6510 0%, #7a5810 100%);
+            color: white;
+            border-bottom-left-radius: 1rem;
+            border-bottom-right-radius: 1rem;
         }
 
         .header-section h1 {
             font-family: 'Lato', sans-serif;
-            font-size: 2.5rem;
+            font-size: 3rem;
+            line-height: 1.1;
         }
 
         /* …add only what’s needed for first view… */

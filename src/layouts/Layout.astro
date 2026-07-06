@@ -1,0 +1,87 @@
+---
+import '../styles/global.css';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+import { site } from '../data/site';
+
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+}
+
+const {
+  title = `${site.name} | De complete GIS-Viewer van Gisarts`,
+  description = site.description,
+  image = '/img/logo_cook.webp',
+} = Astro.props;
+
+const canonical = new URL(Astro.url.pathname, site.domain).href;
+const ogImage = new URL(image, site.domain).href;
+
+const softwareLd = {
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareApplication',
+  name: 'Cook - GIS Viewer',
+  url: site.domain,
+  image: ogImage,
+  description: site.description,
+  applicationCategory: 'Geographic Information System',
+  operatingSystem: 'Windows, macOS, Linux, Web',
+  offers: { '@type': 'Offer', price: 'Op aanvraag', priceCurrency: 'EUR' },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Gisarts',
+    url: 'https://www.gisarts.nl',
+    logo: 'https://gis-cook.nl/img/logo_cook.webp',
+    contactPoint: {
+      '@type': 'ContactPoint',
+      telephone: '0485 763 601',
+      contactType: 'customer support',
+    },
+  },
+  sameAs: ['https://www.linkedin.com/company/gisarts'],
+};
+---
+
+<!doctype html>
+<html lang="nl-NL">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+    <link rel="canonical" href={canonical} />
+
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="robots" content="index,follow" />
+    <meta name="keywords" content="cook, gis, viewer, geo, gisarts" />
+    <meta name="copyright" content="Gisarts" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:site_name" content={site.name} />
+    <meta property="og:url" content={canonical} />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script type="application/ld+json" set:html={JSON.stringify(softwareLd)} />
+
+    <slot name="head" />
+  </head>
+  <body class="min-h-screen">
+    <Navbar />
+    <main>
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

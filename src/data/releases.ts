@@ -8,10 +8,23 @@ export interface Release {
 
 export const releases: Release[] = [
   {
+    version: 'v1.8.0',
+    date: 'Augustus 2026',
+    title: '3D-viewer volledig vernieuwd',
+    latest: true,
+    items: [
+      'De 3D-viewer bouwt nu zijn eigen kaarten op: achtergrond, WMTS en 3D Tiles in de ingestelde volgorde, met een correcte startpositie van de camera op basis van de kaartextent.',
+      'Klikken op een gebouw in 3D leest de eigen kenmerken uit de tileset en markeert precies dat gebouw, ook bij meerdere tegels.',
+      'Herstijling van de 3D-legenda, zoekbalk en de meet- en infotools voor een rustiger en consistenter beeld.',
+      'Achtergrondkeuze in 3D werkt weer betrouwbaar: er is steeds precies één achtergrond actief, zonder dubbele lagen.',
+      'Zoekingangen zijn samengevoegd tot herbruikbare records en centraal te beheren onder Extra > Zoekingangen, met resultaten die op relevantie zijn gerangschikt.',
+      'De buffertool toont de gekozen straal direct naast de schuifregelaar.',
+    ],
+  },
+  {
     version: 'v1.7.0',
     date: 'Juni 2026',
     title: 'Vernieuwde interface & snellere viewer',
-    latest: true,
     items: [
       'Volledig vernieuwde en consistente interface voor alle beheerschermen (gebruikers, kaarten en configuraties).',
       'Snellere laadtijden door slim en gefaseerd laden van onderdelen en compactere bestanden.',

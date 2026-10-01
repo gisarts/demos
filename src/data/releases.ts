@@ -8,10 +8,29 @@ export interface Release {
 
 export const releases: Release[] = [
   {
+    version: 'v1.7.3',
+    date: 'September 2026',
+    title: 'Rondleiding en vernieuwde formulieren',
+    latest: true,
+    items: [
+      'Een interactieve rondleiding vervangt de oude handleiding. Kies een hoofdstuk of loop alles in één keer door; de rondleiding toont alleen de onderdelen die in uw configuratie aan staan.',
+      'Staan er veel registraties in beeld, dan bundelt de kaart ze tot genummerde bolletjes in de huisstijl. Zoomt u in tot een overzichtelijk aantal, dan verschijnen de vlakken zelf weer, in hun eigen kleur.',
+      'Formulieren met duizenden registraties laden sneller en tonen alle registraties op de kaart, niet alleen de eerste duizend. Een registratie openen gaat ook merkbaar sneller.',
+      'In het formulieroverzicht staan Aan mij gekoppeld, Geschiedenis en Gearchiveerd samen onder één knop Weergave, en een ontbrekende foto toont een nette melding.',
+      'Per formulier instellen welke tekenvormen beschikbaar zijn en welke kop erboven staat.',
+      'Het beheerscherm van een formulier legt bij elke optie uit wat die doet. Met Rechten afdwingen bepaalt u of de rechten per keuze-optie gelden; staat die uit, dan kan iedereen met toegang bewerken.',
+      'Een veld kan de indiener automatisch mailen zodra iemand anders het wijzigt, en met een veldconditie zet u een antwoord vast, bijvoorbeeld zodra er een update is gegeven.',
+      'Notificaties per keuze-optie gaan alleen nog uit bij een echte wijziging, en Eigen notificaties alleen naar de maker van de registratie.',
+      'Rechten, notificaties en tekeninstellingen van een formulier blijven bewaard bij het opslaan van andere wijzigingen, en Geldig vanaf werkt nu ook zonder einddatum.',
+      'Een registratie kan niet meer per ongeluk zonder ingevulde gegevens op de kaart belanden.',
+      'Elke openbare configuratie heeft een eigen webadres: een kopie krijgt automatisch een nieuwe naam, zodat een gedeelde link blijft werken.',
+      'Betere weergave op telefoons met een notch of afgeronde schermhoeken, en kaartgroepen staan weer in de juiste volgorde.',
+    ],
+  },
+  {
     version: 'v1.7.2',
     date: 'Augustus 2026',
     title: 'Rustiger kaartbeeld',
-    latest: true,
     items: [
       'Lagen die op het huidige zoomniveau niets tonen staan gedimd in de legenda, zodat meteen duidelijk is waarom een kaart niet zichtbaar is.',
       'Bronvermeldingen van de gebruikte kaartlagen staan nu op de kaart zelf.',
